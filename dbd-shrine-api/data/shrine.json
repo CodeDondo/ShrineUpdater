@@ -1,0 +1,58 @@
+{
+  "fetchedAt": "2025-12-30T19:34:15.501Z",
+  "sourceTried": [
+    "https://dbd.tricky.lol/api/shrine",
+    "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
+  ],
+  "sourceUsed": "https://dbd.tricky.lol/api/shrine",
+  "data": {
+    "id": 559,
+    "perks": [
+      {
+        "id": "K28P02",
+        "bloodpoints": 100000,
+        "shards": 2000
+      },
+      {
+        "id": "K32P02",
+        "bloodpoints": 100000,
+        "shards": 2000
+      },
+      {
+        "id": "LuckyBreak",
+        "bloodpoints": 100000,
+        "shards": 2000
+      },
+      {
+        "id": "SoulGuard",
+        "bloodpoints": 100000,
+        "shards": 2000
+      }
+    ],
+    "start": 1767106800,
+    "end": 1767711599
+  },
+  "perksWithImages": [
+    {
+      "id": "K28P02",
+      "bloodpoints": 100000,
+      "shards": 2000
+    },
+    {
+      "id": "K32P02",
+      "bloodpoints": 100000,
+      "shards": 2000
+    },
+    {
+      "id": "LuckyBreak",
+      "bloodpoints": 100000,
+      "shards": 2000
+    },
+    {
+      "id": "SoulGuard",
+      "bloodpoints": 100000,
+      "shards": 2000
+    }
+  ],
+  "images": []
+}
