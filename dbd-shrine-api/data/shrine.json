@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2025-12-30T19:34:15.501Z",
+  "fetchedAt": "2025-12-30T19:51:16.544Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
@@ -36,23 +36,60 @@
     {
       "id": "K28P02",
       "bloodpoints": 100000,
-      "shards": 2000
+      "shards": 2000,
+      "name": "Darkness Revealed",
+      "description": "In your presence, places once thought to be safe are perhaps the most dangerous.<br><br>When you search a locker, the auras of all Survivors within {2} meters of any lockers are revealed to you for {0} seconds.<br><br><i>Darkness Revealed</i> has a cooldown of {1} seconds.",
+      "role": "killer",
+      "character": 268435483,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_DarknessRevelated"
     },
     {
       "id": "K32P02",
       "bloodpoints": 100000,
-      "shards": 2000
+      "shards": 2000,
+      "name": "Forced Hesitation",
+      "description": "You have learned the emotional weaknesses of the organics, and how to exploit them.<br><br>When a Survivor is put into the dying state by any means, all other Survivors standing within a {0} meter range around them suffer from the <b>Hindered</b> status effect for {1} seconds, reducing their movement speed by {2}%.<br><br>This perk goes on cooldown for {3} seconds.<br><br>Hindered reduces Survivor movement speed.",
+      "role": "killer",
+      "character": 268435487,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_ForcedHesitation"
     },
     {
       "id": "LuckyBreak",
       "bloodpoints": 100000,
-      "shards": 2000
+      "shards": 2000,
+      "name": "Lucky Break",
+      "description": "You’ve had your share of scrapes and bruises, but luck’s always on your side.<br><br><i>Lucky Break</i> activates any time you are injured. While <i>Lucky Break</i> is active, you won’t leave trails of blood or scratch marks for a total of {0} seconds.<br><br>While healthy, for each 1 second spent healing another Survivor, increase <i>Lucky Break</i>'s duration by 1 second. <i>Lucky Break</i>'s duration cannot increase beyond its starting value.",
+      "role": "survivor",
+      "character": 19,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_luckyBreak"
     },
     {
       "id": "SoulGuard",
       "bloodpoints": 100000,
-      "shards": 2000
+      "shards": 2000,
+      "name": "Soul Guard",
+      "description": "You have been through immense hardship and you’re stronger for it.<br><br>Gain the <b>Endurance</b> status effect for {0} seconds after being healed or having recovered from the dying state.<br><br>While cursed by a Hex, you can fully recover from the dying state.<br><br>This effect can only trigger once every 30 seconds.<br><br>Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+      "role": "survivor",
+      "character": 21,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_soulGuard"
     }
   ],
-  "images": []
+  "images": [
+    {
+      "name": "Darkness Revealed",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_DarknessRevelated"
+    },
+    {
+      "name": "Forced Hesitation",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_ForcedHesitation"
+    },
+    {
+      "name": "Lucky Break",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_luckyBreak"
+    },
+    {
+      "name": "Soul Guard",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_soulGuard"
+    }
+  ]
 }

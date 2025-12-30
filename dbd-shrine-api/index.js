@@ -20,6 +20,21 @@ const DEFAULT_SOURCES = [
   "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live",
 ];
 
+const PERK_CATALOG_SOURCES = [
+  "https://dbd.tricky.lol/api/perks", // includes icon info
+];
+
+const PERK_OVERRIDES = {
+  k28p02: { name: "Darkness Revealed" },
+  k32p02: { name: "Forced Hesitation" },
+};
+
+function normalizeImageUrl(image) {
+  if (!image) return null;
+  if (image.startsWith("http")) return image;
+  return `https://dbd.tricky.lol${image.startsWith("/") ? "" : "/"}${image}`;
+}
+
 app.use(cors());
 
 let cache = null;
@@ -63,6 +78,61 @@ function enrichPayload(payload) {
   return { perksWithImages, images };
 }
 
+async function fetchPerkCatalog() {
+  const errors = [];
+  for (const url of PERK_CATALOG_SOURCES) {
+    console.log(`Trying perk catalog: ${url}`);
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        errors.push(`${url} -> ${response.status}`);
+        continue;
+      }
+      const payload = await response.json();
+      const fromArray = (arr) => (Array.isArray(arr) ? arr : []);
+      const fromObject = (obj) =>
+        typeof obj === "object" && obj
+          ? Object.entries(obj).map(([id, value]) => ({ id, ...value }))
+          : [];
+
+      const list = Array.isArray(payload?.data)
+        ? fromArray(payload.data)
+        : Array.isArray(payload)
+          ? fromArray(payload)
+          : fromObject(payload);
+      return list;
+    } catch (err) {
+      errors.push(`${url} -> ${err.message}`);
+    }
+  }
+  throw new Error(`All perk catalog sources failed: ${errors.join(" | ")}`);
+}
+
+function mapPerksWithCatalog(shrinePerks, catalog) {
+  const byId = new Map();
+  for (const perk of catalog) {
+    if (!perk) continue;
+    const key = (perk.id || perk.perkId || perk.name || "").toString().toLowerCase();
+    if (key) byId.set(key, perk);
+  }
+
+  return shrinePerks.map((perk) => {
+    const key = (perk.id || "").toString().toLowerCase();
+    const found = byId.get(key);
+    const override = PERK_OVERRIDES[key] || {};
+    if (!found && !override.name) return perk;
+    const image = normalizeImageUrl(found ? extractImage(found) : null);
+    return {
+      ...perk,
+      name: override.name || found?.name || found?.displayName || perk.name || key,
+      description: found?.description || perk.description,
+      role: found?.role || found?.roleCategory,
+      character: found?.character || found?.owner || found?.survivor || found?.killer,
+      image: image || perk.image,
+    };
+  });
+}
+
 async function fetchFromSources() {
   const candidates = SOURCES.length ? SOURCES : DEFAULT_SOURCES;
   const errors = [];
@@ -93,7 +163,17 @@ async function loadShrine(force = false) {
 
   console.log(force ? "Weekly refresh: fetching Shrine data..." : "Fetching fresh Shrine data...");
   const { url, payload } = await fetchFromSources();
-  const { perksWithImages, images } = enrichPayload(payload);
+  let perksWithImages, images;
+  try {
+    const catalog = await fetchPerkCatalog();
+    const merged = mapPerksWithCatalog(payload?.perks || [], catalog);
+    const enriched = enrichPayload({ perks: merged });
+    perksWithImages = enriched.perksWithImages;
+    images = enriched.images;
+  } catch (catalogErr) {
+    console.warn(`Perk catalog enrich failed: ${catalogErr.message}`);
+    ({ perksWithImages, images } = enrichPayload(payload));
+  }
   cache = {
     fetchedAt: new Date().toISOString(),
     sourceUsed: url,
