@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-01-06T06:45:52.342Z",
+  "fetchedAt": "2026-01-07T06:44:09.460Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 559,
+    "id": 560,
     "perks": [
       {
-        "id": "K28P02",
+        "id": "Fixated",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K32P02",
+        "id": "K34P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "LuckyBreak",
+        "id": "K37P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "SoulGuard",
+        "id": "S42P03",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1767106800,
-    "end": 1767711599
+    "start": 1767711600,
+    "end": 1768316399
   },
   "perksWithImages": [
     {
-      "id": "K28P02",
+      "id": "Fixated",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Darkness Revealed",
-      "description": "In your presence, places once thought to be safe are perhaps the most dangerous.<br><br>When you search a locker, the auras of all Survivors within {2} meters of any lockers are revealed to you for {0} seconds.<br><br><i>Darkness Revealed</i> has a cooldown of {1} seconds.",
-      "role": "killer",
-      "character": 268435483,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_DarknessRevelated"
-    },
-    {
-      "id": "K32P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Forced Hesitation",
-      "description": "You have learned the emotional weaknesses of the organics, and how to exploit them.<br><br>When a Survivor is put into the dying state by any means, all other Survivors standing within a {0} meter range around them suffer from the <b>Hindered</b> status effect for {1} seconds, reducing their movement speed by {2}%.<br><br>This perk goes on cooldown for {3} seconds.<br><br>Hindered reduces Survivor movement speed.",
-      "role": "killer",
-      "character": 268435487,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_ForcedHesitation"
-    },
-    {
-      "id": "LuckyBreak",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Lucky Break",
-      "description": "You’ve had your share of scrapes and bruises, but luck’s always on your side.<br><br><i>Lucky Break</i> activates any time you are injured. While <i>Lucky Break</i> is active, you won’t leave trails of blood or scratch marks for a total of {0} seconds.<br><br>While healthy, for each 1 second spent healing another Survivor, increase <i>Lucky Break</i>'s duration by 1 second. <i>Lucky Break</i>'s duration cannot increase beyond its starting value.",
+      "name": "Fixated",
+      "description": "When you have a goal in mind, there’s no turning back: better to ask forgiveness than permission.<br><br>You can see your own scratch marks at all times.<br><br>While walking, you have {0}% <b>Haste</b>.<br><br>Haste increases Survivor movement speed.",
       "role": "survivor",
-      "character": 19,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_luckyBreak"
+      "character": 17,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
     },
     {
-      "id": "SoulGuard",
+      "id": "K34P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Soul Guard",
-      "description": "You have been through immense hardship and you’re stronger for it.<br><br>Gain the <b>Endurance</b> status effect for {0} seconds after being healed or having recovered from the dying state.<br><br>While cursed by a Hex, you can fully recover from the dying state.<br><br>This effect can only trigger once every 30 seconds.<br><br>Endurance prevents a Survivor from being downed, inflicting Deep Wound instead.<br><br>Deep Wound will put a Survivor in the dying state unless it is mended before the timer runs out.",
+      "name": "Hex: Two Can Play",
+      "description": "A Hex that teaches those who mess with you a lesson.<br><br>Anytime you are stunned or blinded by any Survivor {0} times, if there is no Hex Totem associated with <i>Hex: Two Can Play</i>, a Dull Totem becomes a Hex Totem.<br><br>Survivors who stun or blind you are blinded for {1} seconds. This does not affect carried Survivors.<br><br><i>The Hex effects persist as long as the related Hex Totem is standing.</i><br><br>“From now on, no more Mr. Good Guy.” – Chucky",
+      "role": "killer",
+      "character": 268435489,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_twoCanPlay"
+    },
+    {
+      "id": "K37P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Human Greed",
+      "description": "One can always rely on the avarice of the living and use it to one's advantage.<br><br>You see the auras of Unopened chests and Survivors' auras are revealed for {0} seconds when they enter a {1}-meter range.<br><br>You also gain the ability to kick chests to close them. This ability has a {2}-second cooldown.<br><br>\"Come running, one and all, and see what fortune awaits you.\"<br><br>- Dracula",
+      "role": "killer",
+      "character": 268435492,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HumanGreed"
+    },
+    {
+      "id": "S42P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Still Sight",
+      "description": "A clear mind and calm temperament will always find the means of their escape.<br><br>After not moving for {0} seconds, this perk activates.<br><br>Until you start moving, you see the aura of the Killer as well as all generators and chests within {1} meters.<br><br>\"Breathe in. Breathe out. Now open your eyes.\" - Baermar",
       "role": "survivor",
-      "character": 21,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_soulGuard"
+      "character": 41,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_StillSight"
     }
   ],
   "images": [
     {
-      "name": "Darkness Revealed",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_DarknessRevelated"
+      "name": "Fixated",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
     },
     {
-      "name": "Forced Hesitation",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_ForcedHesitation"
+      "name": "Hex: Two Can Play",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_twoCanPlay"
     },
     {
-      "name": "Lucky Break",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_luckyBreak"
+      "name": "Human Greed",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HumanGreed"
     },
     {
-      "name": "Soul Guard",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_soulGuard"
+      "name": "Still Sight",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_StillSight"
     }
   ]
 }
