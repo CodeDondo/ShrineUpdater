@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-01-13T06:44:58.145Z",
+  "fetchedAt": "2026-01-14T06:45:05.925Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 560,
+    "id": 561,
     "perks": [
       {
-        "id": "Fixated",
+        "id": "K27P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K34P01",
+        "id": "K32P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K37P02",
+        "id": "S29P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S42P03",
+        "id": "WindowsOfOpportunity",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1767711600,
-    "end": 1768316399
+    "start": 1768316400,
+    "end": 1768921199
   },
   "perksWithImages": [
     {
-      "id": "Fixated",
+      "id": "K27P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Fixated",
-      "description": "When you have a goal in mind, there’s no turning back: better to ask forgiveness than permission.<br><br>You can see your own scratch marks at all times.<br><br>While walking, you have {0}% <b>Haste</b>.<br><br>Haste increases Survivor movement speed.",
-      "role": "survivor",
-      "character": 17,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
-    },
-    {
-      "id": "K34P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Hex: Two Can Play",
-      "description": "A Hex that teaches those who mess with you a lesson.<br><br>Anytime you are stunned or blinded by any Survivor {0} times, if there is no Hex Totem associated with <i>Hex: Two Can Play</i>, a Dull Totem becomes a Hex Totem.<br><br>Survivors who stun or blind you are blinded for {1} seconds. This does not affect carried Survivors.<br><br><i>The Hex effects persist as long as the related Hex Totem is standing.</i><br><br>“From now on, no more Mr. Good Guy.” – Chucky",
+      "name": "Scourge Hook: Floods of Rage",
+      "description": "You form a psychic connection with The Entity and alter the rules of the trial.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>When a Survivor is unhooked from a scourge hook, all other Survivors have their auras revealed for {1} seconds.",
       "role": "killer",
-      "character": 268435489,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_twoCanPlay"
+      "character": 268435482,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_floodOfRage"
     },
     {
-      "id": "K37P02",
+      "id": "K32P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Human Greed",
-      "description": "One can always rely on the avarice of the living and use it to one's advantage.<br><br>You see the auras of Unopened chests and Survivors' auras are revealed for {0} seconds when they enter a {1}-meter range.<br><br>You also gain the ability to kick chests to close them. This ability has a {2}-second cooldown.<br><br>\"Come running, one and all, and see what fortune awaits you.\"<br><br>- Dracula",
+      "name": "Machine Learning",
+      "description": "Free from your shackles, you are born anew and prepared to eliminate your creators.<br><br>When you damage a generator, it becomes <b>Compromised</b>. Only one generator can be <b>Compromised</b> at a time.<br><br>When the <b>Compromised</b> generator is completed, you gain <b>Undetectable</b> and {0}% <b>Haste</b> for {1} seconds.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>Haste increases Killer movement speed.",
       "role": "killer",
-      "character": 268435492,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HumanGreed"
+      "character": 268435487,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_SelfAware"
     },
     {
-      "id": "S42P03",
+      "id": "S29P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Still Sight",
-      "description": "A clear mind and calm temperament will always find the means of their escape.<br><br>After not moving for {0} seconds, this perk activates.<br><br>Until you start moving, you see the aura of the Killer as well as all generators and chests within {1} meters.<br><br>\"Breathe in. Breathe out. Now open your eyes.\" - Baermar",
+      "name": "Corrective Action",
+      "description": "You quickly analyze problems and correct other's work when they make a mistake.<br><br>You start the trial with {0} token(s) and gain a token, up to a maximum of {1}, for every great Skill Check.<br><br>When another Survivor fails a Normal Skill Check, 1 token is consumed and their failed Skill Check becomes a good Skill Check. Additionally, their aura is revealed to you for {2} seconds.",
       "role": "survivor",
-      "character": 41,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_StillSight"
+      "character": 28,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_CorrectiveAction"
+    },
+    {
+      "id": "WindowsOfOpportunity",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Windows of Opportunity",
+      "description": "Unlocks potential in one's aura reading ability. Auras of pallets, breakable walls, and vault locations are revealed to you when within a {0} meter range.",
+      "role": "survivor",
+      "character": 10,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
     }
   ],
   "images": [
     {
-      "name": "Fixated",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
+      "name": "Scourge Hook: Floods of Rage",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_floodOfRage"
     },
     {
-      "name": "Hex: Two Can Play",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_twoCanPlay"
+      "name": "Machine Learning",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_SelfAware"
     },
     {
-      "name": "Human Greed",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HumanGreed"
+      "name": "Corrective Action",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_CorrectiveAction"
     },
     {
-      "name": "Still Sight",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_StillSight"
+      "name": "Windows of Opportunity",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
     }
   ]
 }
