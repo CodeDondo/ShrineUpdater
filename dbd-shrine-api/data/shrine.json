@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-01-20T06:48:30.911Z",
+  "fetchedAt": "2026-01-21T06:48:32.325Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 561,
+    "id": 562,
     "perks": [
       {
-        "id": "K27P01",
+        "id": "QuickQuiet",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K32P03",
+        "id": "S32P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S29P02",
+        "id": "Surveillance",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "WindowsOfOpportunity",
+        "id": "Tinkerer",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1768316400,
-    "end": 1768921199
+    "start": 1768921200,
+    "end": 1769525999
   },
   "perksWithImages": [
     {
-      "id": "K27P01",
+      "id": "QuickQuiet",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Scourge Hook: Floods of Rage",
-      "description": "You form a psychic connection with The Entity and alter the rules of the trial.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>When a Survivor is unhooked from a scourge hook, all other Survivors have their auras revealed for {1} seconds.",
-      "role": "killer",
-      "character": 268435482,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_floodOfRage"
-    },
-    {
-      "id": "K32P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Machine Learning",
-      "description": "Free from your shackles, you are born anew and prepared to eliminate your creators.<br><br>When you damage a generator, it becomes <b>Compromised</b>. Only one generator can be <b>Compromised</b> at a time.<br><br>When the <b>Compromised</b> generator is completed, you gain <b>Undetectable</b> and {0}% <b>Haste</b> for {1} seconds.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>Haste increases Killer movement speed.",
-      "role": "killer",
-      "character": 268435487,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_SelfAware"
-    },
-    {
-      "id": "S29P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Corrective Action",
-      "description": "You quickly analyze problems and correct other's work when they make a mistake.<br><br>You start the trial with {0} token(s) and gain a token, up to a maximum of {1}, for every great Skill Check.<br><br>When another Survivor fails a Normal Skill Check, 1 token is consumed and their failed Skill Check becomes a good Skill Check. Additionally, their aura is revealed to you for {2} seconds.",
+      "name": "Quick & Quiet",
+      "description": "You do not make as much noise as others when quickly vaulting over obstacles or hiding in lockers.<br><br>The vault and hide actions' noise detection and audio range is reduced by {0}%.<br><br>This effect can only trigger once every {1} seconds.",
       "role": "survivor",
-      "character": 28,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_CorrectiveAction"
+      "character": 1,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_quickAndQuiet"
     },
     {
-      "id": "WindowsOfOpportunity",
+      "id": "S32P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Windows of Opportunity",
-      "description": "Unlocks potential in one's aura reading ability. Auras of pallets, breakable walls, and vault locations are revealed to you when within a {0} meter range.",
+      "name": "Low Profile",
+      "description": "You work best alone. When it’s just you and your pursuer, you know how to disappear.<br><br>When you become the last Survivor standing, this perk activates. Hide your scratch marks, pools of blood and grunts of pain caused by injuries for {0} seconds.",
       "role": "survivor",
-      "character": 10,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
+      "character": 31,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_LowProfile"
+    },
+    {
+      "id": "Surveillance",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Surveillance",
+      "description": "Unlocks potential in one's aura reading ability. Any regressing generator will be highlighted by a white aura. If the regression is interrupted on a generator, it will be highlighted by a yellow aura for {0} seconds.<br><br>Noises created by generator repairs are audible at an additional {1} meters.",
+      "role": "killer",
+      "character": 268435466,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_surveillance"
+    },
+    {
+      "id": "Tinkerer",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Tinkerer",
+      "description": "Whenever a generator is repaired to {0}% progress, it triggers a loud noise notification and you are granted the <b>Undetectable</b> status effect for the next {2} seconds. This effect can only be triggered once on each generator.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
+      "role": "killer",
+      "character": 268435458,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_tinkerer"
     }
   ],
   "images": [
     {
-      "name": "Scourge Hook: Floods of Rage",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_floodOfRage"
+      "name": "Quick & Quiet",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_quickAndQuiet"
     },
     {
-      "name": "Machine Learning",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_SelfAware"
+      "name": "Low Profile",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_LowProfile"
     },
     {
-      "name": "Corrective Action",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_CorrectiveAction"
+      "name": "Surveillance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_surveillance"
     },
     {
-      "name": "Windows of Opportunity",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
+      "name": "Tinkerer",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_tinkerer"
     }
   ]
 }
