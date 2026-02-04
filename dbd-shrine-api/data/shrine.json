@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-02-03T07:01:49.010Z",
+  "fetchedAt": "2026-02-04T07:02:38.354Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 563,
+    "id": 564,
     "perks": [
       {
-        "id": "K35P02",
+        "id": "K26P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K36P02",
+        "id": "Mindbreaker",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "RedHerring",
+        "id": "S34P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S33P02",
+        "id": "S35P03",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1769526000,
-    "end": 1770130799
+    "start": 1770130800,
+    "end": 1770735599
   },
   "perksWithImages": [
     {
-      "id": "K35P02",
+      "id": "K26P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Unforeseen",
-      "description": "Terror takes many forms and whispers devastating lies in its victims’ ears.<br><br>When you perform the damage action on a generator, your Terror Radius transfers to the generator for {0} seconds and its radius is set to {1} meters.<br><br>You gain <b>Undetectable</b> for that duration.<br><br>Then, this perk goes on cooldown for {2} seconds.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.<br><br>\"Mom, if you find this, I’m sorry...” - Final Journal Entry, 07/12/1991",
+      "name": "Hex: Pentimento",
+      "description": "You see the aura of cleansed totems and can Rekindle each Totem once.<br><br>While a Totem is Rekindled, Survivors Heal and Repair {0}% slower +{1}% for each additional Rekindled Totem.<br><br>If all five totems are Rekindled simultaneously, all Totems are permanently blocked by The Entity.<br><br>Survivors cursed by this perk see the auras of Rekindled Totems within {2} meters.",
       "role": "killer",
-      "character": 268435490,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unforeseen"
+      "character": 268435481,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_hexPentimento"
     },
     {
-      "id": "K36P02",
+      "id": "Mindbreaker",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Languid Touch",
-      "description": "Your dreadful aura is so suffocating that even terrifying scenes tire your prey.<br><br>When a Survivor within {0} meters of you scares a crow, they suffer from the <b>Exhausted</b> status effect for {1} seconds.<br><br><i>Languid Touch</i> has a cooldown of {2} seconds.<br><br>Exhausted prevents Survivors from activating exhausting perks.<br><br>“Submit to me. It is inevitable.” - Vecna",
+      "name": "Mindbreaker",
+      "description": "Your distressing presence drains and weakens your prey.<br><br>While repairing generators, Survivors are afflicted by the <b>Blindness</b> and <b>Exhausted</b> status effect.<br><br>Any existing <b>Exhausted</b> status effect timers are paused while the Survivor is repairing a generator. After ending the repair action, the Survivor is afflicted by the <b>Blindness</b> and <b>Exhausted</b> status effect for {1} seconds.<br><br>Blindness prevents Survivors from seeing auras.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
       "role": "killer",
-      "character": 268435491,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_LanguidTouch"
+      "character": 268435472,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_mindBreaker"
     },
     {
-      "id": "RedHerring",
+      "id": "S34P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Red Herring",
-      "description": "You’ve noticed that people pay attention to whatever makes the loudest noise.<br><br>After repairing a generator for at least {0} seconds, it will be highlighted to you with a yellow aura. The generator stays highlighted until it is fully repaired, you repair a new generator, or enter a locker.<br><br>Entering any locker will trigger a loud noise indicator for The Killer at the highlighted generator's location.<br><br><li><i>Red Herring</i> can only be triggered once every {1} seconds.</li>",
+      "name": "Quick Gambit",
+      "description": "When you have a Killer's attention, you know how to keep it; others can be confident they won't be interrupted any time soon.<br><br>When you are chased by the Killer, see the aura of other Survivors. Any Survivor repairing a generator gains a {0}% repair speed bonus.<br><br>This perk goes on cooldown for {1} seconds when you lose a health state.",
       "role": "survivor",
-      "character": 20,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_redHerring"
+      "character": 33,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_VittoriosGambit"
     },
     {
-      "id": "S33P02",
+      "id": "S35P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Reassurance",
-      "description": "Your presence helps allies focus, assuaging the panic associated with extreme conditions.<br><br>When within a {2}-meter radius around a hooked Survivor, use the <i>Active Ability Button 2</i> to pause their struggle progression for {0} seconds.<br><br>If they are on the struggle phase, it also pauses the Struggle Skill Checks.<br><br>Reassurance can only be triggered once per survivor per hook instance.",
+      "name": "Teamwork: Power of Two",
+      "description": "It’s hard to keep up with you, but it doesn’t stop people from trying.<br><br>When you finish healing another Survivor, you both gain {0}% <b>Haste</b> as long as you stay within {1} meters of each other.<br><br>This effect lingers for <b>4</b> seconds when leaving the range.<br><br>This effect does not stack.<br><br>Haste increases Survivor movement speed.",
       "role": "survivor",
-      "character": 32,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Reassurance"
+      "character": 34,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_TeamworkPowerOfTwo"
     }
   ],
   "images": [
     {
-      "name": "Unforeseen",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unforeseen"
+      "name": "Hex: Pentimento",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_hexPentimento"
     },
     {
-      "name": "Languid Touch",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_LanguidTouch"
+      "name": "Mindbreaker",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_mindBreaker"
     },
     {
-      "name": "Red Herring",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_redHerring"
+      "name": "Quick Gambit",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_VittoriosGambit"
     },
     {
-      "name": "Reassurance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Reassurance"
+      "name": "Teamwork: Power of Two",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_TeamworkPowerOfTwo"
     }
   ]
 }
