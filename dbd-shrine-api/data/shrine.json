@@ -1,94 +1,95 @@
 {
-  "fetchedAt": "2026-02-17T07:08:37.017Z",
+  "fetchedAt": "2026-02-18T07:10:51.948Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 565,
+    "id": 566,
     "perks": [
       {
-        "id": "K30P01",
+        "id": "Iron_Will",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K36P03",
+        "id": "K23P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Prove_Thyself",
+        "id": "RememberMe",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S46P01",
+        "id": "S31P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1770735600,
-    "end": 1771340399
+    "start": 1771340400,
+    "end": 1771945199
   },
   "perksWithImages": [
     {
-      "id": "K30P01",
+      "id": "Iron_Will",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Nowhere to Hide",
-      "description": "The machinations of the weak and craven draw your ire. Your anger forces Survivors to reveal themselves.<br><br>Whenever you damage a generator, reveal the aura of all Survivors standing within {0} meters of your position for {1} seconds.",
-      "role": "killer",
-      "character": 268435485,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_NowhereToHide"
-    },
-    {
-      "id": "K36P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Dark Arrogance",
-      "description": "When everything is going right, you are an inescapable inevitability.<br><br><b>Increases</b> the duration you are blinded by any means and the duration of pallet stuns by {0}%.<br><br><b>Increases</b> regular vault speed by {1}%.<br><br>“Run all you want. I will not be denied.” - Vecna",
-      "role": "killer",
-      "character": 268435491,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_DarkArrogance"
-    },
-    {
-      "id": "Prove_Thyself",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Prove Thyself",
-      "description": "For every other Survivor working on a generator within a {0} meter range, gain {1}% repair speed bonus. This same bonus is also applied to all other Survivors within range.<br><br>Survivors can only be affected by one Prove Thyself effect at a time.",
+      "name": "Iron Will",
+      "description": "You're able to concentrate and enter a meditative-like state to numb some pain. Grunts of pain caused by injuries are reduced by {0}%. Does not function while <b>Exhausted</b>. Does not inflict <b>Exhausted</b>.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
       "role": "survivor",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_proveThyself"
+      "character": 3,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
     },
     {
-      "id": "S46P01",
+      "id": "K23P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Do No Harm",
-      "description": "Helping those in need comes easily, no matter how dire things get.<br><br>When you heal another Survivor, for each Hook State they have, heal {0}% faster and gain {1}% progress for succeeding great Skill Checks.<br><br>\"Look at me. My name's Orela, and I'm gonna make sure you're all right.\" - Orela Rose",
+      "name": "Starstruck",
+      "description": "Your unmatched showmanship dazzles all.<br><br>While carrying a Survivor, any other Survivors within your Terror Radius suffer from the <b>Exposed</b> status effect.<br><br>The effect persists for {0} seconds on Survivors who leave your Terror Radius, as well as those within the radius when you hook or release the carried Survivor.<br><br><i>Starstruck</i> has a cooldown of {1} seconds once a Survivor is no longer carried.<br><br>Exposed Survivors will be downed by basic attacks even if uninjured.",
+      "role": "killer",
+      "character": 268435478,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
+    },
+    {
+      "id": "RememberMe",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Remember Me",
+      "description": "When The Obsession takes damage, gain 1 token, up to {0}.<br><br>Other Survivors open exit gates {1}% slower for each token.",
+      "role": "killer",
+      "character": 268435465,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_rememberMe"
+    },
+    {
+      "id": "S31P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Residual Manifest",
+      "description": "A lifetime of chasing the darkness has taught you that the best disinfectant is light.<br><br>After a successful Killer Blind action, the Killer is affected by the <b>Blindness</b> status effect for {0} seconds.<br><br>This perk grants the ability to rummage through an opened chest once per trial and will guarantee a basic Flashlight.<br><br>Blindness prevents the Killer from seeing auras.",
       "role": "survivor",
-      "character": 45,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_DoNoHarm"
+      "character": 30,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
     }
   ],
   "images": [
     {
-      "name": "Nowhere to Hide",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_NowhereToHide"
+      "name": "Iron Will",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
     },
     {
-      "name": "Dark Arrogance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_DarkArrogance"
+      "name": "Starstruck",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
     },
     {
-      "name": "Prove Thyself",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_proveThyself"
+      "name": "Remember Me",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_rememberMe"
     },
     {
-      "name": "Do No Harm",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_DoNoHarm"
+      "name": "Residual Manifest",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
     }
   ]
 }
