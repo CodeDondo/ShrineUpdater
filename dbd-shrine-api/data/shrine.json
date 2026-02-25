@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-02-24T07:10:00.529Z",
+  "fetchedAt": "2026-02-25T07:11:08.728Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 566,
+    "id": 567,
     "perks": [
       {
-        "id": "Iron_Will",
+        "id": "Calm_Spirit",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K23P01",
+        "id": "K39P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "RememberMe",
+        "id": "S40P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S31P02",
+        "id": "Surge",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1771340400,
-    "end": 1771945199
+    "start": 1771945200,
+    "end": 1772549999
   },
   "perksWithImages": [
     {
-      "id": "Iron_Will",
+      "id": "Calm_Spirit",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Iron Will",
-      "description": "You're able to concentrate and enter a meditative-like state to numb some pain. Grunts of pain caused by injuries are reduced by {0}%. Does not function while <b>Exhausted</b>. Does not inflict <b>Exhausted</b>.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+      "name": "Calm Spirit",
+      "description": "Animals seem to trust you as they often stay calm in your presence.<br><br><li>Reduces chances of alerting woodland creatures by 100%.</li><li>Allows you to overcome the urge to scream.</li><li>Allows you to open chests and cleanse/bless Totems silently, but at {0}% reduced speed.</li>",
       "role": "survivor",
       "character": 3,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_calmSpirit"
     },
     {
-      "id": "K23P01",
+      "id": "K39P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Starstruck",
-      "description": "Your unmatched showmanship dazzles all.<br><br>While carrying a Survivor, any other Survivors within your Terror Radius suffer from the <b>Exposed</b> status effect.<br><br>The effect persists for {0} seconds on Survivors who leave your Terror Radius, as well as those within the radius when you hook or release the carried Survivor.<br><br><i>Starstruck</i> has a cooldown of {1} seconds once a Survivor is no longer carried.<br><br>Exposed Survivors will be downed by basic attacks even if uninjured.",
+      "name": "Forever Entwined",
+      "description": "The greater the struggle, the more difficult the escape.<br><br>When a Survivor takes damage, gain <b>1</b> token, up to {0}.<br><br>For each token, you pick up, drop and hook Survivors {1}% faster.<br><br>\"You tried to devour me so you have no room to complain if I eat you, do you?\" - Ken Kaneki",
       "role": "killer",
-      "character": 268435478,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
+      "character": 268435494,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_ForeverEntwined"
     },
     {
-      "id": "RememberMe",
+      "id": "S40P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Remember Me",
-      "description": "When The Obsession takes damage, gain 1 token, up to {0}.<br><br>Other Survivors open exit gates {1}% slower for each token.",
-      "role": "killer",
-      "character": 268435465,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_rememberMe"
-    },
-    {
-      "id": "S31P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Residual Manifest",
-      "description": "A lifetime of chasing the darkness has taught you that the best disinfectant is light.<br><br>After a successful Killer Blind action, the Killer is affected by the <b>Blindness</b> status effect for {0} seconds.<br><br>This perk grants the ability to rummage through an opened chest once per trial and will guarantee a basic Flashlight.<br><br>Blindness prevents the Killer from seeing auras.",
+      "name": "Champion of Light",
+      "description": "The glow of the flashlight looks a little different, feels a little warmer.<br><br>When you are shining a Flashlight, you gain {0}% <b>Haste</b>.<br><br>When you successfully blind the Killer, they also gain {1}% <b>Hindered</b> for {2} seconds.<br><br>Then, this perk goes on cooldown for {3} seconds.<br><br>Haste increases Survivor movement speed.<br><br>Hindered reduces Killer movement speed.<br><br>“I squeezed the flashlight like my life depended on it, willing it to stop coming any closer.” – Departure",
       "role": "survivor",
-      "character": 30,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
+      "character": 39,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_ChampionOfLight"
+    },
+    {
+      "id": "Surge",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Surge",
+      "description": "Your eerie presence charges the air and interferes with technology.<br><br>Putting a Survivor into the dying state with a <i>basic attack</i> causes all generators within a 32-meter radius to explode instantly and begin regressing. Survivors repairing the generator will scream. Generators affected by <i>Surge</i> immediately lose {0}% of their progress.",
+      "role": "killer",
+      "character": 268435472,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_surge"
     }
   ],
   "images": [
     {
-      "name": "Iron Will",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
+      "name": "Calm Spirit",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_calmSpirit"
     },
     {
-      "name": "Starstruck",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
+      "name": "Forever Entwined",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_ForeverEntwined"
     },
     {
-      "name": "Remember Me",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_rememberMe"
+      "name": "Champion of Light",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_ChampionOfLight"
     },
     {
-      "name": "Residual Manifest",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
+      "name": "Surge",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_surge"
     }
   ]
 }
