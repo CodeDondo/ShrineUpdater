@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-03-03T07:02:34.919Z",
+  "fetchedAt": "2026-03-04T06:58:56.129Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 567,
+    "id": 568,
     "perks": [
       {
-        "id": "Calm_Spirit",
+        "id": "GeneratorOvercharge",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K39P02",
+        "id": "K40P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S40P01",
+        "id": "S40P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Surge",
+        "id": "Self_Care",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1771945200,
-    "end": 1772549999
+    "start": 1772550000,
+    "end": 1773154799
   },
   "perksWithImages": [
     {
-      "id": "Calm_Spirit",
+      "id": "GeneratorOvercharge",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Calm Spirit",
-      "description": "Animals seem to trust you as they often stay calm in your presence.<br><br><li>Reduces chances of alerting woodland creatures by 100%.</li><li>Allows you to overcome the urge to scream.</li><li>Allows you to open chests and cleanse/bless Totems silently, but at {0}% reduced speed.</li>",
-      "role": "survivor",
-      "character": 3,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_calmSpirit"
-    },
-    {
-      "id": "K39P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Forever Entwined",
-      "description": "The greater the struggle, the more difficult the escape.<br><br>When a Survivor takes damage, gain <b>1</b> token, up to {0}.<br><br>For each token, you pick up, drop and hook Survivors {1}% faster.<br><br>\"You tried to devour me so you have no room to complain if I eat you, do you?\" - Ken Kaneki",
+      "name": "Overcharge",
+      "description": "You are fuelled by your hate for progress.<br><br><i>Overcharge</i> a generator by performing the <b>Damage Generator</b> action. The next Survivor interacting with that generator is faced with a difficult Skill Check. Failing the Skill Check results in an additional {0}% loss of progress.<br><br>Succeeding the Skill Check grants no progress but prevents the generator explosion.<br><br>After <i>Overcharge</i> is applied to a generator, its regression speed increases from 85% of normal to 130% of normal over the next 30 seconds.",
       "role": "killer",
-      "character": 268435494,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_ForeverEntwined"
+      "character": 268435462,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_generatorOvercharge"
     },
     {
-      "id": "S40P01",
+      "id": "K40P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Champion of Light",
-      "description": "The glow of the flashlight looks a little different, feels a little warmer.<br><br>When you are shining a Flashlight, you gain {0}% <b>Haste</b>.<br><br>When you successfully blind the Killer, they also gain {1}% <b>Hindered</b> for {2} seconds.<br><br>Then, this perk goes on cooldown for {3} seconds.<br><br>Haste increases Survivor movement speed.<br><br>Hindered reduces Killer movement speed.<br><br>“I squeezed the flashlight like my life depended on it, willing it to stop coming any closer.” – Departure",
+      "name": "Help Wanted",
+      "description": "Try as they might, you know how to stay one step ahead of your guests.<br><br>When you damage a generator, it becomes <b>Compromised</b>. Only one generator can be <b>Compromised</b> at a time.<br><br>When the <b>Compromised</b> generator is completed, your successful basic attack cooldowns are {0}% faster for {1} seconds.<br><br>\"You only think you are in control...\" - Springtrap",
+      "role": "killer",
+      "character": 268435495,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
+    },
+    {
+      "id": "S40P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Deadline",
+      "description": "Desperation creeps in, and you push yourself to work harder.<br><br>This perk activates when you are injured.<br><br>Skill Checks appear {0}% more frequently when repairing or healing and appear in random places.<br><br>The penalty for missing skill checks is reduced by {1}%.<br><br>“The night had been one desperate situation after another.” – Departure",
       "role": "survivor",
       "character": 39,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_ChampionOfLight"
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Deadline"
     },
     {
-      "id": "Surge",
+      "id": "Self_Care",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Surge",
-      "description": "Your eerie presence charges the air and interferes with technology.<br><br>Putting a Survivor into the dying state with a <i>basic attack</i> causes all generators within a 32-meter radius to explode instantly and begin regressing. Survivors repairing the generator will scream. Generators affected by <i>Surge</i> immediately lose {0}% of their progress.",
-      "role": "killer",
-      "character": 268435472,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_surge"
+      "name": "Self-Care",
+      "description": "Unlocks the <i>Self Care</i> ability, which allows you to heal without a Med-kit at {0}% normal healing speed.",
+      "role": "survivor",
+      "character": 2,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_selfCare"
     }
   ],
   "images": [
     {
-      "name": "Calm Spirit",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_calmSpirit"
+      "name": "Overcharge",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_generatorOvercharge"
     },
     {
-      "name": "Forever Entwined",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_ForeverEntwined"
+      "name": "Help Wanted",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
     },
     {
-      "name": "Champion of Light",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_ChampionOfLight"
+      "name": "Deadline",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Deadline"
     },
     {
-      "name": "Surge",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_surge"
+      "name": "Self-Care",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_selfCare"
     }
   ]
 }
