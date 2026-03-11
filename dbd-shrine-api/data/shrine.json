@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-03-10T07:00:49.659Z",
+  "fetchedAt": "2026-03-11T07:04:12.178Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 568,
+    "id": 569,
     "perks": [
       {
-        "id": "GeneratorOvercharge",
+        "id": "Empathy",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K40P01",
+        "id": "K37P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S40P03",
+        "id": "Lithe",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Self_Care",
+        "id": "Rancor",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1772550000,
-    "end": 1773154799
+    "start": 1773154800,
+    "end": 1773759599
   },
   "perksWithImages": [
     {
-      "id": "GeneratorOvercharge",
+      "id": "Empathy",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Overcharge",
-      "description": "You are fuelled by your hate for progress.<br><br><i>Overcharge</i> a generator by performing the <b>Damage Generator</b> action. The next Survivor interacting with that generator is faced with a difficult Skill Check. Failing the Skill Check results in an additional {0}% loss of progress.<br><br>Succeeding the Skill Check grants no progress but prevents the generator explosion.<br><br>After <i>Overcharge</i> is applied to a generator, its regression speed increases from 85% of normal to 130% of normal over the next 30 seconds.",
-      "role": "killer",
-      "character": 268435462,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_generatorOvercharge"
-    },
-    {
-      "id": "K40P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Help Wanted",
-      "description": "Try as they might, you know how to stay one step ahead of your guests.<br><br>When you damage a generator, it becomes <b>Compromised</b>. Only one generator can be <b>Compromised</b> at a time.<br><br>When the <b>Compromised</b> generator is completed, your successful basic attack cooldowns are {0}% faster for {1} seconds.<br><br>\"You only think you are in control...\" - Springtrap",
-      "role": "killer",
-      "character": 268435495,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
-    },
-    {
-      "id": "S40P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Deadline",
-      "description": "Desperation creeps in, and you push yourself to work harder.<br><br>This perk activates when you are injured.<br><br>Skill Checks appear {0}% more frequently when repairing or healing and appear in random places.<br><br>The penalty for missing skill checks is reduced by {1}%.<br><br>“The night had been one desperate situation after another.” – Departure",
-      "role": "survivor",
-      "character": 39,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Deadline"
-    },
-    {
-      "id": "Self_Care",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Self-Care",
-      "description": "Unlocks the <i>Self Care</i> ability, which allows you to heal without a Med-kit at {0}% normal healing speed.",
+      "name": "Empathy",
+      "description": "Injured Survivors are revealed to you when within a {0} meter range.",
       "role": "survivor",
       "character": 2,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_selfCare"
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
+    },
+    {
+      "id": "K37P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Hex: Wretched Fate",
+      "description": "You see your victim from afar and resolve to prolong their suffering.<br><br>After one generator has been repaired, a random Dull Totem becomes a Hex Totem and curses the Obsession.<br><br>The Obsession suffers a {0}% repair speed penalty. They also see this Hex Totem's aura when within {1} meters.<br><br>This effect persists until the Hex Totem is cleansed.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.<br><br>\"So toil, mortal, toil! Your effort will be for naught!\" - Dracula",
+      "role": "killer",
+      "character": 268435492,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
+    },
+    {
+      "id": "Lithe",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Lithe",
+      "description": "After performing a <b>rushed</b> vault, you gain {0}% <b>Haste</b> for {1} seconds.<br><br>Causes the <b>Exhausted</b> status effect for {2} seconds.<br><br><i>Lithe</i> cannot be used while <b>Exhausted</b>.<br><br>Haste increases Survivor movement speed.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
+      "role": "survivor",
+      "character": 8,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_lithe"
+    },
+    {
+      "id": "Rancor",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Rancor",
+      "description": "You become <b>obsessed</b> with one Survivor.<br><br>Each time a generator is completed, your Obsession sees your aura for {0} seconds.<br><br>Each time a generator is completed, all Survivors' locations are revealed to you for {1} seconds.<br><br>Once the exit gates are powered, the Obsession has the <b>Exposed</b> status effect and you can kill them.<br><br><i>The Killer can only be <b>obsessed</b> with one Survivor at a time.</i><br><br>Exposed Survivors will be downed by basic attacks even if uninjured.",
+      "role": "killer",
+      "character": 268435468,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hatred"
     }
   ],
   "images": [
     {
-      "name": "Overcharge",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_generatorOvercharge"
+      "name": "Empathy",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
     },
     {
-      "name": "Help Wanted",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
+      "name": "Hex: Wretched Fate",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
     },
     {
-      "name": "Deadline",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Deadline"
+      "name": "Lithe",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_lithe"
     },
     {
-      "name": "Self-Care",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_selfCare"
+      "name": "Rancor",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hatred"
     }
   ]
 }
