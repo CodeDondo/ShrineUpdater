@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-03-17T07:14:21.099Z",
+  "fetchedAt": "2026-03-18T07:12:06.909Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 569,
+    "id": 570,
     "perks": [
       {
-        "id": "Empathy",
+        "id": "K26P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K37P01",
+        "id": "K39P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Lithe",
+        "id": "S26P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Rancor",
+        "id": "Solidarity",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1773154800,
-    "end": 1773759599
+    "start": 1773759600,
+    "end": 1774364399
   },
   "perksWithImages": [
     {
-      "id": "Empathy",
+      "id": "K26P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Empathy",
-      "description": "Injured Survivors are revealed to you when within a {0} meter range.",
-      "role": "survivor",
-      "character": 2,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
-    },
-    {
-      "id": "K37P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Hex: Wretched Fate",
-      "description": "You see your victim from afar and resolve to prolong their suffering.<br><br>After one generator has been repaired, a random Dull Totem becomes a Hex Totem and curses the Obsession.<br><br>The Obsession suffers a {0}% repair speed penalty. They also see this Hex Totem's aura when within {1} meters.<br><br>This effect persists until the Hex Totem is cleansed.<br><br>The Killer can only be <b>obsessed</b> with one Survivor at a time.<br><br>\"So toil, mortal, toil! Your effort will be for naught!\" - Dracula",
+      "name": "Scourge Hook: Pain Resonance",
+      "description": "Overwhelming pain reverberates outwards into chaos.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>You start the Trial with 4 tokens, 1 for each Survivor. If a generator is available when that Survivor is hooked on a scourge hook, lose 1 token. The generator with the most progress explodes, instantly losing {1}% progress, and will start to regress. Survivors repairing the generator will scream.<br><br>Once you have no tokens, Pain Resonance deactivates for the rest of the Trial.",
       "role": "killer",
-      "character": 268435492,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
+      "character": 268435481,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
     },
     {
-      "id": "Lithe",
+      "id": "K39P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Lithe",
-      "description": "After performing a <b>rushed</b> vault, you gain {0}% <b>Haste</b> for {1} seconds.<br><br>Causes the <b>Exhausted</b> status effect for {2} seconds.<br><br><i>Lithe</i> cannot be used while <b>Exhausted</b>.<br><br>Haste increases Survivor movement speed.<br><br>Exhausted prevents Survivors from activating exhausting perks.",
-      "role": "survivor",
-      "character": 8,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_lithe"
-    },
-    {
-      "id": "Rancor",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Rancor",
-      "description": "You become <b>obsessed</b> with one Survivor.<br><br>Each time a generator is completed, your Obsession sees your aura for {0} seconds.<br><br>Each time a generator is completed, all Survivors' locations are revealed to you for {1} seconds.<br><br>Once the exit gates are powered, the Obsession has the <b>Exposed</b> status effect and you can kill them.<br><br><i>The Killer can only be <b>obsessed</b> with one Survivor at a time.</i><br><br>Exposed Survivors will be downed by basic attacks even if uninjured.",
+      "name": "None Are Free",
+      "description": "You know better than anyone that the light at the end of the tunnel is only an illusion.<br><br>When you hook a Survivor for the first time, gain <b>1</b> token, up to <b>4</b>.<br><br>When all generators are completed, for each token, all windows and upright pallets are blocked for {0} seconds.<br><br>\"I'm not wrong. What's wrong is this messed-up world!\"<br><br>- Ken Kaneki",
       "role": "killer",
-      "character": 268435468,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hatred"
+      "character": 268435494,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_NoneAreFree"
+    },
+    {
+      "id": "S26P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Resurgence",
+      "description": "You've come back from near impossible odds... and you'll do it again.<br><br>Gain {0}% healing progress instantly after being unhooked or unhooking yourself.",
+      "role": "survivor",
+      "character": 25,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Resurgence"
+    },
+    {
+      "id": "Solidarity",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Solidarity",
+      "description": "Sharing painful experiences has the power to heal.<br><br>While injured, healing a Survivor without using a Med-kit also heals you at a {0}% conversion rate.",
+      "role": "survivor",
+      "character": 15,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_solidarity"
     }
   ],
   "images": [
     {
-      "name": "Empathy",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
+      "name": "Scourge Hook: Pain Resonance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
     },
     {
-      "name": "Hex: Wretched Fate",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
+      "name": "None Are Free",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_NoneAreFree"
     },
     {
-      "name": "Lithe",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_lithe"
+      "name": "Resurgence",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Resurgence"
     },
     {
-      "name": "Rancor",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hatred"
+      "name": "Solidarity",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_solidarity"
     }
   ]
 }
