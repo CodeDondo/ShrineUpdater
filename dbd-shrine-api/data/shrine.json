@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-03-24T07:13:38.863Z",
+  "fetchedAt": "2026-04-10T07:51:52.521Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 570,
+    "id": 571,
     "perks": [
       {
-        "id": "K26P02",
+        "id": "NurseCalling",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K39P03",
+        "id": "S40P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S26P02",
+        "id": "S46P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Solidarity",
+        "id": "TrailofTorment",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1773759600,
-    "end": 1774364399
+    "start": 1775574000,
+    "end": 1776178799
   },
   "perksWithImages": [
     {
-      "id": "K26P02",
+      "id": "NurseCalling",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Scourge Hook: Pain Resonance",
-      "description": "Overwhelming pain reverberates outwards into chaos.<br><br>At the start of the trial, {0} random hooks are changed into scourge hooks. You see their auras in white.<br><br>You start the Trial with 4 tokens, 1 for each Survivor. If a generator is available when that Survivor is hooked on a scourge hook, lose 1 token. The generator with the most progress explodes, instantly losing {1}% progress, and will start to regress. Survivors repairing the generator will scream.<br><br>Once you have no tokens, Pain Resonance deactivates for the rest of the Trial.",
+      "name": "A Nurse's Calling",
+      "description": "Unlocks potential in one's aura reading ability. The auras of injured Survivors who are healing or being healed are revealed to you when they are within a {0} meter range.",
       "role": "killer",
-      "character": 268435481,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
+      "character": 268435459,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
     },
     {
-      "id": "K39P03",
+      "id": "S40P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "None Are Free",
-      "description": "You know better than anyone that the light at the end of the tunnel is only an illusion.<br><br>When you hook a Survivor for the first time, gain <b>1</b> token, up to <b>4</b>.<br><br>When all generators are completed, for each token, all windows and upright pallets are blocked for {0} seconds.<br><br>\"I'm not wrong. What's wrong is this messed-up world!\"<br><br>- Ken Kaneki",
+      "name": "Boon: Illumination",
+      "description": "While next to a totem, use {Input.ActivatableButton1} to bless it, creating a unique Boon totem that combines all your Boons.<br><br>Survivors within the Boon's range:<ul><li>See the Auras of Chests.</li><li>See the Auras of Generators.</li></ul><br><br>While you have a Boon Totem, you bless and cleanse {Tunable.S40P02.ActionSpeed%}% faster.",
+      "role": "survivor",
+      "character": 39,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Illumination"
+    },
+    {
+      "id": "S46P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Rapid Response",
+      "description": "Whenever you fast-exit a Locker, you gain {Keyword.Exhausted} for {Tunable.S46P03.ExhaustionDuration}s.<br><br>Whenever you gain {Keyword.Exhausted}, you see the Killer's Aura for {Tunable.S46P03.AuraRevealDuration}s.",
+      "role": "survivor",
+      "character": 45,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_RapidResponse"
+    },
+    {
+      "id": "TrailofTorment",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Trail of Torment",
+      "description": "You guide your victims along a path of pain and punishment.<br><br>After damaging a generator, you become <b>Undetectable</b> until the generator stops regressing. During this time, the generator’s yellow aura is revealed to Survivors.<br><br>This effect can only trigger once every {2} seconds.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
       "role": "killer",
-      "character": 268435494,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_NoneAreFree"
-    },
-    {
-      "id": "S26P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Resurgence",
-      "description": "You've come back from near impossible odds... and you'll do it again.<br><br>Gain {0}% healing progress instantly after being unhooked or unhooking yourself.",
-      "role": "survivor",
-      "character": 25,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Resurgence"
-    },
-    {
-      "id": "Solidarity",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Solidarity",
-      "description": "Sharing painful experiences has the power to heal.<br><br>While injured, healing a Survivor without using a Med-kit also heals you at a {0}% conversion rate.",
-      "role": "survivor",
-      "character": 15,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_solidarity"
+      "character": 268435475,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_trailOfTorment"
     }
   ],
   "images": [
     {
-      "name": "Scourge Hook: Pain Resonance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
+      "name": "A Nurse's Calling",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
     },
     {
-      "name": "None Are Free",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Icecream/T_UI_iconPerks_NoneAreFree"
+      "name": "Boon: Illumination",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Illumination"
     },
     {
-      "name": "Resurgence",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Resurgence"
+      "name": "Rapid Response",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_RapidResponse"
     },
     {
-      "name": "Solidarity",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_solidarity"
+      "name": "Trail of Torment",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_trailOfTorment"
     }
   ]
 }
