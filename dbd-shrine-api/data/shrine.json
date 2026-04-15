@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-04-14T07:57:50.970Z",
+  "fetchedAt": "2026-04-15T07:58:45.430Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 571,
+    "id": 572,
     "perks": [
       {
-        "id": "NurseCalling",
+        "id": "BBQAndChilli",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S40P02",
+        "id": "S29P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S46P03",
+        "id": "S31P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "TrailofTorment",
+        "id": "TerritorialImperative",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1775574000,
-    "end": 1776178799
+    "start": 1776178800,
+    "end": 1776783599
   },
   "perksWithImages": [
     {
-      "id": "NurseCalling",
+      "id": "BBQAndChilli",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "A Nurse's Calling",
-      "description": "Unlocks potential in one's aura reading ability. The auras of injured Survivors who are healing or being healed are revealed to you when they are within a {0} meter range.",
+      "name": "Barbecue & Chili",
+      "description": "A deep bond with The Entity unlocks potential in one's aura reading ability.<li>After hooking a Survivor, all other Survivors' auras are revealed to you for {0} seconds when they are further than {1} meters from the hook.</li>",
       "role": "killer",
-      "character": 268435459,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
+      "character": 268435464,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_BBQAndChili"
     },
     {
-      "id": "S40P02",
+      "id": "S29P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Boon: Illumination",
-      "description": "While next to a totem, use {Input.ActivatableButton1} to bless it, creating a unique Boon totem that combines all your Boons.<br><br>Survivors within the Boon's range:<ul><li>See the Auras of Chests.</li><li>See the Auras of Generators.</li></ul><br><br>While you have a Boon Totem, you bless and cleanse {Tunable.S40P02.ActionSpeed%}% faster.",
+      "name": "Overcome",
+      "description": "Whenever you take damage:<ul><li>You retain your speed boost for {Tunable.S29P01.ExtraBoostTime}s longer.</li><li>You gain {Keyword.Exhausted} for {Tunable.S29P01.ExhaustionDuration}s.</li></ul>",
       "role": "survivor",
-      "character": 39,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Illumination"
+      "character": 28,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_Overcome"
     },
     {
-      "id": "S46P03",
+      "id": "S31P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Rapid Response",
-      "description": "Whenever you fast-exit a Locker, you gain {Keyword.Exhausted} for {Tunable.S46P03.ExhaustionDuration}s.<br><br>Whenever you gain {Keyword.Exhausted}, you see the Killer's Aura for {Tunable.S46P03.AuraRevealDuration}s.",
+      "name": "Overzealous",
+      "description": "Whenever you bless or cleanse a Totem, until you take damage, you repair {Tunable.S31P03.ActionSpeedBonus%}% faster. If that Totem was a Hex Totem, the effect is doubled.",
       "role": "survivor",
-      "character": 45,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_RapidResponse"
+      "character": 30,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Overzealous"
     },
     {
-      "id": "TrailofTorment",
+      "id": "TerritorialImperative",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Trail of Torment",
-      "description": "You guide your victims along a path of pain and punishment.<br><br>After damaging a generator, you become <b>Undetectable</b> until the generator stops regressing. During this time, the generator’s yellow aura is revealed to Survivors.<br><br>This effect can only trigger once every {2} seconds.<br><br>Undetectable hides the Killer's aura, Terror Radius, and Red Stain.",
+      "name": "Territorial Imperative",
+      "description": "Unlocks potential in one's aura reading ability. Survivors' auras are revealed to you for {0} seconds when they enter the basement and you are more than {1} meters away from the basement entrance.<br><br><i>Territorial Imperative</i> can only be triggered once every {2} seconds.",
       "role": "killer",
-      "character": 268435475,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_trailOfTorment"
+      "character": 268435463,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_TerritorialImperative"
     }
   ],
   "images": [
     {
-      "name": "A Nurse's Calling",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
+      "name": "Barbecue & Chili",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_BBQAndChili"
     },
     {
-      "name": "Boon: Illumination",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_Illumination"
+      "name": "Overcome",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_Overcome"
     },
     {
-      "name": "Rapid Response",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_RapidResponse"
+      "name": "Overzealous",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Overzealous"
     },
     {
-      "name": "Trail of Torment",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_trailOfTorment"
+      "name": "Territorial Imperative",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_TerritorialImperative"
     }
   ]
 }
