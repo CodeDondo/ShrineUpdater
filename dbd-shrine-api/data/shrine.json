@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-04-21T08:03:19.098Z",
+  "fetchedAt": "2026-04-22T08:00:07.443Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 572,
+    "id": 573,
     "perks": [
       {
-        "id": "BBQAndChilli",
+        "id": "FlipFlop",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S29P01",
+        "id": "K38P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S31P03",
+        "id": "K41P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "TerritorialImperative",
+        "id": "S36P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1776178800,
-    "end": 1776783599
+    "start": 1776783600,
+    "end": 1777388399
   },
   "perksWithImages": [
     {
-      "id": "BBQAndChilli",
+      "id": "FlipFlop",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Barbecue & Chili",
-      "description": "A deep bond with The Entity unlocks potential in one's aura reading ability.<li>After hooking a Survivor, all other Survivors' auras are revealed to you for {0} seconds when they are further than {1} meters from the hook.</li>",
-      "role": "killer",
-      "character": 268435464,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_BBQAndChili"
-    },
-    {
-      "id": "S29P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Overcome",
-      "description": "Whenever you take damage:<ul><li>You retain your speed boost for {Tunable.S29P01.ExtraBoostTime}s longer.</li><li>You gain {Keyword.Exhausted} for {Tunable.S29P01.ExhaustionDuration}s.</li></ul>",
+      "name": "Flip-Flop",
+      "description": "You have an uncanny ability to escape the inevitable.<br><br>While in dying state, {0}% of your recovery progression is converted into wiggle progression when you are picked up by The Killer, up to a maximum of {1}% total wiggle progression.",
       "role": "survivor",
-      "character": 28,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_Overcome"
+      "character": 16,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
     },
     {
-      "id": "S31P03",
+      "id": "K38P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Overzealous",
-      "description": "Whenever you bless or cleanse a Totem, until you take damage, you repair {Tunable.S31P03.ActionSpeedBonus%}% faster. If that Totem was a Hex Totem, the effect is doubled.",
-      "role": "survivor",
-      "character": 30,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Overzealous"
-    },
-    {
-      "id": "TerritorialImperative",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Territorial Imperative",
-      "description": "Unlocks potential in one's aura reading ability. Survivors' auras are revealed to you for {0} seconds when they enter the basement and you are more than {1} meters away from the basement entrance.<br><br><i>Territorial Imperative</i> can only be triggered once every {2} seconds.",
+      "name": "All-Shaking Thunder",
+      "description": "Whenever you fall from at least {Tunable.K38P01.RequiredFallHeight}m, your lunge-attacks are {Tunable.K38P01.LungeAttackExtra%}% longer for {Tunable.K38P01.EffectDuration}s. Cooldown: {Tunable.K38P01.Cooldown}s.",
       "role": "killer",
-      "character": 268435463,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_TerritorialImperative"
+      "character": 268435493,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Gelato/T_UI_iconPerks_AllShakingThunder"
+    },
+    {
+      "id": "K41P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Ravenous",
+      "description": "The first time you hook each Survivor, you earn {Tunable.K41P01.TokensPerUniqueHook} Token.<br><br>When you have {Tunable.K41P01.MaxTokens} Tokens, all Survivors:<ul><li>Scream.</li><li>Gain {Keyword.Exposed} for {Tunable.K41P01.ExposedDuration}s.</li></ul>",
+      "role": "killer",
+      "character": 268435496,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
+    },
+    {
+      "id": "S36P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Background Player",
+      "description": "Whenever the Killer picks-up another Survivor, for the next {Tunable.S36P01.EffectDuration}s, when you start running:<ul><li>Gain {Tunable.S36P01.Haste%}% {Keyword.Haste} for {Tunable.S36P01.HasteDuration}s.</li><li>Gain {Keyword.Exhausted} for {Tunable.S36P01.ExhaustedDuration}s.</li></ul>",
+      "role": "survivor",
+      "character": 35,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_BackgroundPlayer"
     }
   ],
   "images": [
     {
-      "name": "Barbecue & Chili",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_BBQAndChili"
+      "name": "Flip-Flop",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
     },
     {
-      "name": "Overcome",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_Overcome"
+      "name": "All-Shaking Thunder",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Gelato/T_UI_iconPerks_AllShakingThunder"
     },
     {
-      "name": "Overzealous",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Overzealous"
+      "name": "Ravenous",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
     },
     {
-      "name": "Territorial Imperative",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_TerritorialImperative"
+      "name": "Background Player",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_BackgroundPlayer"
     }
   ]
 }
