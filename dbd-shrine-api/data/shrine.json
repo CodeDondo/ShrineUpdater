@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-04-28T08:34:31.741Z",
+  "fetchedAt": "2026-04-29T08:28:02.540Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 573,
+    "id": 574,
     "perks": [
       {
-        "id": "FlipFlop",
+        "id": "Bamboozle",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K38P01",
+        "id": "K31P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K41P01",
+        "id": "LeftBehind",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S36P01",
+        "id": "S37P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1776783600,
-    "end": 1777388399
+    "start": 1777388400,
+    "end": 1777993199
   },
   "perksWithImages": [
     {
-      "id": "FlipFlop",
+      "id": "Bamboozle",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Flip-Flop",
-      "description": "You have an uncanny ability to escape the inevitable.<br><br>While in dying state, {0}% of your recovery progression is converted into wiggle progression when you are picked up by The Killer, up to a maximum of {1}% total wiggle progression.",
-      "role": "survivor",
-      "character": 16,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
-    },
-    {
-      "id": "K38P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "All-Shaking Thunder",
-      "description": "Whenever you fall from at least {Tunable.K38P01.RequiredFallHeight}m, your lunge-attacks are {Tunable.K38P01.LungeAttackExtra%}% longer for {Tunable.K38P01.EffectDuration}s. Cooldown: {Tunable.K38P01.Cooldown}s.",
+      "name": "Bamboozle",
+      "description": "Your vault speed is {0}% faster.<br><br>Performing a vault action calls upon The Entity to block that vault location to Survivors for {1} seconds.<br><br>Only 1 vault location may be blocked in this way at any time.<br><br>Does not affect pallets.",
       "role": "killer",
-      "character": 268435493,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Gelato/T_UI_iconPerks_AllShakingThunder"
+      "character": 268435467,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
     },
     {
-      "id": "K41P01",
+      "id": "K31P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Ravenous",
-      "description": "The first time you hook each Survivor, you earn {Tunable.K41P01.TokensPerUniqueHook} Token.<br><br>When you have {Tunable.K41P01.MaxTokens} Tokens, all Survivors:<ul><li>Scream.</li><li>Gain {Keyword.Exposed} for {Tunable.K41P01.ExposedDuration}s.</li></ul>",
+      "name": "Leverage",
+      "description": "Whenever a Survivor unhooks another or themselves, they heal {Tunable.K31P03.HealPenalty%}% slower for {Tunable.K31P03.ReduceHealingDuration}s.",
       "role": "killer",
-      "character": 268435496,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
+      "character": 268435486,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
     },
     {
-      "id": "S36P01",
+      "id": "LeftBehind",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Background Player",
-      "description": "Whenever the Killer picks-up another Survivor, for the next {Tunable.S36P01.EffectDuration}s, when you start running:<ul><li>Gain {Tunable.S36P01.Haste%}% {Keyword.Haste} for {Tunable.S36P01.HasteDuration}s.</li><li>Gain {Keyword.Exhausted} for {Tunable.S36P01.ExhaustedDuration}s.</li></ul>",
+      "name": "Left Behind",
+      "description": "Unlocks potential in one's aura reading ability.<br><br>If you are the last Survivor remaining in the trial, you can see the aura of the Hatch within a {0} meter range.",
       "role": "survivor",
-      "character": 35,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_BackgroundPlayer"
+      "character": 7,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
+    },
+    {
+      "id": "S37P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Troubleshooter",
+      "description": "While chased by the Killer:<ul><li>You see the Aura of the Generator with the most progress.</li><li>Whenever you drop a Pallet, you see the Killer's Aura for {Tunable.S37P01.AuraRevealDuration}s.</li></ul><br><br>When the Killer stops chasing you, this ends after {Tunable.S37P01.LingeringDuration}s.",
+      "role": "survivor",
+      "character": 36,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_troubleshooter"
     }
   ],
   "images": [
     {
-      "name": "Flip-Flop",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
+      "name": "Bamboozle",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
     },
     {
-      "name": "All-Shaking Thunder",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Gelato/T_UI_iconPerks_AllShakingThunder"
+      "name": "Leverage",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
     },
     {
-      "name": "Ravenous",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
+      "name": "Left Behind",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
     },
     {
-      "name": "Background Player",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_BackgroundPlayer"
+      "name": "Troubleshooter",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_troubleshooter"
     }
   ]
 }
