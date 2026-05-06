@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-05-05T08:20:26.499Z",
+  "fetchedAt": "2026-05-06T08:36:09.293Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 574,
+    "id": 575,
     "perks": [
       {
-        "id": "Bamboozle",
+        "id": "CruelConfinement",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K31P03",
+        "id": "ImAllEars",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "LeftBehind",
+        "id": "S34P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S37P01",
+        "id": "S35P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1777388400,
-    "end": 1777993199
+    "start": 1777993200,
+    "end": 1778597999
   },
   "perksWithImages": [
     {
-      "id": "Bamboozle",
+      "id": "CruelConfinement",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Bamboozle",
-      "description": "Your vault speed is {0}% faster.<br><br>Performing a vault action calls upon The Entity to block that vault location to Survivors for {1} seconds.<br><br>Only 1 vault location may be blocked in this way at any time.<br><br>Does not affect pallets.",
+      "name": "Cruel Limits",
+      "description": "Your ties to the otherworldly manifest when your prey attempts to get away.<br><br>Every time a generator is completed, all windows and vault locations are blocked for all Survivors for the next {0} seconds.<br><br>You see the aura of the vault locations blocked by <i>Cruel Limits</i> for the duration.",
       "role": "killer",
-      "character": 268435467,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
+      "character": 268435472,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
     },
     {
-      "id": "K31P03",
+      "id": "ImAllEars",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Leverage",
-      "description": "Whenever a Survivor unhooks another or themselves, they heal {Tunable.K31P03.HealPenalty%}% slower for {Tunable.K31P03.ReduceHealingDuration}s.",
+      "name": "I'm All Ears",
+      "description": "Your keen senses are sharpened in the dark realm of The Entity.<br><br>Unlocks potential in one's aura reading ability. Any Survivor performing a rushed action within 48 meters from your location will have their aura revealed for {0} seconds.<br><br><i>I'm All Ears</i> can only be triggered once every {1} seconds.",
       "role": "killer",
-      "character": 268435486,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
+      "character": 268435471,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
     },
     {
-      "id": "LeftBehind",
+      "id": "S34P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Left Behind",
-      "description": "Unlocks potential in one's aura reading ability.<br><br>If you are the last Survivor remaining in the trial, you can see the aura of the Hatch within a {0} meter range.",
+      "name": "Potential Energy",
+      "description": "While repairing, use {Input.ActivatableButton2} to earn Tokens instead of progress, up to {Tunable.S34P01.MaxTokens} Tokens.<br><br>While you have at least {Tunable.S34P01.TokensToActivate} Token, {Input.ActivatableButton2} to spend all Tokens and gain {Tunable.S34P01.ProgressPerToken%}% progress for each Token spent.<br><br>Whenever you take damage, lose all Tokens.",
       "role": "survivor",
-      "character": 7,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
+      "character": 33,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
     },
     {
-      "id": "S37P01",
+      "id": "S35P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Troubleshooter",
-      "description": "While chased by the Killer:<ul><li>You see the Aura of the Generator with the most progress.</li><li>Whenever you drop a Pallet, you see the Killer's Aura for {Tunable.S37P01.AuraRevealDuration}s.</li></ul><br><br>When the Killer stops chasing you, this ends after {Tunable.S37P01.LingeringDuration}s.",
+      "name": "Cut Loose",
+      "description": "While chased by the Killer, whenever you medium or fast-vault:<ul><li>For up to {Tunable.S35P01.StealthDuration}s, your medium and fast vaults are silent.</li><li>During that time, whenever you medium or fast-vault, the timer is reset.</li></ul><br><br>Cooldown: {Tunable.S35P01.Cooldown}s.",
       "role": "survivor",
-      "character": 36,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_troubleshooter"
+      "character": 34,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_CutLoose"
     }
   ],
   "images": [
     {
-      "name": "Bamboozle",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
+      "name": "Cruel Limits",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
     },
     {
-      "name": "Leverage",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
+      "name": "I'm All Ears",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
     },
     {
-      "name": "Left Behind",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
+      "name": "Potential Energy",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
     },
     {
-      "name": "Troubleshooter",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_troubleshooter"
+      "name": "Cut Loose",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_CutLoose"
     }
   ]
 }
