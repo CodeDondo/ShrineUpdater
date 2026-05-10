@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-05-09T08:03:55.466Z",
+  "fetchedAt": "2026-05-10T08:18:09.426Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
@@ -38,7 +38,7 @@
       "bloodpoints": 100000,
       "shards": 2000,
       "name": "Cruel Limits",
-      "description": "Your ties to the otherworldly manifest when your prey attempts to get away.<br><br>Every time a generator is completed, all windows and vault locations are blocked for all Survivors for the next {0} seconds.<br><br>You see the aura of the vault locations blocked by <i>Cruel Limits</i> for the duration.",
+      "description": "Whenever a Generator is completed:<ul><li>You see the Auras of all Windows for {Tunable.K17P02.BlockDuration}s.</li><li>All Windows are blocked for Survivors for {Tunable.K17P02.BlockDuration}s.</li></ul>",
       "role": "killer",
       "character": 268435472,
       "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
@@ -48,7 +48,7 @@
       "bloodpoints": 100000,
       "shards": 2000,
       "name": "I'm All Ears",
-      "description": "Your keen senses are sharpened in the dark realm of The Entity.<br><br>Unlocks potential in one's aura reading ability. Any Survivor performing a rushed action within 48 meters from your location will have their aura revealed for {0} seconds.<br><br><i>I'm All Ears</i> can only be triggered once every {1} seconds.",
+      "description": "Whenever a Survivor fast-enters or fast-exits a Locker, or medium or fast-vaults within {Tunable.K16P01.ActivationRange}m of you, you see their Aura for {Tunable.K16P01.AuraRevealDuration}s. Cooldown: {Tunable.K16P01.Cooldown}s.",
       "role": "killer",
       "character": 268435471,
       "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
