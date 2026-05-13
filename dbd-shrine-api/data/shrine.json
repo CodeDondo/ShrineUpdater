@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-05-12T08:48:57.670Z",
+  "fetchedAt": "2026-05-13T08:52:43.420Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 575,
+    "id": 576,
     "perks": [
       {
-        "id": "CruelConfinement",
+        "id": "Hex_The_Third_Seal",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "ImAllEars",
+        "id": "RepressedAlliance",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S34P01",
+        "id": "S26P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S35P01",
+        "id": "ZanshinTactics",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1777993200,
-    "end": 1778597999
+    "start": 1778598000,
+    "end": 1779202799
   },
   "perksWithImages": [
     {
-      "id": "CruelConfinement",
+      "id": "Hex_The_Third_Seal",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Cruel Limits",
-      "description": "Whenever a Generator is completed:<ul><li>You see the Auras of all Windows for {Tunable.K17P02.BlockDuration}s.</li><li>All Windows are blocked for Survivors for {Tunable.K17P02.BlockDuration}s.</li></ul>",
+      "name": "Hex: The Third Seal",
+      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever you damage a Survivor with a basic or special-attack, they gain {Keyword.Blindness}.<br><br>This applies for up to {Tunable.K05P01.MaxAffectedSurvivors} Survivors.",
       "role": "killer",
-      "character": 268435472,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
+      "character": 268435460,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_theThirdSeal"
     },
     {
-      "id": "ImAllEars",
+      "id": "RepressedAlliance",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "I'm All Ears",
-      "description": "Whenever a Survivor fast-enters or fast-exits a Locker, or medium or fast-vaults within {Tunable.K16P01.ActivationRange}m of you, you see their Aura for {Tunable.K16P01.AuraRevealDuration}s. Cooldown: {Tunable.K16P01.Cooldown}s.",
+      "name": "Repressed Alliance ",
+      "description": "After repairing Generators for {Tunable.S22P03.RepairTimeNeeded}s, while repairing a Generator alone, use {Input.ActivatableButton1} to block that generator for {Tunable.S22P03.GeneratorBlockDuration}s.",
+      "role": "survivor",
+      "character": 21,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
+    },
+    {
+      "id": "S26P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Counterforce",
+      "description": "When the trial starts, you earn {Tunable.S26P01.StartingTokens} Token.<br><br>Whenever you cleanse a Totem, earn {Tunable.S26P01.TokensPerCleanse} Token, then, you see the Aura of the farthest Totem for {Tunable.S26P01.AuraRevealDuration}s.<br><br>For each Token, you cleanse Totems {Tunable.S26P01.StackableCleanseSpeed%}% faster.",
+      "role": "survivor",
+      "character": 25,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Counterforce"
+    },
+    {
+      "id": "ZanshinTactics",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Zanshin Tactics",
+      "description": "Within {Tunable.K18P01.VaultablesRevealDistance}m, you see the Auras of Pallets and windows.<br><br>Whenever a Survivor drops a Pallet, you see their Aura for {Tunable.K18P01.AuraRevealDuration}s.",
       "role": "killer",
-      "character": 268435471,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
-    },
-    {
-      "id": "S34P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Potential Energy",
-      "description": "While repairing, use {Input.ActivatableButton2} to earn Tokens instead of progress, up to {Tunable.S34P01.MaxTokens} Tokens.<br><br>While you have at least {Tunable.S34P01.TokensToActivate} Token, {Input.ActivatableButton2} to spend all Tokens and gain {Tunable.S34P01.ProgressPerToken%}% progress for each Token spent.<br><br>Whenever you take damage, lose all Tokens.",
-      "role": "survivor",
-      "character": 33,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
-    },
-    {
-      "id": "S35P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Cut Loose",
-      "description": "While chased by the Killer, whenever you medium or fast-vault:<ul><li>For up to {Tunable.S35P01.StealthDuration}s, your medium and fast vaults are silent.</li><li>During that time, whenever you medium or fast-vault, the timer is reset.</li></ul><br><br>Cooldown: {Tunable.S35P01.Cooldown}s.",
-      "role": "survivor",
-      "character": 34,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_CutLoose"
+      "character": 268435473,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
     }
   ],
   "images": [
     {
-      "name": "Cruel Limits",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
+      "name": "Hex: The Third Seal",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_theThirdSeal"
     },
     {
-      "name": "I'm All Ears",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
+      "name": "Repressed Alliance ",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
     },
     {
-      "name": "Potential Energy",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
+      "name": "Counterforce",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Counterforce"
     },
     {
-      "name": "Cut Loose",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_CutLoose"
+      "name": "Zanshin Tactics",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
     }
   ]
 }
