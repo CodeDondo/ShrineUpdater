@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-05-19T09:58:07.326Z",
+  "fetchedAt": "2026-05-20T09:48:26.069Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 576,
+    "id": 577,
     "perks": [
       {
-        "id": "Hex_The_Third_Seal",
+        "id": "K34P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "RepressedAlliance",
+        "id": "K36P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S26P01",
+        "id": "QuickQuiet",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "ZanshinTactics",
+        "id": "S31P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1778598000,
-    "end": 1779202799
+    "start": 1779202800,
+    "end": 1779807599
   },
   "perksWithImages": [
     {
-      "id": "Hex_The_Third_Seal",
+      "id": "K34P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hex: The Third Seal",
-      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever you damage a Survivor with a basic or special-attack, they gain {Keyword.Blindness}.<br><br>This applies for up to {Tunable.K05P01.MaxAffectedSurvivors} Survivors.",
+      "name": "Friends ‘Til the End",
+      "description": "Whenever you hook a Survivor that is not the Obsession:<ul><li>The Obsession gains {Keyword.Exposed} for {Tunable.K34P02.ExposedDuration}s.</li><li>You see the Obsession's Aura for {Tunable.K34P02.AuraRevealDuration}s.</li></ul><br><br>Whenever you hook the Obsession, another Survivor:<ul><li>Screams, then you are alerted.</li><li>Becomes the Obsession.</li></ul>",
       "role": "killer",
-      "character": 268435460,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_theThirdSeal"
+      "character": 268435489,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
     },
     {
-      "id": "RepressedAlliance",
+      "id": "K36P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Repressed Alliance ",
-      "description": "After repairing Generators for {Tunable.S22P03.RepairTimeNeeded}s, while repairing a Generator alone, use {Input.ActivatableButton1} to block that generator for {Tunable.S22P03.GeneratorBlockDuration}s.",
-      "role": "survivor",
-      "character": 21,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
-    },
-    {
-      "id": "S26P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Counterforce",
-      "description": "When the trial starts, you earn {Tunable.S26P01.StartingTokens} Token.<br><br>Whenever you cleanse a Totem, earn {Tunable.S26P01.TokensPerCleanse} Token, then, you see the Aura of the farthest Totem for {Tunable.S26P01.AuraRevealDuration}s.<br><br>For each Token, you cleanse Totems {Tunable.S26P01.StackableCleanseSpeed%}% faster.",
-      "role": "survivor",
-      "character": 25,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Counterforce"
-    },
-    {
-      "id": "ZanshinTactics",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Zanshin Tactics",
-      "description": "Within {Tunable.K18P01.VaultablesRevealDistance}m, you see the Auras of Pallets and windows.<br><br>Whenever a Survivor drops a Pallet, you see their Aura for {Tunable.K18P01.AuraRevealDuration}s.",
+      "name": "Languid Touch",
+      "description": "Whenever a Survivor within {Tunable.K36P02.RangeFromKiller}m of you scares a Crow, they gain {Keyword.Exhausted} for {Tunable.K36P02.ExhaustedDuration}s. Cooldown: {Tunable.K36P02.Cooldown}s.",
       "role": "killer",
-      "character": 268435473,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
+      "character": 268435491,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_LanguidTouch"
+    },
+    {
+      "id": "QuickQuiet",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Quick & Quiet",
+      "description": "You hide in Lockers and vault silently. The Killer is not alerted. Cooldown: {Tunable.S02P01.Cooldown}s.",
+      "role": "survivor",
+      "character": 1,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_quickAndQuiet"
+    },
+    {
+      "id": "S31P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Inner Focus",
+      "description": "Whenever the Killer damages another Survivor, you see the Killer's Aura for {Tunable.S31P01.AuraRevealDuration}s.<br><br>You see other Survivors' Scratch Marks.",
+      "role": "survivor",
+      "character": 30,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_InnerFocus"
     }
   ],
   "images": [
     {
-      "name": "Hex: The Third Seal",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_theThirdSeal"
+      "name": "Friends ‘Til the End",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
     },
     {
-      "name": "Repressed Alliance ",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
+      "name": "Languid Touch",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_LanguidTouch"
     },
     {
-      "name": "Counterforce",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_Counterforce"
+      "name": "Quick & Quiet",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_quickAndQuiet"
     },
     {
-      "name": "Zanshin Tactics",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
+      "name": "Inner Focus",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_InnerFocus"
     }
   ]
 }
