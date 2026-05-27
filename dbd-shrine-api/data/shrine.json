@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-05-26T10:10:07.472Z",
+  "fetchedAt": "2026-05-27T10:07:42.113Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 577,
+    "id": 578,
     "perks": [
       {
-        "id": "K34P02",
+        "id": "K24P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K36P02",
+        "id": "K41P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "QuickQuiet",
+        "id": "S24P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S31P01",
+        "id": "TheMettleOfMan",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1779202800,
-    "end": 1779807599
+    "start": 1779807600,
+    "end": 1780412399
   },
   "perksWithImages": [
     {
-      "id": "K34P02",
+      "id": "K24P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Friends ‘Til the End",
-      "description": "Whenever you hook a Survivor that is not the Obsession:<ul><li>The Obsession gains {Keyword.Exposed} for {Tunable.K34P02.ExposedDuration}s.</li><li>You see the Obsession's Aura for {Tunable.K34P02.AuraRevealDuration}s.</li></ul><br><br>Whenever you hook the Obsession, another Survivor:<ul><li>Screams, then you are alerted.</li><li>Becomes the Obsession.</li></ul>",
+      "name": "Eruption",
+      "description": "Whenever you damage a Generator, when you down a Survivor, all Generators damaged this way:<ul><li>Explode, lose {Tunable.K24P03.GeneratorRegress%}% progress and start regressing.</li><li>Survivors repairing them scream, then you see their Auras for {Tunable.K24P03.AuraRevealDuration}s.</li></ul><br><br>Cooldown: {Tunable.K24P03.Cooldown}s.",
       "role": "killer",
-      "character": 268435489,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
+      "character": 268435479,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_eruption"
     },
     {
-      "id": "K36P02",
+      "id": "K41P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Languid Touch",
-      "description": "Whenever a Survivor within {Tunable.K36P02.RangeFromKiller}m of you scares a Crow, they gain {Keyword.Exhausted} for {Tunable.K36P02.ExhaustedDuration}s. Cooldown: {Tunable.K36P02.Cooldown}s.",
+      "name": "Hex: Overture of Doom",
+      "description": "When the trial starts, a Dull Totem ignites and hexes the farthest Generator from it.<br><br>After a Survivor repairs the hexed Generator for {Tunable.K41P03.RequiredTime} seconds:<ul><li>You gain {Keyword.Undetectable} for {Tunable.K41P03.TerrorRadiusDisplacementDuration}s.</li><li>For that time, your Terror Radius is set to that Generator.</li></ul><br><br>When the hexed Generator is repaired, the next farthest Generator is hexed.",
       "role": "killer",
-      "character": 268435491,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_LanguidTouch"
+      "character": 268435496,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_HexOvertureOfDoom"
     },
     {
-      "id": "QuickQuiet",
+      "id": "S24P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Quick & Quiet",
-      "description": "You hide in Lockers and vault silently. The Killer is not alerted. Cooldown: {Tunable.S02P01.Cooldown}s.",
+      "name": "Appraisal",
+      "description": "When the trial starts, you earn {Tunable.S24P01.StartingTokens} Tokens.<br><br>Spend {Tunable.S24P01.TokensPerRummage} Token to rummage an empty Chest, up to {Tunable.S24P01.MaxRummagesPerChest} times per Chest.<br><br>You rummage Chests {Tunable.S24P01.ChestSearchSpeedBonus%}% faster.",
       "role": "survivor",
-      "character": 1,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_quickAndQuiet"
+      "character": 23,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
     },
     {
-      "id": "S31P01",
+      "id": "TheMettleOfMan",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Inner Focus",
-      "description": "Whenever the Killer damages another Survivor, you see the Killer's Aura for {Tunable.S31P01.AuraRevealDuration}s.<br><br>You see other Survivors' Scratch Marks.",
+      "name": "Mettle of Man",
+      "description": "After taking {Tunable.S17P03.TokensNeeded} protection hits, while injured and until you go down, the next time you would be downed by the Killer, take no damage instead.<br><br>When you become healthy, while you are at least {Tunable.S17P03.AuraRevealDistance}m from the Killer, they see your Aura.<br><br>When the trial starts, you are more likely to be the Obsession.",
       "role": "survivor",
-      "character": 30,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_InnerFocus"
+      "character": 16,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
     }
   ],
   "images": [
     {
-      "name": "Friends ‘Til the End",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
+      "name": "Eruption",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_eruption"
     },
     {
-      "name": "Languid Touch",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_LanguidTouch"
+      "name": "Hex: Overture of Doom",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_HexOvertureOfDoom"
     },
     {
-      "name": "Quick & Quiet",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_quickAndQuiet"
+      "name": "Appraisal",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
     },
     {
-      "name": "Inner Focus",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_InnerFocus"
+      "name": "Mettle of Man",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
     }
   ]
 }
