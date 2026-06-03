@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-06-02T10:47:50.920Z",
+  "fetchedAt": "2026-06-03T11:13:25.341Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 578,
+    "id": 579,
     "perks": [
       {
-        "id": "K24P03",
+        "id": "K28P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K41P03",
+        "id": "S28P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S24P01",
+        "id": "S45P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "TheMettleOfMan",
+        "id": "Stridor",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1779807600,
-    "end": 1780412399
+    "start": 1780412400,
+    "end": 1781017199
   },
   "perksWithImages": [
     {
-      "id": "K24P03",
+      "id": "K28P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Eruption",
-      "description": "Whenever you damage a Generator, when you down a Survivor, all Generators damaged this way:<ul><li>Explode, lose {Tunable.K24P03.GeneratorRegress%}% progress and start regressing.</li><li>Survivors repairing them scream, then you see their Auras for {Tunable.K24P03.AuraRevealDuration}s.</li></ul><br><br>Cooldown: {Tunable.K24P03.Cooldown}s.",
+      "name": "Dissolution",
+      "description": "{Tunable.K28P01.TimeBeforeTrigger}s after a Survivor takes damage, for {Tunable.K28P01.EffectDuration}s, the next time a Survivor fast-vaults a Pallet while within your Terror Radius, it is destroyed.",
       "role": "killer",
-      "character": 268435479,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_eruption"
+      "character": 268435483,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
     },
     {
-      "id": "K41P03",
+      "id": "S28P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hex: Overture of Doom",
-      "description": "When the trial starts, a Dull Totem ignites and hexes the farthest Generator from it.<br><br>After a Survivor repairs the hexed Generator for {Tunable.K41P03.RequiredTime} seconds:<ul><li>You gain {Keyword.Undetectable} for {Tunable.K41P03.TerrorRadiusDisplacementDuration}s.</li><li>For that time, your Terror Radius is set to that Generator.</li></ul><br><br>When the hexed Generator is repaired, the next farthest Generator is hexed.",
+      "name": "Boon: Shadow Step",
+      "description": "While next to a Totem, use {Input.ActivatableButton1} to bless it, creating a unique Boon Totem that combines all your Boons. Survivors within the Boon's range:<ul><li>Leave no Scratch Marks.</li><li>Their Auras cannot be seen by the Killer.</li></ul><br><br>When leaving the range, this ends after {Tunable.S28P03.LingerDuration}s.",
+      "role": "survivor",
+      "character": 27,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Hubble/iconPerks_BoonShadowStep"
+    },
+    {
+      "id": "S45P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Invocation: Treacherous Crows",
+      "description": "While in the Basement next to the circle, use {Input.ActivatableButton2} to invoke. While invoking, other Survivors see your Aura and can join your Invocation.<br><br>When the Invocation is completed:<ul><li>Whenever the Killer scares a Crow while a Survivor is in their Terror Radius, all Survivors see the Killer's Aura for {Tunable.S45P01.AuraRevealDuration}s.</li><li>You become injured.</li><li>You gain {Keyword.Broken}.</li></ul><br><br>Each Invocation can only be completed once per trial.",
+      "role": "survivor",
+      "character": 44,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Gelato/T_UI_iconsPerks_InvocationTreacherousCrows"
+    },
+    {
+      "id": "Stridor",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Stridor",
+      "description": "Survivors' breathing noises are {Tunable.K04P01.HealthySoundIncrease%}% louder and their Grunts of Pain are {Tunable.K04P01.InjuredSoundIncrease%}% louder.",
       "role": "killer",
-      "character": 268435496,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_HexOvertureOfDoom"
-    },
-    {
-      "id": "S24P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Appraisal",
-      "description": "When the trial starts, you earn {Tunable.S24P01.StartingTokens} Tokens.<br><br>Spend {Tunable.S24P01.TokensPerRummage} Token to rummage an empty Chest, up to {Tunable.S24P01.MaxRummagesPerChest} times per Chest.<br><br>You rummage Chests {Tunable.S24P01.ChestSearchSpeedBonus%}% faster.",
-      "role": "survivor",
-      "character": 23,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
-    },
-    {
-      "id": "TheMettleOfMan",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Mettle of Man",
-      "description": "After taking {Tunable.S17P03.TokensNeeded} protection hits, while injured and until you go down, the next time you would be downed by the Killer, take no damage instead.<br><br>When you become healthy, while you are at least {Tunable.S17P03.AuraRevealDistance}m from the Killer, they see your Aura.<br><br>When the trial starts, you are more likely to be the Obsession.",
-      "role": "survivor",
-      "character": 16,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
+      "character": 268435459,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_stridor"
     }
   ],
   "images": [
     {
-      "name": "Eruption",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_eruption"
+      "name": "Dissolution",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
     },
     {
-      "name": "Hex: Overture of Doom",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_HexOvertureOfDoom"
+      "name": "Boon: Shadow Step",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Hubble/iconPerks_BoonShadowStep"
     },
     {
-      "name": "Appraisal",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
+      "name": "Invocation: Treacherous Crows",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Gelato/T_UI_iconsPerks_InvocationTreacherousCrows"
     },
     {
-      "name": "Mettle of Man",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
+      "name": "Stridor",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_stridor"
     }
   ]
 }
