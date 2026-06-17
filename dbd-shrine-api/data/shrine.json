@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-06-16T11:24:58.265Z",
+  "fetchedAt": "2026-06-17T11:09:00.397Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 581,
+    "id": 582,
     "perks": [
       {
-        "id": "DeadMansSwitch",
+        "id": "BuiltToLast",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K37P03",
+        "id": "Calm_Spirit",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S41P03",
+        "id": "K27P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S49P01",
+        "id": "RememberMe",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1781017200,
-    "end": 1781621999
+    "start": 1781622000,
+    "end": 1782226799
   },
   "perksWithImages": [
     {
-      "id": "DeadMansSwitch",
+      "id": "BuiltToLast",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Dead Man’s Switch",
-      "description": "When you hook a Survivor, the first time a Survivor stops repairing a Generator, it is blocked for {Tunable.K19P02.GeneratorBlockDuration}s. Cooldown: {Tunable.K19P02.GeneratorBlockDuration}s.",
-      "role": "killer",
-      "character": 268435474,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_deadManSwitch"
-    },
-    {
-      "id": "K37P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Dominance",
-      "description": "The first time each Chest is being unlocked and each Totem is being blessed or cleansed by a Survivor, it is blocked for {Tunable.K37P03.BlockDuration}s.",
-      "role": "killer",
-      "character": 268435492,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_Dominance"
-    },
-    {
-      "id": "S41P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Wicked",
-      "description": "While in the Basement, you can unhook yourself.<br><br>Whenever you are unhooked, you see the Killer's Aura for {Tunable.S41P03.AuraRevealDuration}s.",
+      "name": "Built to Last",
+      "description": "While holding a depleted item, after hiding in a Locker for {Tunable.S23P03.RequiredDuration}s, it is recharged to {Tunable.S23P03.InitialRefill%}%.<br><br>Each time you recharge an item this way, it recharges {Tunable.S23P03.RefillDiminishing%}% fewer Charges.",
       "role": "survivor",
-      "character": 40,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
+      "character": 22,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_builtToLast"
     },
     {
-      "id": "S49P01",
+      "id": "Calm_Spirit",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Road Life",
-      "description": "While injured, not Broken and repairing a Generator:<ul><li>Whenever you hit a basic great Skill Check, you earn {Tunable.S49P01.TokenPerSkillCheck} Token.</li><li>Whenever you miss a basic Skill Check, you lose {Tunable.S49P01.TokensLostOnSkillCheckFail} token.</li></ul><br><br>When you have {Tunable.S49P01.MaxTokens} Tokens, spend all Tokens to heal {Tunable.S49P01.HealingSpeedIncrease%}% faster until you stop healing.",
+      "name": "Calm Spirit",
+      "description": "You do not scare Crows or scream.<br><br>You bless and cleanse Totems, and unlock Chests silently, but {Tunable.S04P02.ActionSpeedReduction%}% slower.",
       "role": "survivor",
-      "character": 48,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+      "character": 3,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_calmSpirit"
+    },
+    {
+      "id": "K27P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Call of Brine",
+      "description": "Whenever you damage a Generator, it regresses {Tunable.K27P02.RegressionModifier%}% faster for {Tunable.K27P02.Duration}s.<br><br>For that time, whenever a Survivor hits a good basic Skill Check while repairing that Generator, you are alerted.",
+      "role": "killer",
+      "character": 268435482,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_callOfBrine"
+    },
+    {
+      "id": "RememberMe",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Remember Me",
+      "description": "Whenever the Obsession takes damage, you earn 1 Token, up to {Tunable.K10P02.MaximumTokens}.<br><br><br>For each Token, Survivors who are not the Obsession open Exit Gates {Tunable.K10P02.ActionSpeedPenalty%}% slower.",
+      "role": "killer",
+      "character": 268435465,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_rememberMe"
     }
   ],
   "images": [
     {
-      "name": "Dead Man’s Switch",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_deadManSwitch"
+      "name": "Built to Last",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_builtToLast"
     },
     {
-      "name": "Dominance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_Dominance"
+      "name": "Calm Spirit",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_calmSpirit"
     },
     {
-      "name": "Wicked",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
+      "name": "Call of Brine",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_callOfBrine"
     },
     {
-      "name": "Road Life",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+      "name": "Remember Me",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_rememberMe"
     }
   ]
 }
