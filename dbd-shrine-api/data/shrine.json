@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-06-30T09:53:20.121Z",
+  "fetchedAt": "2026-07-01T10:02:03.072Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 583,
+    "id": 584,
     "perks": [
       {
-        "id": "Balanced_Landing",
+        "id": "CorruptIntervention",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "BloodWarden",
+        "id": "K28P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K26P01",
+        "id": "S29P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S48P03",
+        "id": "Tenacity",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1782226800,
-    "end": 1782831599
+    "start": 1782831600,
+    "end": 1782917999
   },
   "perksWithImages": [
     {
-      "id": "Balanced_Landing",
+      "id": "CorruptIntervention",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Balanced Landing",
-      "description": "Whenener you fall from at least {Tunable.S05P01.RequiredFallHeight}m:<ul><li>You gain {Tunable.S05P01.Haste%}% {Keyword.Haste} for {Tunable.S05P01.HasteDuration}s.</li><li>You gain {Keyword.Exhausted} for {Tunable.S05P01.ExhaustionDuration}s.</li><li>Your stagger is {Tunable.S05P01.FallStaggerReduction%}% shorter.</li><li>Your Grunts from falling are {Tunable.S05P01.FallGruntReduction%}% quieter.</li></ul>",
-      "role": "survivor",
-      "character": 4,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_balancedLanding"
-    },
-    {
-      "id": "BloodWarden",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Blood Warden",
-      "description": "When an Exit Gate is opened, once per trial, when you hook a Survivor, both Exits are blocked for {Tunable.K10P03.GateBlockDuration}s.<br><br>You see the Auras of Survivors within Exit Thresholds.",
+      "name": "Corrupt Intervention",
+      "description": "When the trial starts, the {Tunable.K15P01.GeneratorsBlocked} farthest Generators from you are blocked for {Tunable.K15P01.GeneratorBlockDuration}s, or until you down a Survivor.",
       "role": "killer",
-      "character": 268435465,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
+      "character": 268435470,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_corruptIntervention"
     },
     {
-      "id": "K26P01",
+      "id": "K28P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Grim Embrace",
-      "description": "Whenever you hook a Survivor for the first time, earn {Tunable.K26P01.TokensPerUniqueHook} Token.<br><br>When you move {Tunable.K26P01.HookedDistance}m away from the hooked Survivor, all Generators are blocked for {Tunable.K26P01.GeneratorBlockDuration}s.<br><br>When you have {Tunable.K26P01.SurvivorsToBeHooked} Tokens, when you move {Tunable.K26P01.HookedDistance}m away from the hooked Survivor:<ul><li>All Generators are blocked for {Tunable.K26P01.FinalGeneratorBlockDuration}s.</li><li>You see the Obsession's Aura for {Tunable.K26P01.AuraRevealDuration}s.</li></ul>",
+      "name": "Septic Touch",
+      "description": "While a Survivor within your Terror Radius is healing:<ul><li>They gain {Keyword.Blindness}.</li><li>They gain {Keyword.Exhausted}.</li></ul><br><br>When they stop healing, this ends after {Tunable.K28P03.BlindnessExhaustionDuration}s.",
       "role": "killer",
-      "character": 268435481,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_grimEmbrace"
+      "character": 268435483,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_SepticTouch"
     },
     {
-      "id": "S48P03",
+      "id": "S29P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Teamwork: Throw Down",
-      "description": "Whenever you blind or Pallet-stun the Killer, for {Tunable.S48P03.EffectDuration}s, other injured Survivors within {Tunable.S48P03.EffectDistance}m:<ul><li>Gain {Keyword.Endurance}.</li><li>See the Killer's Aura.</li></ul>",
+      "name": "Boon: Exponential",
+      "description": "While next to a totem, use {Input.ActivatableButton1} to bless it, creating a unique Boon totem that combines all your Boons.<br><br>Downed Survivors within the Boon's range:<ul><li>Recover {Tunable.S29P03.RecoverSpeedBoost%}% faster.</li><li>Can fully recover.</li></ul>",
       "role": "survivor",
-      "character": 47,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkToughenUp"
+      "character": 28,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_BoonExponential"
+    },
+    {
+      "id": "Tenacity",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Tenacity",
+      "description": "While downed:<ul><li>You gain {Tunable.S12P01.Haste%}% {Keyword.Haste}.</li><li>You can crawl and recover at the same time.</li><li>Your Grunts of Pain are {Tunable.S12P01.DyingVoiceLevelReduction%}% quieter.</li></ul>",
+      "role": "survivor",
+      "character": 12,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_tenacity"
     }
   ],
   "images": [
     {
-      "name": "Balanced Landing",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_balancedLanding"
+      "name": "Corrupt Intervention",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_corruptIntervention"
     },
     {
-      "name": "Blood Warden",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
+      "name": "Septic Touch",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_SepticTouch"
     },
     {
-      "name": "Grim Embrace",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_grimEmbrace"
+      "name": "Boon: Exponential",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_BoonExponential"
     },
     {
-      "name": "Teamwork: Throw Down",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkToughenUp"
+      "name": "Tenacity",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_tenacity"
     }
   ]
 }
