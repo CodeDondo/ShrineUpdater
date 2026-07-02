@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-01T10:02:03.072Z",
+  "fetchedAt": "2026-07-02T09:24:58.683Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 584,
+    "id": 585,
     "perks": [
       {
-        "id": "CorruptIntervention",
+        "id": "K23P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K28P03",
+        "id": "LeftBehind",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S29P03",
+        "id": "TheMettleOfMan",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Tenacity",
+        "id": "ZanshinTactics",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1782831600,
-    "end": 1782917999
+    "start": 1782918000,
+    "end": 1783004399
   },
   "perksWithImages": [
     {
-      "id": "CorruptIntervention",
+      "id": "K23P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Corrupt Intervention",
-      "description": "When the trial starts, the {Tunable.K15P01.GeneratorsBlocked} farthest Generators from you are blocked for {Tunable.K15P01.GeneratorBlockDuration}s, or until you down a Survivor.",
+      "name": "Hex: Crowd Control",
+      "description": "The first time a Survivor medium or fast-vaults a Window, a Dull Totem ignites.<br><br>The last {Tunable.K23P02.MaximumVaultsBlocked} Windows Survivors medium or fast-vault are blocked.<br><br>You basic-vault blocked Windows {Tunable.K23P02.VaultSpeedIncrease%}% faster.<br><br>You see the Auras of blocked Windows within {Tunable.K23P02.AuraRevealDistance}m.",
       "role": "killer",
-      "character": 268435470,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_corruptIntervention"
+      "character": 268435478,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_HexCrowdControl"
     },
     {
-      "id": "K28P03",
+      "id": "LeftBehind",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Septic Touch",
-      "description": "While a Survivor within your Terror Radius is healing:<ul><li>They gain {Keyword.Blindness}.</li><li>They gain {Keyword.Exhausted}.</li></ul><br><br>When they stop healing, this ends after {Tunable.K28P03.BlindnessExhaustionDuration}s.",
+      "name": "Left Behind",
+      "description": "When all other Survivors are dead, while within {Tunable.S08P01.HatchRevealDistance}m of the Hatch, you see its Aura.",
+      "role": "survivor",
+      "character": 7,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
+    },
+    {
+      "id": "TheMettleOfMan",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Mettle of Man",
+      "description": "After taking {Tunable.S17P03.TokensNeeded} protection hits, while injured and until you go down, the next time you would be downed by the Killer, take no damage instead.<br><br>When you become healthy, while you are at least {Tunable.S17P03.AuraRevealDistance}m from the Killer, they see your Aura.<br><br>When the trial starts, you are more likely to be the Obsession.",
+      "role": "survivor",
+      "character": 16,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
+    },
+    {
+      "id": "ZanshinTactics",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Zanshin Tactics",
+      "description": "Within {Tunable.K18P01.VaultablesRevealDistance}m, you see the Auras of Pallets and windows.<br><br>Whenever a Survivor drops a Pallet, you see their Aura for {Tunable.K18P01.AuraRevealDuration}s.",
       "role": "killer",
-      "character": 268435483,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_SepticTouch"
-    },
-    {
-      "id": "S29P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Boon: Exponential",
-      "description": "While next to a totem, use {Input.ActivatableButton1} to bless it, creating a unique Boon totem that combines all your Boons.<br><br>Downed Survivors within the Boon's range:<ul><li>Recover {Tunable.S29P03.RecoverSpeedBoost%}% faster.</li><li>Can fully recover.</li></ul>",
-      "role": "survivor",
-      "character": 28,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_BoonExponential"
-    },
-    {
-      "id": "Tenacity",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Tenacity",
-      "description": "While downed:<ul><li>You gain {Tunable.S12P01.Haste%}% {Keyword.Haste}.</li><li>You can crawl and recover at the same time.</li><li>Your Grunts of Pain are {Tunable.S12P01.DyingVoiceLevelReduction%}% quieter.</li></ul>",
-      "role": "survivor",
-      "character": 12,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_tenacity"
+      "character": 268435473,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
     }
   ],
   "images": [
     {
-      "name": "Corrupt Intervention",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Mali/iconPerks_corruptIntervention"
+      "name": "Hex: Crowd Control",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_HexCrowdControl"
     },
     {
-      "name": "Septic Touch",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_SepticTouch"
+      "name": "Left Behind",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
     },
     {
-      "name": "Boon: Exponential",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_BoonExponential"
+      "name": "Mettle of Man",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
     },
     {
-      "name": "Tenacity",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_tenacity"
+      "name": "Zanshin Tactics",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
     }
   ]
 }
