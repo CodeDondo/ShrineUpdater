@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-02T09:24:58.683Z",
+  "fetchedAt": "2026-07-03T09:29:13.968Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 585,
+    "id": 586,
     "perks": [
       {
-        "id": "K23P02",
+        "id": "Autodidact",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "LeftBehind",
+        "id": "K27P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "TheMettleOfMan",
+        "id": "Tinkerer",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "ZanshinTactics",
+        "id": "WindowsOfOpportunity",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1782918000,
-    "end": 1783004399
+    "start": 1783004400,
+    "end": 1783090799
   },
   "perksWithImages": [
     {
-      "id": "K23P02",
+      "id": "Autodidact",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hex: Crowd Control",
-      "description": "The first time a Survivor medium or fast-vaults a Window, a Dull Totem ignites.<br><br>The last {Tunable.K23P02.MaximumVaultsBlocked} Windows Survivors medium or fast-vault are blocked.<br><br>You basic-vault blocked Windows {Tunable.K23P02.VaultSpeedIncrease%}% faster.<br><br>You see the Auras of blocked Windows within {Tunable.K23P02.AuraRevealDistance}m.",
-      "role": "killer",
-      "character": 268435478,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_HexCrowdControl"
-    },
-    {
-      "id": "LeftBehind",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Left Behind",
-      "description": "When all other Survivors are dead, while within {Tunable.S08P01.HatchRevealDistance}m of the Hatch, you see its Aura.",
+      "name": "Autodidact",
+      "description": "You start the trial with {Tunable.S14P03.StartingTokens} Tokens, up to {Tunable.S14P03.MaxToken}, and your good basic healing Skill Checks give {Tunable.S14P03.InitialProgressionPenalty%}% less progress.<br><br>While healing another Survivor without a Med-Kit:<ul><li>Whenever you hit a basic Skill Check, you earn {Tunable.S14P03.TokensPerSkillCheck} token.</li><li>Whenever you hit a basic Skill Check, for each Token, you gain {Tunable.S14P03.ProgressionBonusPerToken%}% more progress.</li><li>You cannot get great basic Skill Checks.</li></ul>",
       "role": "survivor",
-      "character": 7,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
+      "character": 13,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_autodidact"
     },
     {
-      "id": "TheMettleOfMan",
+      "id": "K27P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Mettle of Man",
-      "description": "After taking {Tunable.S17P03.TokensNeeded} protection hits, while injured and until you go down, the next time you would be downed by the Killer, take no damage instead.<br><br>When you become healthy, while you are at least {Tunable.S17P03.AuraRevealDistance}m from the Killer, they see your Aura.<br><br>When the trial starts, you are more likely to be the Obsession.",
-      "role": "survivor",
-      "character": 16,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
-    },
-    {
-      "id": "ZanshinTactics",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Zanshin Tactics",
-      "description": "Within {Tunable.K18P01.VaultablesRevealDistance}m, you see the Auras of Pallets and windows.<br><br>Whenever a Survivor drops a Pallet, you see their Aura for {Tunable.K18P01.AuraRevealDuration}s.",
+      "name": "Call of Brine",
+      "description": "Whenever you damage a Generator, it regresses {Tunable.K27P02.RegressionModifier%}% faster for {Tunable.K27P02.Duration}s.<br><br>For that time, whenever a Survivor hits a good basic Skill Check while repairing that Generator, you are alerted.",
       "role": "killer",
-      "character": 268435473,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
+      "character": 268435482,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_callOfBrine"
+    },
+    {
+      "id": "Tinkerer",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Tinkerer",
+      "description": "The first time each Generator has {Tunable.K03P03.TriggerThreshold%}% progress:<ul><li>You gain {Keyword.Undetectable} for {Tunable.K03P03.UndetectableDuration}s.</li><li>You are alerted.</li></ul>",
+      "role": "killer",
+      "character": 268435458,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_tinkerer"
+    },
+    {
+      "id": "WindowsOfOpportunity",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Windows of Opportunity",
+      "description": "Within {Tunable.S13P02.VaultablesRevealDistance}m of you:<ul><li>You see the Auras of Pallets.</li><li>You see the Auras of Breakable Walls.</li><li>You see the Auras of Windows.</li></ul>",
+      "role": "survivor",
+      "character": 10,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
     }
   ],
   "images": [
     {
-      "name": "Hex: Crowd Control",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_HexCrowdControl"
+      "name": "Autodidact",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_autodidact"
     },
     {
-      "name": "Left Behind",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_leftBehind"
+      "name": "Call of Brine",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_callOfBrine"
     },
     {
-      "name": "Mettle of Man",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_mettleOfMan"
+      "name": "Tinkerer",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_tinkerer"
     },
     {
-      "name": "Zanshin Tactics",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
+      "name": "Windows of Opportunity",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
     }
   ]
 }
