@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-03T09:29:13.968Z",
+  "fetchedAt": "2026-07-04T08:46:07.845Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 586,
+    "id": 587,
     "perks": [
       {
-        "id": "Autodidact",
+        "id": "ImAllEars",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K27P02",
+        "id": "InTheDark",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Tinkerer",
+        "id": "S24P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "WindowsOfOpportunity",
+        "id": "S44P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783004400,
-    "end": 1783090799
+    "start": 1783090800,
+    "end": 1783177199
   },
   "perksWithImages": [
     {
-      "id": "Autodidact",
+      "id": "ImAllEars",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Autodidact",
-      "description": "You start the trial with {Tunable.S14P03.StartingTokens} Tokens, up to {Tunable.S14P03.MaxToken}, and your good basic healing Skill Checks give {Tunable.S14P03.InitialProgressionPenalty%}% less progress.<br><br>While healing another Survivor without a Med-Kit:<ul><li>Whenever you hit a basic Skill Check, you earn {Tunable.S14P03.TokensPerSkillCheck} token.</li><li>Whenever you hit a basic Skill Check, for each Token, you gain {Tunable.S14P03.ProgressionBonusPerToken%}% more progress.</li><li>You cannot get great basic Skill Checks.</li></ul>",
-      "role": "survivor",
-      "character": 13,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_autodidact"
-    },
-    {
-      "id": "K27P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Call of Brine",
-      "description": "Whenever you damage a Generator, it regresses {Tunable.K27P02.RegressionModifier%}% faster for {Tunable.K27P02.Duration}s.<br><br>For that time, whenever a Survivor hits a good basic Skill Check while repairing that Generator, you are alerted.",
+      "name": "I'm All Ears",
+      "description": "Whenever a Survivor fast-enters or fast-exits a Locker, or medium or fast-vaults within {Tunable.K16P01.ActivationRange}m of you, you see their Aura for {Tunable.K16P01.AuraRevealDuration}s. Cooldown: {Tunable.K16P01.Cooldown}s.",
       "role": "killer",
-      "character": 268435482,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_callOfBrine"
+      "character": 268435471,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
     },
     {
-      "id": "Tinkerer",
+      "id": "InTheDark",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Tinkerer",
-      "description": "The first time each Generator has {Tunable.K03P03.TriggerThreshold%}% progress:<ul><li>You gain {Keyword.Undetectable} for {Tunable.K03P03.UndetectableDuration}s.</li><li>You are alerted.</li></ul>",
+      "name": "Knock Out",
+      "description": "Whenever a Survivor drops a Pallet, for the next {Tunable.K09P01.TriggerTime}s, if they move {Tunable.K09P01.DistanceThreshold}m away from it, they gain {Tunable.K09P01.Hindered%}% {Keyword.Hindered} for {Tunable.K09P01.HinderedDuration}s.",
       "role": "killer",
-      "character": 268435458,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_tinkerer"
+      "character": 268435464,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
     },
     {
-      "id": "WindowsOfOpportunity",
+      "id": "S24P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Windows of Opportunity",
-      "description": "Within {Tunable.S13P02.VaultablesRevealDistance}m of you:<ul><li>You see the Auras of Pallets.</li><li>You see the Auras of Breakable Walls.</li><li>You see the Auras of Windows.</li></ul>",
+      "name": "Appraisal",
+      "description": "When the trial starts, you earn {Tunable.S24P01.StartingTokens} Tokens.<br><br>Spend {Tunable.S24P01.TokensPerRummage} Token to rummage an empty Chest, up to {Tunable.S24P01.MaxRummagesPerChest} times per Chest.<br><br>You rummage Chests {Tunable.S24P01.ChestSearchSpeedBonus%}% faster.",
       "role": "survivor",
-      "character": 10,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
+      "character": 23,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
+    },
+    {
+      "id": "S44P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Exultation",
+      "description": "Whenever you Pallet-stun the Killer:<ul><li>Your item rarity is upgraded to the next tier, if possible.</li><li>If the item was upgraded, it recharges {Tunable.S44P02.ItemRecharge%}% Charges.</li></ul><br><br>Cooldown: {Tunable.S44P02.Cooldown}s.",
+      "role": "survivor",
+      "character": 43,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_Exultation"
     }
   ],
   "images": [
     {
-      "name": "Autodidact",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_autodidact"
+      "name": "I'm All Ears",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
     },
     {
-      "name": "Call of Brine",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_callOfBrine"
+      "name": "Knock Out",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
     },
     {
-      "name": "Tinkerer",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_tinkerer"
+      "name": "Appraisal",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
     },
     {
-      "name": "Windows of Opportunity",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
+      "name": "Exultation",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_Exultation"
     }
   ]
 }
