@@ -1,95 +1,94 @@
 {
-  "fetchedAt": "2026-07-04T08:46:07.845Z",
+  "fetchedAt": "2026-07-05T09:15:15.618Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 587,
+    "id": 588,
     "perks": [
       {
-        "id": "ImAllEars",
+        "id": "DragonsGrip",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "InTheDark",
+        "id": "HexRetribution",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S24P01",
+        "id": "Leader",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S44P02",
+        "id": "S30P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783090800,
-    "end": 1783177199
+    "start": 1783177200,
+    "end": 1783263599
   },
   "perksWithImages": [
     {
-      "id": "ImAllEars",
+      "id": "DragonsGrip",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "I'm All Ears",
-      "description": "Whenever a Survivor fast-enters or fast-exits a Locker, or medium or fast-vaults within {Tunable.K16P01.ActivationRange}m of you, you see their Aura for {Tunable.K16P01.AuraRevealDuration}s. Cooldown: {Tunable.K16P01.Cooldown}s.",
+      "name": "Dragon’s Grip",
+      "description": "Whenever you damage a Generator, for the next {Tunable.K21P01.ActiveDuration}s, the first Survivor that repairs that Generator:<ul><li>They scream, then you are alerted to their position for {Tunable.K21P01.AuraRevealDuration}s.</li><li>They gain {Keyword.Exposed} for {Tunable.K21P01.ExposedDuration}s.</li></ul><br><br>Cooldown: {Tunable.K21P01.Cooldown}s.",
       "role": "killer",
-      "character": 268435471,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
+      "character": 268435476,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_dragonsGrip"
     },
     {
-      "id": "InTheDark",
+      "id": "HexRetribution",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Knock Out",
-      "description": "Whenever a Survivor drops a Pallet, for the next {Tunable.K09P01.TriggerTime}s, if they move {Tunable.K09P01.DistanceThreshold}m away from it, they gain {Tunable.K09P01.Hindered%}% {Keyword.Hindered} for {Tunable.K09P01.HinderedDuration}s.",
+      "name": "Hex: Retribution",
+      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever a Survivor starts blessing or cleansing a Totem, they gain {Keyword.Oblivious} for {Tunable.K19P03.ObliviousDuration}s.<br><br>Whenever a Hex Totem is blessed or cleansed, you see the Auras of all Survivors for {Tunable.K19P03.AuraRevealDuration}s.",
       "role": "killer",
-      "character": 268435464,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
+      "character": 268435474,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_hexRetribution"
     },
     {
-      "id": "S24P01",
+      "id": "Leader",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Appraisal",
-      "description": "When the trial starts, you earn {Tunable.S24P01.StartingTokens} Tokens.<br><br>Spend {Tunable.S24P01.TokensPerRummage} Token to rummage an empty Chest, up to {Tunable.S24P01.MaxRummagesPerChest} times per Chest.<br><br>You rummage Chests {Tunable.S24P01.ChestSearchSpeedBonus%}% faster.",
+      "name": "Leader",
+      "description": "Within {Tunable.S01P02.Range}m of you, other Survivors:<ul><li>Cleanse Totems {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Heal {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Open Exit Gates {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Sabotage Hooks {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Unhook Survivors {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Unlock Chests {Tunable.S01P02.ActionSpeedModifier%}% faster.</li></ul><br><br>After they leave your range, this ends after {Tunable.S01P02.LingerDuration}s.",
       "role": "survivor",
-      "character": 23,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_leader"
     },
     {
-      "id": "S44P02",
+      "id": "S30P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Exultation",
-      "description": "Whenever you Pallet-stun the Killer:<ul><li>Your item rarity is upgraded to the next tier, if possible.</li><li>If the item was upgraded, it recharges {Tunable.S44P02.ItemRecharge%}% Charges.</li></ul><br><br>Cooldown: {Tunable.S44P02.Cooldown}s.",
+      "name": "Empathic Connection",
+      "description": "You heal other Survivors {Tunable.S30P02.HealingBonus%}% faster.<br><br>Injured Survivors see your Aura.",
       "role": "survivor",
-      "character": 43,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_Exultation"
+      "character": 29,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_empathicConnection"
     }
   ],
   "images": [
     {
-      "name": "I'm All Ears",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Oman/iconPerks_imAllEars"
+      "name": "Dragon’s Grip",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_dragonsGrip"
     },
     {
-      "name": "Knock Out",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
+      "name": "Hex: Retribution",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_hexRetribution"
     },
     {
-      "name": "Appraisal",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_appraisal"
+      "name": "Leader",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_leader"
     },
     {
-      "name": "Exultation",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_Exultation"
+      "name": "Empathic Connection",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_empathicConnection"
     }
   ]
 }
