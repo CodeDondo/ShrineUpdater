@@ -1,94 +1,95 @@
 {
-  "fetchedAt": "2026-07-05T09:15:15.618Z",
+  "fetchedAt": "2026-07-06T10:51:47.241Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 588,
+    "id": 589,
     "perks": [
       {
-        "id": "DragonsGrip",
+        "id": "Diversion",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "HexRetribution",
+        "id": "FranklinsLoss",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Leader",
+        "id": "K24P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S30P02",
+        "id": "S40P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783177200,
-    "end": 1783263599
+    "start": 1783263600,
+    "end": 1783349999
   },
   "perksWithImages": [
     {
-      "id": "DragonsGrip",
+      "id": "Diversion",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Dragon’s Grip",
-      "description": "Whenever you damage a Generator, for the next {Tunable.K21P01.ActiveDuration}s, the first Survivor that repairs that Generator:<ul><li>They scream, then you are alerted to their position for {Tunable.K21P01.AuraRevealDuration}s.</li><li>They gain {Keyword.Exposed} for {Tunable.K21P01.ExposedDuration}s.</li></ul><br><br>Cooldown: {Tunable.K21P01.Cooldown}s.",
-      "role": "killer",
-      "character": 268435476,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_dragonsGrip"
-    },
-    {
-      "id": "HexRetribution",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Hex: Retribution",
-      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever a Survivor starts blessing or cleansing a Totem, they gain {Keyword.Oblivious} for {Tunable.K19P03.ObliviousDuration}s.<br><br>Whenever a Hex Totem is blessed or cleansed, you see the Auras of all Survivors for {Tunable.K19P03.AuraRevealDuration}s.",
-      "role": "killer",
-      "character": 268435474,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_hexRetribution"
-    },
-    {
-      "id": "Leader",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Leader",
-      "description": "Within {Tunable.S01P02.Range}m of you, other Survivors:<ul><li>Cleanse Totems {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Heal {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Open Exit Gates {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Sabotage Hooks {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Unhook Survivors {Tunable.S01P02.ActionSpeedModifier%}% faster.</li><li>Unlock Chests {Tunable.S01P02.ActionSpeedModifier%}% faster.</li></ul><br><br>After they leave your range, this ends after {Tunable.S01P02.LingerDuration}s.",
+      "name": "Diversion",
+      "description": "After hiding for {Tunable.S14P01.RequiredChargeTime}s within the Killer's Terror Radius, while crouched and idle, use {Input.ActivatableButton1} to throw a pebble {Tunable.S14P01.ThrowDistance}m away:<ul><li>The Killer is alerted.</li><li>The pebble leaves Scratch Marks.</li></ul>",
       "role": "survivor",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_leader"
+      "character": 13,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_diversion"
     },
     {
-      "id": "S30P02",
+      "id": "FranklinsLoss",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Empathic Connection",
-      "description": "You heal other Survivors {Tunable.S30P02.HealingBonus%}% faster.<br><br>Injured Survivors see your Aura.",
+      "name": "Franklin's Demise",
+      "description": "Whenever you damage a Survivor with a basic attack, they drop their item.<br><br>Within {Tunable.K09P03.ItemsRevealDistance}m, you see the Auras of dropped items.",
+      "role": "killer",
+      "character": 268435464,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_franklinsLoss"
+    },
+    {
+      "id": "K24P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Hysteria",
+      "description": "Whenever a healthy Survivor becomes injured, all injured Survivors gain {Keyword.Oblivious} for {Tunable.K24P02.ObliviousDuration}s. Cooldown: {Tunable.K24P02.Cooldown}s.",
+      "role": "killer",
+      "character": 268435479,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_hysteria"
+    },
+    {
+      "id": "S40P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Champion of Light",
+      "description": "While you are using a Flashlight, you gain {Tunable.S40P01.Haste%}% {Keyword.Haste}.<br><br>Whenever you blind the Killer, they gain {Tunable.S40P01.Hindered%}% {Keyword.Hindered} for {Tunable.S40P01.HinderedDuration}s. Cooldown: {Tunable.S40P01.Cooldown}s.",
       "role": "survivor",
-      "character": 29,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_empathicConnection"
+      "character": 39,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_ChampionOfLight"
     }
   ],
   "images": [
     {
-      "name": "Dragon’s Grip",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_dragonsGrip"
+      "name": "Diversion",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_diversion"
     },
     {
-      "name": "Hex: Retribution",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_hexRetribution"
+      "name": "Franklin's Demise",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_franklinsLoss"
     },
     {
-      "name": "Leader",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_leader"
+      "name": "Hysteria",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_hysteria"
     },
     {
-      "name": "Empathic Connection",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_empathicConnection"
+      "name": "Champion of Light",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Zodiac/iconsPerks_ChampionOfLight"
     }
   ]
 }
