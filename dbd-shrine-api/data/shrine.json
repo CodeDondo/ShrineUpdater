@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-07T09:53:39.652Z",
+  "fetchedAt": "2026-07-08T08:38:28.127Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 590,
+    "id": 591,
     "perks": [
       {
-        "id": "Enduring",
+        "id": "BorrowedTime",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K28P01",
+        "id": "ForcedPenance",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S49P01",
+        "id": "Nemesis",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "StakeOut",
+        "id": "S26P03",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783350000,
-    "end": 1783436399
+    "start": 1783436400,
+    "end": 1783522799
   },
   "perksWithImages": [
     {
-      "id": "Enduring",
+      "id": "BorrowedTime",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Enduring",
-      "description": "While not carrying a Survivor, Pallet-stuns are {Tunable.K03P01.StunDurationReduction%}% shorter.",
-      "role": "killer",
-      "character": 268435458,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_enduring"
-    },
-    {
-      "id": "K28P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Dissolution",
-      "description": "{Tunable.K28P01.TimeBeforeTrigger}s after a Survivor takes damage, for {Tunable.K28P01.EffectDuration}s, the next time a Survivor fast-vaults a Pallet while within your Terror Radius, it is destroyed.",
-      "role": "killer",
-      "character": 268435483,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
-    },
-    {
-      "id": "S49P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Road Life",
-      "description": "While injured, not {Keyword.Broken} and repairing a Generator:<ul><li>Whenever you hit a basic great Skill Check, you earn {Tunable.S49P01.TokenPerSkillCheck} Token.</li><li>Whenever you miss a basic Skill Check, you lose {Tunable.S49P01.TokensLostOnSkillCheckFail} token.</li></ul><br><br>When you have {Tunable.S49P01.MaxTokens} Tokens, spend all Tokens to heal {Tunable.S49P01.HealingSpeedIncrease%}% faster until you stop healing.",
+      "name": "Borrowed Time",
+      "description": "Whenever you unhook a Survivor:<ul><li>They retain their unhook {Keyword.Endurance} for {Tunable.S08P02.EnduranceExtraDuration}s longer.</li><li>They retain their unhook {Keyword.Haste} for {Tunable.S08P02.HasteExtraDuration}s longer.</li></ul>",
       "role": "survivor",
-      "character": 48,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+      "character": 7,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_borrowedTime"
     },
     {
-      "id": "StakeOut",
+      "id": "ForcedPenance",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Stake Out",
-      "description": "After hiding for {Tunable.S12P03.TokenChargeTime}s within the Killer's Terror Radius, you earn {Tunable.S12P03.TokensGained} Token, up to {Tunable.S12P03.MaxTokens}.<br><br>Whenever you hit a good basic Skill Check, spend {Tunable.S12P03.TokensSpent} Token:<ul><li>The good Skill Check becomes a great Skill Check.</li><li>You gain {Tunable.S12P03.BonusProgress%}% more progress.</li></ul>",
+      "name": "Forced Penance",
+      "description": "Whenever a Survivor takes a protection hit, they gain {Keyword.Broken} for {Tunable.K20P01.BrokenDuration}s.",
+      "role": "killer",
+      "character": 268435475,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_forcedPenance"
+    },
+    {
+      "id": "Nemesis",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Nemesis",
+      "description": "Whenever a Survivor blinds you, Locker-stuns or Pallet-stuns you, they become the Obsession.<br><br>Whenever a Survivor becomes the Obsession:<ul><li>They gain {Keyword.Oblivious} for {Tunable.K18P03.ObliviousDuration}s.</li><li>You see their Aura for {Tunable.K18P03.AuraRevealDuration}s.</li></ul>",
+      "role": "killer",
+      "character": 268435473,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_nemesis"
+    },
+    {
+      "id": "S26P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Blast Mine",
+      "description": "After repairing {Tunable.S26P03.RequiredProgress%}% of Generators, while next to a Generator, use {Input.ActivatableButton2} to trap it for {Tunable.S26P03.TrapDuration}s. All Survivors see that Generator's Aura for that time.<br><br>When the Killer damages that Generator, the trap explodes, then:<ul><li>They are stunned for {Tunable.S26P03.StunBlindDuration}s.</li><li>Everyone nearby looking at the detonation is blinded.</li></ul>",
       "role": "survivor",
-      "character": 12,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_stakeOut"
+      "character": 25,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_BlastMine"
     }
   ],
   "images": [
     {
-      "name": "Enduring",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_enduring"
+      "name": "Borrowed Time",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_borrowedTime"
     },
     {
-      "name": "Dissolution",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
+      "name": "Forced Penance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_forcedPenance"
     },
     {
-      "name": "Road Life",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+      "name": "Nemesis",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_nemesis"
     },
     {
-      "name": "Stake Out",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_stakeOut"
+      "name": "Blast Mine",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_BlastMine"
     }
   ]
 }
