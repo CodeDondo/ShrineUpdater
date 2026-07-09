@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-08T08:38:28.127Z",
+  "fetchedAt": "2026-07-09T09:56:10.685Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 591,
+    "id": 592,
     "perks": [
       {
-        "id": "BorrowedTime",
+        "id": "K40P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "ForcedPenance",
+        "id": "S31P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Nemesis",
+        "id": "S33P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S26P03",
+        "id": "SpiritFury",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783436400,
-    "end": 1783522799
+    "start": 1783522800,
+    "end": 1783609199
   },
   "perksWithImages": [
     {
-      "id": "BorrowedTime",
+      "id": "K40P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Borrowed Time",
-      "description": "Whenever you unhook a Survivor:<ul><li>They retain their unhook {Keyword.Endurance} for {Tunable.S08P02.EnduranceExtraDuration}s longer.</li><li>They retain their unhook {Keyword.Haste} for {Tunable.S08P02.HasteExtraDuration}s longer.</li></ul>",
-      "role": "survivor",
-      "character": 7,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_borrowedTime"
-    },
-    {
-      "id": "ForcedPenance",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Forced Penance",
-      "description": "Whenever a Survivor takes a protection hit, they gain {Keyword.Broken} for {Tunable.K20P01.BrokenDuration}s.",
+      "name": "Haywire",
+      "description": "Exit Gate Switches with at least {Tunable.K40P03.RegressionThreshold%}% progress regress at {Tunable.K40P03.RegressionRate%}% speed.<br><br>While they are regressing, Survivors see the Exit Gate Lights flicker randomly.",
       "role": "killer",
-      "character": 268435475,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_forcedPenance"
+      "character": 268435495,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_Haywire"
     },
     {
-      "id": "Nemesis",
+      "id": "S31P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Nemesis",
-      "description": "Whenever a Survivor blinds you, Locker-stuns or Pallet-stuns you, they become the Obsession.<br><br>Whenever a Survivor becomes the Obsession:<ul><li>They gain {Keyword.Oblivious} for {Tunable.K18P03.ObliviousDuration}s.</li><li>You see their Aura for {Tunable.K18P03.AuraRevealDuration}s.</li></ul>",
-      "role": "killer",
-      "character": 268435473,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_nemesis"
-    },
-    {
-      "id": "S26P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Blast Mine",
-      "description": "After repairing {Tunable.S26P03.RequiredProgress%}% of Generators, while next to a Generator, use {Input.ActivatableButton2} to trap it for {Tunable.S26P03.TrapDuration}s. All Survivors see that Generator's Aura for that time.<br><br>When the Killer damages that Generator, the trap explodes, then:<ul><li>They are stunned for {Tunable.S26P03.StunBlindDuration}s.</li><li>Everyone nearby looking at the detonation is blinded.</li></ul>",
+      "name": "Overzealous",
+      "description": "Whenever you bless or cleanse a Totem, until you take damage, you repair {Tunable.S31P03.ActionSpeedBonus%}% faster. If that Totem was a Hex Totem, the effect is doubled.",
       "role": "survivor",
-      "character": 25,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_BlastMine"
+      "character": 30,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Overzealous"
+    },
+    {
+      "id": "S33P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Hyperfocus",
+      "description": "Whenever you hit a great basic Skill Check, you earn {Tunable.S33P03.TokensPerGreat} Token, up to {Tunable.S33P03.MaxTokens}.<br><br>For each Token, basic Skill Checks:<ul><li>Appear {Tunable.S33P03.SkillCheckBonusChance%}% more often.</li><li>Spin {Tunable.S33P03.SkillCheckSpeedIncrease%}% faster.</li><li>Whenever you hit a great, give {Tunable.S33P03.SkillCheckBonusPerToken%}% more progress.</li></ul><br><br>Whenever you miss a basic Skill Check, hit a good Skill Check, or stop healing or repairing, lose all Tokens.",
+      "role": "survivor",
+      "character": 32,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Hyperfocus"
+    },
+    {
+      "id": "SpiritFury",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Spirit Fury",
+      "description": "After you break {Tunable.K13P01.PalletsRequired} Pallets, when you are Pallet-stunned, the Pallet is destroyed.",
+      "role": "killer",
+      "character": 268435468,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_spiritFury"
     }
   ],
   "images": [
     {
-      "name": "Borrowed Time",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/L4D/iconPerks_borrowedTime"
+      "name": "Haywire",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_Haywire"
     },
     {
-      "name": "Forced Penance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_forcedPenance"
+      "name": "Overzealous",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Overzealous"
     },
     {
-      "name": "Nemesis",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_nemesis"
+      "name": "Hyperfocus",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Hyperfocus"
     },
     {
-      "name": "Blast Mine",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_BlastMine"
+      "name": "Spirit Fury",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_spiritFury"
     }
   ]
 }
