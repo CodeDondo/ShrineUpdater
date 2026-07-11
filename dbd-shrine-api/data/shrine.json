@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-10T09:47:17.379Z",
+  "fetchedAt": "2026-07-11T08:05:15.238Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 593,
+    "id": 594,
     "perks": [
       {
-        "id": "Alert",
+        "id": "HexBloodFavor",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Deathbound",
+        "id": "K26P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "FlipFlop",
+        "id": "S30P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K33P01",
+        "id": "S32P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783609200,
-    "end": 1783695599
+    "start": 1783695600,
+    "end": 1783781999
   },
   "perksWithImages": [
     {
-      "id": "Alert",
+      "id": "HexBloodFavor",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Alert",
-      "description": "Whenever the Killer breaks a Pallet or Breakable Wall, or damages a Generator:<ul><li>You hear a sound cue.</li><li>You see their Aura for {Tunable.S09P03.AuraRevealDuration}s.</li></ul>",
-      "role": "survivor",
-      "character": 8,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_alert"
-    },
-    {
-      "id": "Deathbound",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Deathbound",
-      "description": "Whenever a Survivor finishes healing another, they scream. Then, until they take damage, while they are at least {Tunable.K20P03.MaximumDistance}m away from that Survivor:<ul><li>They gain {Keyword.Oblivious}.</li><li>They see that Survivor's Aura.</li></ul>",
+      "name": "Hex: Blood Favor",
+      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever you damage a Survivor, Upright Pallets within {Tunable.K21P03.EffectRadius}m of them are blocked for {Tunable.K21P03.BlockDuration}s.",
       "role": "killer",
-      "character": 268435475,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_deathbound"
+      "character": 268435476,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_hexBloodFavor"
     },
     {
-      "id": "FlipFlop",
+      "id": "K26P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Flip-Flop",
-      "description": "While downed, whenever the Killer picks you up, {Tunable.S17P01.RecoveryRatio%}% of your recovery progress is added to your wiggle progress, up to {Tunable.S17P01.MaxWiggle%}%.",
-      "role": "survivor",
-      "character": 16,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
-    },
-    {
-      "id": "K33P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Ultimate Weapon",
-      "description": "Whenever you search a Locker, Survivors within {Tunable.K33P01.RequiredDistance}m:<ul><li>Gain {Keyword.Blindness} for {Tunable.K33P01.BlindnessDuration}s.</li><li>Scream.</li></ul><br><br>Cooldown: {Tunable.K33P01.Cooldown}s.",
+      "name": "Scourge Hook: Pain Resonance",
+      "description": "When the trial starts:<ul><li>4 random Hooks become Scourge Hooks.</li><li>You earn {Tunable.K26P02.StartingTokens} Tokens.</li></ul><br><br>The first time each Survivor is hooked on a Scourge Hook, spend {Tunable.K26P02.TokensSpentOnUniqueHook} Token, then the Generator with the most progress:<ul><li>Explodes, loses {Tunable.K26P02.GeneratorRegression%}% progress and starts regressing.</li><li>Survivors repairing it scream.</li></ul>",
       "role": "killer",
-      "character": 268435488,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_UltimateWeapon"
+      "character": 268435481,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
+    },
+    {
+      "id": "S30P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Parental Guidance",
+      "description": "Whenever you stun the Killer, for {Tunable.S30P01.StealthDuration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
+      "role": "survivor",
+      "character": 29,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
+    },
+    {
+      "id": "S32P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Reactive Healing",
+      "description": "While injured, whenever another Survivor within {Tunable.S32P02.MaximumDistance}m of you takes damage, you gain {Tunable.S32P02.HealingProgressionIncrease%}% missing healing progress.",
+      "role": "survivor",
+      "character": 31,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_ReactiveHealing"
     }
   ],
   "images": [
     {
-      "name": "Alert",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_alert"
+      "name": "Hex: Blood Favor",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_hexBloodFavor"
     },
     {
-      "name": "Deathbound",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_deathbound"
+      "name": "Scourge Hook: Pain Resonance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
     },
     {
-      "name": "Flip-Flop",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
+      "name": "Parental Guidance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
     },
     {
-      "name": "Ultimate Weapon",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_UltimateWeapon"
+      "name": "Reactive Healing",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_ReactiveHealing"
     }
   ]
 }
