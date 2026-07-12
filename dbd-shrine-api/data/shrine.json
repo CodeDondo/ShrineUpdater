@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-11T08:05:15.238Z",
+  "fetchedAt": "2026-07-12T08:26:31.740Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 594,
+    "id": 595,
     "perks": [
       {
-        "id": "HexBloodFavor",
+        "id": "BloodHound",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K26P02",
+        "id": "DeadMansSwitch",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S30P01",
+        "id": "S42P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S32P02",
+        "id": "WakeUp",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783695600,
-    "end": 1783781999
+    "start": 1783782000,
+    "end": 1783868399
   },
   "perksWithImages": [
     {
-      "id": "HexBloodFavor",
+      "id": "BloodHound",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hex: Blood Favor",
-      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever you damage a Survivor, Upright Pallets within {Tunable.K21P03.EffectRadius}m of them are blocked for {Tunable.K21P03.BlockDuration}s.",
+      "name": "Bloodhound",
+      "description": "Pools of Blood are brighter and last {Tunable.K02P02.ExtraTrackDuration}s longer.",
       "role": "killer",
-      "character": 268435476,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_hexBloodFavor"
+      "character": 268435457,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
     },
     {
-      "id": "K26P02",
+      "id": "DeadMansSwitch",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Scourge Hook: Pain Resonance",
-      "description": "When the trial starts:<ul><li>4 random Hooks become Scourge Hooks.</li><li>You earn {Tunable.K26P02.StartingTokens} Tokens.</li></ul><br><br>The first time each Survivor is hooked on a Scourge Hook, spend {Tunable.K26P02.TokensSpentOnUniqueHook} Token, then the Generator with the most progress:<ul><li>Explodes, loses {Tunable.K26P02.GeneratorRegression%}% progress and starts regressing.</li><li>Survivors repairing it scream.</li></ul>",
+      "name": "Dead Man’s Switch",
+      "description": "When you hook a Survivor, the first time a Survivor stops repairing a Generator, it is blocked for {Tunable.K19P02.GeneratorBlockDuration}s. Cooldown: {Tunable.K19P02.GeneratorBlockDuration}s.",
       "role": "killer",
-      "character": 268435481,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
+      "character": 268435474,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_deadManSwitch"
     },
     {
-      "id": "S30P01",
+      "id": "S42P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Parental Guidance",
-      "description": "Whenever you stun the Killer, for {Tunable.S30P01.StealthDuration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
+      "name": "Mirrored Illusion",
+      "description": "After repairing {Tunable.S42P01.RequiredProgress%}% of Generators, while next to a Chest, Exit Gate Switch, Generator, or Totem, use {Input.ActivatableButton2} to create a static illusion for {Tunable.S42P01.HuskDuration}s.",
       "role": "survivor",
-      "character": 29,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
+      "character": 41,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_MirroredIllusion"
     },
     {
-      "id": "S32P02",
+      "id": "WakeUp",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Reactive Healing",
-      "description": "While injured, whenever another Survivor within {Tunable.S32P02.MaximumDistance}m of you takes damage, you gain {Tunable.S32P02.HealingProgressionIncrease%}% missing healing progress.",
+      "name": "Wake Up!",
+      "description": "When all Generators are completed:<ul><li>You see the Auras of Exit Gate Switches.</li><li>While opening an Exit Gate, other Survivors see your Aura.</li><li>For each Survivor alive, you open Exit Gates {Tunable.S11P01.GateOpenSpeed%}% faster.</li></ul>",
       "role": "survivor",
-      "character": 31,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_ReactiveHealing"
+      "character": 11,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_wakeUp"
     }
   ],
   "images": [
     {
-      "name": "Hex: Blood Favor",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_hexBloodFavor"
+      "name": "Bloodhound",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
     },
     {
-      "name": "Scourge Hook: Pain Resonance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ion/T_iconPerks_painResonance"
+      "name": "Dead Man’s Switch",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_deadManSwitch"
     },
     {
-      "name": "Parental Guidance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
+      "name": "Mirrored Illusion",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_MirroredIllusion"
     },
     {
-      "name": "Reactive Healing",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_ReactiveHealing"
+      "name": "Wake Up!",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_wakeUp"
     }
   ]
 }
