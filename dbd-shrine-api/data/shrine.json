@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-12T08:26:31.740Z",
+  "fetchedAt": "2026-07-13T09:39:32.595Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 595,
+    "id": 596,
     "perks": [
       {
-        "id": "BloodHound",
+        "id": "InTheDark",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "DeadMansSwitch",
+        "id": "K31P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S42P01",
+        "id": "S24P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "WakeUp",
+        "id": "Urban_Evasion",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783782000,
-    "end": 1783868399
+    "start": 1783868400,
+    "end": 1783954799
   },
   "perksWithImages": [
     {
-      "id": "BloodHound",
+      "id": "InTheDark",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Bloodhound",
-      "description": "Pools of Blood are brighter and last {Tunable.K02P02.ExtraTrackDuration}s longer.",
+      "name": "Knock Out",
+      "description": "Whenever a Survivor drops a Pallet, for the next {Tunable.K09P01.TriggerTime}s, if they move {Tunable.K09P01.DistanceThreshold}m away from it, they gain {Tunable.K09P01.Hindered%}% {Keyword.Hindered} for {Tunable.K09P01.HinderedDuration}s.",
       "role": "killer",
-      "character": 268435457,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
+      "character": 268435464,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
     },
     {
-      "id": "DeadMansSwitch",
+      "id": "K31P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Dead Man’s Switch",
-      "description": "When you hook a Survivor, the first time a Survivor stops repairing a Generator, it is blocked for {Tunable.K19P02.GeneratorBlockDuration}s. Cooldown: {Tunable.K19P02.GeneratorBlockDuration}s.",
+      "name": "Leverage",
+      "description": "Whenever a Survivor unhooks another or themselves, they heal {Tunable.K31P03.HealPenalty%}% slower for {Tunable.K31P03.ReduceHealingDuration}s.",
       "role": "killer",
-      "character": 268435474,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_deadManSwitch"
+      "character": 268435486,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
     },
     {
-      "id": "S42P01",
+      "id": "S24P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Mirrored Illusion",
-      "description": "After repairing {Tunable.S42P01.RequiredProgress%}% of Generators, while next to a Chest, Exit Gate Switch, Generator, or Totem, use {Input.ActivatableButton2} to create a static illusion for {Tunable.S42P01.HuskDuration}s.",
+      "name": "Deception",
+      "description": "Whenever you attempt to fast-enter a Locker:<ul><li>You do not enter the Locker.</li><li>The Killer is alerted.</li><li>You leave no Pools of Blood for {Tunable.S24P02.NoScratchMarksDuration}s.</li><li>You leave no Scratch Marks for {Tunable.S24P02.NoScratchMarksDuration}s.</li></ul><br><br>Cooldown: {Tunable.S24P02.Cooldown}s.",
       "role": "survivor",
-      "character": 41,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_MirroredIllusion"
+      "character": 23,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_deception"
     },
     {
-      "id": "WakeUp",
+      "id": "Urban_Evasion",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Wake Up!",
-      "description": "When all Generators are completed:<ul><li>You see the Auras of Exit Gate Switches.</li><li>While opening an Exit Gate, other Survivors see your Aura.</li><li>For each Survivor alive, you open Exit Gates {Tunable.S11P01.GateOpenSpeed%}% faster.</li></ul>",
+      "name": "Urban Evasion",
+      "description": "While crouched, you gain {Tunable.S05P02.Haste%}% {Keyword.Haste}.",
       "role": "survivor",
-      "character": 11,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_wakeUp"
+      "character": 4,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
     }
   ],
   "images": [
     {
-      "name": "Bloodhound",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
+      "name": "Knock Out",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
     },
     {
-      "name": "Dead Man’s Switch",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_deadManSwitch"
+      "name": "Leverage",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
     },
     {
-      "name": "Mirrored Illusion",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Churros/iconPerks_MirroredIllusion"
+      "name": "Deception",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_deception"
     },
     {
-      "name": "Wake Up!",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_wakeUp"
+      "name": "Urban Evasion",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
     }
   ]
 }
