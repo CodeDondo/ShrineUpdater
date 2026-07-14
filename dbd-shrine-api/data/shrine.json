@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-13T09:39:32.595Z",
+  "fetchedAt": "2026-07-14T08:19:30.033Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 596,
+    "id": 597,
     "perks": [
       {
-        "id": "InTheDark",
+        "id": "Bamboozle",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K31P03",
+        "id": "Empathy",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S24P02",
+        "id": "K22P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Urban_Evasion",
+        "id": "WereGonnaLiveForever",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783868400,
-    "end": 1783954799
+    "start": 1783954800,
+    "end": 1784041199
   },
   "perksWithImages": [
     {
-      "id": "InTheDark",
+      "id": "Bamboozle",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Knock Out",
-      "description": "Whenever a Survivor drops a Pallet, for the next {Tunable.K09P01.TriggerTime}s, if they move {Tunable.K09P01.DistanceThreshold}m away from it, they gain {Tunable.K09P01.Hindered%}% {Keyword.Hindered} for {Tunable.K09P01.HinderedDuration}s.",
+      "name": "Bamboozle",
+      "description": "Whenever you vault a Window, it is blocked for Survivors for {Tunable.K12P01.WindowBlockDurations}s.<br><br>You basic-vault Windows {Tunable.K12P01.WindowVaultSpeed%}% faster.<br><br>Only 1 Window can be blocked at a time.",
       "role": "killer",
-      "character": 268435464,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
+      "character": 268435467,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
     },
     {
-      "id": "K31P03",
+      "id": "Empathy",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Leverage",
-      "description": "Whenever a Survivor unhooks another or themselves, they heal {Tunable.K31P03.HealPenalty%}% slower for {Tunable.K31P03.ReduceHealingDuration}s.",
+      "name": "Empathy",
+      "description": "Within {Tunable.S03P01.AuraRevealDistance}m, you see the Auras of injured Survivors.",
+      "role": "survivor",
+      "character": 2,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
+    },
+    {
+      "id": "K22P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Oppression",
+      "description": "Whenever you damage a Generator, up to {Tunable.K22P02.AffectedGenerators} other Generators start regressing. Survivors repairing them get a special Skill Check. Cooldown: {Tunable.K22P02.Cooldown}s.",
       "role": "killer",
-      "character": 268435486,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
+      "character": 268435477,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_Oppression"
     },
     {
-      "id": "S24P02",
+      "id": "WereGonnaLiveForever",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Deception",
-      "description": "Whenever you attempt to fast-enter a Locker:<ul><li>You do not enter the Locker.</li><li>The Killer is alerted.</li><li>You leave no Pools of Blood for {Tunable.S24P02.NoScratchMarksDuration}s.</li><li>You leave no Scratch Marks for {Tunable.S24P02.NoScratchMarksDuration}s.</li></ul><br><br>Cooldown: {Tunable.S24P02.Cooldown}s.",
+      "name": "We're Gonna Live Forever",
+      "description": "You heal downed Survivors {Tunable.S10P01.HealSpeedIncrease%}% faster.<br><br>Whenever you finish healing a downed Survivor, they gain {Keyword.Endurance} for {Tunable.S10P01.EnduranceDuration}s. Cooldown: {Tunable.S10P01.EnduranceCooldownDuration}s.",
       "role": "survivor",
-      "character": 23,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_deception"
-    },
-    {
-      "id": "Urban_Evasion",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Urban Evasion",
-      "description": "While crouched, you gain {Tunable.S05P02.Haste%}% {Keyword.Haste}.",
-      "role": "survivor",
-      "character": 4,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
+      "character": 9,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_WereGonnaLiveForever"
     }
   ],
   "images": [
     {
-      "name": "Knock Out",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_knockOut"
+      "name": "Bamboozle",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
     },
     {
-      "name": "Leverage",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_Leverage"
+      "name": "Empathy",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
     },
     {
-      "name": "Deception",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_deception"
+      "name": "Oppression",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_Oppression"
     },
     {
-      "name": "Urban Evasion",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
+      "name": "We're Gonna Live Forever",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_WereGonnaLiveForever"
     }
   ]
 }
