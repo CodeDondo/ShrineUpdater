@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-14T08:19:30.033Z",
+  "fetchedAt": "2026-07-15T08:25:15.114Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 597,
+    "id": 598,
     "perks": [
       {
-        "id": "Bamboozle",
+        "id": "BloodWarden",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Empathy",
+        "id": "K24P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K22P02",
+        "id": "RepressedAlliance",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "WereGonnaLiveForever",
+        "id": "S24P03",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1783954800,
-    "end": 1784041199
+    "start": 1784041200,
+    "end": 1784127599
   },
   "perksWithImages": [
     {
-      "id": "Bamboozle",
+      "id": "BloodWarden",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Bamboozle",
-      "description": "Whenever you vault a Window, it is blocked for Survivors for {Tunable.K12P01.WindowBlockDurations}s.<br><br>You basic-vault Windows {Tunable.K12P01.WindowVaultSpeed%}% faster.<br><br>Only 1 Window can be blocked at a time.",
+      "name": "Blood Warden",
+      "description": "When an Exit Gate is opened, once per trial, when you hook a Survivor, both Exits are blocked for {Tunable.K10P03.GateBlockDuration}s.<br><br>You see the Auras of Survivors within Exit Thresholds.",
       "role": "killer",
-      "character": 268435467,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
+      "character": 268435465,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
     },
     {
-      "id": "Empathy",
+      "id": "K24P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Empathy",
-      "description": "Within {Tunable.S03P01.AuraRevealDistance}m, you see the Auras of injured Survivors.",
-      "role": "survivor",
-      "character": 2,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
-    },
-    {
-      "id": "K22P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Oppression",
-      "description": "Whenever you damage a Generator, up to {Tunable.K22P02.AffectedGenerators} other Generators start regressing. Survivors repairing them get a special Skill Check. Cooldown: {Tunable.K22P02.Cooldown}s.",
+      "name": "Lethal Pursuer",
+      "description": "When the trial starts, you see the Auras of all Survivors for {Tunable.K24P01.AuraRevealDuration}s.<br><br>Whenever you see a Survivor's Aura for a duration, it is {Tunable.K24P01.BonusAuraRevealDuration}s longer.",
       "role": "killer",
-      "character": 268435477,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_Oppression"
+      "character": 268435479,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
     },
     {
-      "id": "WereGonnaLiveForever",
+      "id": "RepressedAlliance",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "We're Gonna Live Forever",
-      "description": "You heal downed Survivors {Tunable.S10P01.HealSpeedIncrease%}% faster.<br><br>Whenever you finish healing a downed Survivor, they gain {Keyword.Endurance} for {Tunable.S10P01.EnduranceDuration}s. Cooldown: {Tunable.S10P01.EnduranceCooldownDuration}s.",
+      "name": "Repressed Alliance ",
+      "description": "After repairing Generators for {Tunable.S22P03.RepairTimeNeeded}s, while repairing a Generator alone, use {Input.ActivatableButton1} to block that generator for {Tunable.S22P03.GeneratorBlockDuration}s.",
       "role": "survivor",
-      "character": 9,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_WereGonnaLiveForever"
+      "character": 21,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
+    },
+    {
+      "id": "S24P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Power Struggle",
+      "description": "While carried by the Killer, while you have at least {Tunable.S24P03.WiggleRequired%}% wiggle and next to an Upright Pallet, you can drop it to stun the Killer.<br><br>While downed, you see the Auras of Upright Pallets.",
+      "role": "survivor",
+      "character": 23,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
     }
   ],
   "images": [
     {
-      "name": "Bamboozle",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Guam/iconPerks_bamboozle"
+      "name": "Blood Warden",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
     },
     {
-      "name": "Empathy",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_empathy"
+      "name": "Lethal Pursuer",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
     },
     {
-      "name": "Oppression",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_Oppression"
+      "name": "Repressed Alliance ",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
     },
     {
-      "name": "We're Gonna Live Forever",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_WereGonnaLiveForever"
+      "name": "Power Struggle",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
     }
   ]
 }
