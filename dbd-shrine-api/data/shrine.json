@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-15T08:25:15.114Z",
+  "fetchedAt": "2026-07-16T08:24:05.674Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 598,
+    "id": 599,
     "perks": [
       {
-        "id": "BloodWarden",
+        "id": "Ace_In_The_Hole",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K24P01",
+        "id": "K37P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "RepressedAlliance",
+        "id": "S47P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S24P03",
+        "id": "Thanatophobia",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1784041200,
-    "end": 1784127599
+    "start": 1784127600,
+    "end": 1784213999
   },
   "perksWithImages": [
     {
-      "id": "BloodWarden",
+      "id": "Ace_In_The_Hole",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Blood Warden",
-      "description": "When an Exit Gate is opened, once per trial, when you hook a Survivor, both Exits are blocked for {Tunable.K10P03.GateBlockDuration}s.<br><br>You see the Auras of Survivors within Exit Thresholds.",
-      "role": "killer",
-      "character": 268435465,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
-    },
-    {
-      "id": "K24P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Lethal Pursuer",
-      "description": "When the trial starts, you see the Auras of all Survivors for {Tunable.K24P01.AuraRevealDuration}s.<br><br>Whenever you see a Survivor's Aura for a duration, it is {Tunable.K24P01.BonusAuraRevealDuration}s longer.",
-      "role": "killer",
-      "character": 268435479,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
-    },
-    {
-      "id": "RepressedAlliance",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Repressed Alliance ",
-      "description": "After repairing Generators for {Tunable.S22P03.RepairTimeNeeded}s, while repairing a Generator alone, use {Input.ActivatableButton1} to block that generator for {Tunable.S22P03.GeneratorBlockDuration}s.",
+      "name": "Ace in the Hole",
+      "description": "Whenever you loot an item from a Chest, it will have:<ul><li>A Visceral or lower rarity add-on.</li><li>{Tunable.S07P03.ModifyChestItemSecondAddonChance%}% chance for an Uncommon or lower rarity add-on.</li></ul><br><br>When you escape, you keep your add-ons.",
       "role": "survivor",
-      "character": 21,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
+      "character": 6,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_aceInTheHole"
     },
     {
-      "id": "S24P03",
+      "id": "K37P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Power Struggle",
-      "description": "While carried by the Killer, while you have at least {Tunable.S24P03.WiggleRequired%}% wiggle and next to an Upright Pallet, you can drop it to stun the Killer.<br><br>While downed, you see the Auras of Upright Pallets.",
+      "name": "Hex: Wretched Fate",
+      "description": "The first time a Generator is completed, a Dull Totem ignites.<br><br>The Obsession:<ul><li>Repairs {Tunable.K37P01.RepairSpeedPenalty%}% slower.</li><li>Sees the Hex Totem's Aura within {Tunable.K37P01.AuraRevealDistance}m.</li></ul>",
+      "role": "killer",
+      "character": 268435492,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
+    },
+    {
+      "id": "S47P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Teamwork: Toughen Up",
+      "description": "While injured, whenever another Survivor within {Tunable.S47P03.RequiredDistance}m of you blinds or Pallet-stuns the Killer, for {Tunable.S47P03.Duration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
       "role": "survivor",
-      "character": 23,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
+      "character": 46,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
+    },
+    {
+      "id": "Thanatophobia",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Thanatophobia",
+      "description": "For each injured, downed, or hooked Survivor, all Survivors:<ul><li>Cleanse totems {Tunable.K04P02.ActionSpeedPenaltyPerSurvivor%}% slower.</li><li>Repair {Tunable.K04P02.ActionSpeedPenaltyPerSurvivor%}% slower.</li><li>Sabotage Hooks {Tunable.K04P02.ActionSpeedPenaltyPerSurvivor%}% slower.</li></ul><br><br>While 4 Survivors are either injured, downed or hooked, all above actions are additionally {Tunable.K04P02.ActionSpeedPenaltyBonus%}% slower.",
+      "role": "killer",
+      "character": 268435459,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_thatanophobia"
     }
   ],
   "images": [
     {
-      "name": "Blood Warden",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
+      "name": "Ace in the Hole",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_aceInTheHole"
     },
     {
-      "name": "Lethal Pursuer",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
+      "name": "Hex: Wretched Fate",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
     },
     {
-      "name": "Repressed Alliance ",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wales/iconPerks_repressedAlliance"
+      "name": "Teamwork: Toughen Up",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
     },
     {
-      "name": "Power Struggle",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
+      "name": "Thanatophobia",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_thatanophobia"
     }
   ]
 }
