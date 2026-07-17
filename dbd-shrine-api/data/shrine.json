@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-16T08:24:05.674Z",
+  "fetchedAt": "2026-07-17T08:20:19.558Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 599,
+    "id": 600,
     "perks": [
       {
-        "id": "Ace_In_The_Hole",
+        "id": "Brutal_Strength",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K37P01",
+        "id": "Lightborn",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S47P03",
+        "id": "S31P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Thanatophobia",
+        "id": "StakeOut",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1784127600,
-    "end": 1784213999
+    "start": 1784214000,
+    "end": 1784300399
   },
   "perksWithImages": [
     {
-      "id": "Ace_In_The_Hole",
+      "id": "Brutal_Strength",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Ace in the Hole",
-      "description": "Whenever you loot an item from a Chest, it will have:<ul><li>A Visceral or lower rarity add-on.</li><li>{Tunable.S07P03.ModifyChestItemSecondAddonChance%}% chance for an Uncommon or lower rarity add-on.</li></ul><br><br>When you escape, you keep your add-ons.",
-      "role": "survivor",
-      "character": 6,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_aceInTheHole"
-    },
-    {
-      "id": "K37P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Hex: Wretched Fate",
-      "description": "The first time a Generator is completed, a Dull Totem ignites.<br><br>The Obsession:<ul><li>Repairs {Tunable.K37P01.RepairSpeedPenalty%}% slower.</li><li>Sees the Hex Totem's Aura within {Tunable.K37P01.AuraRevealDistance}m.</li></ul>",
+      "name": "Brutal Strength",
+      "description": "You basic-break Pallets and Breakable Walls, and damage Generators {Tunable.K01P02.ActionSpeed%}% faster.",
       "role": "killer",
-      "character": 268435492,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
+      "character": 268435456,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
     },
     {
-      "id": "S47P03",
+      "id": "Lightborn",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Teamwork: Toughen Up",
-      "description": "While injured, whenever another Survivor within {Tunable.S47P03.RequiredDistance}m of you blinds or Pallet-stuns the Killer, for {Tunable.S47P03.Duration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
-      "role": "survivor",
-      "character": 46,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
-    },
-    {
-      "id": "Thanatophobia",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Thanatophobia",
-      "description": "For each injured, downed, or hooked Survivor, all Survivors:<ul><li>Cleanse totems {Tunable.K04P02.ActionSpeedPenaltyPerSurvivor%}% slower.</li><li>Repair {Tunable.K04P02.ActionSpeedPenaltyPerSurvivor%}% slower.</li><li>Sabotage Hooks {Tunable.K04P02.ActionSpeedPenaltyPerSurvivor%}% slower.</li></ul><br><br>While 4 Survivors are either injured, downed or hooked, all above actions are additionally {Tunable.K04P02.ActionSpeedPenaltyBonus%}% slower.",
+      "name": "Lightborn",
+      "description": "Whenever a Survivor attempts to blind you, you see their Aura for {Tunable.K03P02.AuraRevealDuration}s.<br><br>You cannot be blinded.",
       "role": "killer",
-      "character": 268435459,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_thatanophobia"
+      "character": 268435458,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_lightborn"
+    },
+    {
+      "id": "S31P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Residual Manifest",
+      "description": "Whenever you blind the Killer, they gain {Keyword.Blindness} for {Tunable.S31P02.BlindnessDuration}s.<br><br>You can rummage Chests {Tunable.S31P02.MaxRummagePerChest} time. The first time you rummage a Chest, it will contain an uncommon Flashlight.",
+      "role": "survivor",
+      "character": 30,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
+    },
+    {
+      "id": "StakeOut",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Stake Out",
+      "description": "After hiding for {Tunable.S12P03.TokenChargeTime}s within the Killer's Terror Radius, you earn {Tunable.S12P03.TokensGained} Token, up to {Tunable.S12P03.MaxTokens}.<br><br>Whenever you hit a good basic Skill Check, spend {Tunable.S12P03.TokensSpent} Token:<ul><li>The good Skill Check becomes a great Skill Check.</li><li>You gain {Tunable.S12P03.BonusProgress%}% more progress.</li></ul>",
+      "role": "survivor",
+      "character": 12,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_stakeOut"
     }
   ],
   "images": [
     {
-      "name": "Ace in the Hole",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_aceInTheHole"
+      "name": "Brutal Strength",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
     },
     {
-      "name": "Hex: Wretched Fate",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclair/iconPerks_HexWretchedFate"
+      "name": "Lightborn",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_lightborn"
     },
     {
-      "name": "Teamwork: Toughen Up",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
+      "name": "Residual Manifest",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
     },
     {
-      "name": "Thanatophobia",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_thatanophobia"
+      "name": "Stake Out",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_stakeOut"
     }
   ]
 }
