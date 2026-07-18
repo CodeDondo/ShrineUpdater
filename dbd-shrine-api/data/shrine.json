@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-17T08:20:19.558Z",
+  "fetchedAt": "2026-07-18T08:02:17.335Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 600,
+    "id": 601,
     "perks": [
       {
-        "id": "Brutal_Strength",
+        "id": "Discordance",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Lightborn",
+        "id": "S28P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S31P02",
+        "id": "SpiritFury",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "StakeOut",
+        "id": "Sprint_Burst",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1784214000,
-    "end": 1784300399
+    "start": 1784300400,
+    "end": 1784645999
   },
   "perksWithImages": [
     {
-      "id": "Brutal_Strength",
+      "id": "Discordance",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Brutal Strength",
-      "description": "You basic-break Pallets and Breakable Walls, and damage Generators {Tunable.K01P02.ActionSpeed%}% faster.",
+      "name": "Discordance",
+      "description": "Within {Tunable.K14P01.EffectRange}m of you, whenever a Generator is being repaired by at least 2 Survivors, you are alerted.<br><br>While that Generator is being repaired by at least 2 Survivors, you see its Aura. When it is no longer being repaired by at least 2 Survivors, this ends after {Tunable.K14P01.AuraLingerDuration}s.",
       "role": "killer",
-      "character": 268435456,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
+      "character": 268435469,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_discordance"
     },
     {
-      "id": "Lightborn",
+      "id": "S28P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Lightborn",
-      "description": "Whenever a Survivor attempts to blind you, you see their Aura for {Tunable.K03P02.AuraRevealDuration}s.<br><br>You cannot be blinded.",
+      "name": "Clairvoyance",
+      "description": "Whenever you bless or cleanse a Totem, while not holding an item, use {Input.UseItem} to, for up to {Tunable.S28P01.AuraRevealDuration}s and within {Tunable.S28P01.AuraRevealDistance}m:<ul><li>See the Auras of Chests.</li><li>See the Auras of Exit Gate Switches.</li><li>See the Auras of Generators.</li><li>See the Aura of the Hatch.</li><li>See the Auras of Hooks.</li></ul>",
+      "role": "survivor",
+      "character": 27,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Hubble/iconPerks_Clairvoyance"
+    },
+    {
+      "id": "SpiritFury",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Spirit Fury",
+      "description": "After you break {Tunable.K13P01.PalletsRequired} Pallets, when you are Pallet-stunned, the Pallet is destroyed.",
       "role": "killer",
-      "character": 268435458,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_lightborn"
+      "character": 268435468,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_spiritFury"
     },
     {
-      "id": "S31P02",
+      "id": "Sprint_Burst",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Residual Manifest",
-      "description": "Whenever you blind the Killer, they gain {Keyword.Blindness} for {Tunable.S31P02.BlindnessDuration}s.<br><br>You can rummage Chests {Tunable.S31P02.MaxRummagePerChest} time. The first time you rummage a Chest, it will contain an uncommon Flashlight.",
+      "name": "Sprint Burst",
+      "description": "Whenever you start running:<ul><li>You gain {Tunable.S02P02.Haste%}% {Keyword.Haste} for {Tunable.S02P02.HasteDuration}s.</li><li>You gain {Keyword.Exhausted} for {Tunable.S02P02.ExhaustionDuration}s.</li></ul>",
       "role": "survivor",
-      "character": 30,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
-    },
-    {
-      "id": "StakeOut",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Stake Out",
-      "description": "After hiding for {Tunable.S12P03.TokenChargeTime}s within the Killer's Terror Radius, you earn {Tunable.S12P03.TokensGained} Token, up to {Tunable.S12P03.MaxTokens}.<br><br>Whenever you hit a good basic Skill Check, spend {Tunable.S12P03.TokensSpent} Token:<ul><li>The good Skill Check becomes a great Skill Check.</li><li>You gain {Tunable.S12P03.BonusProgress%}% more progress.</li></ul>",
-      "role": "survivor",
-      "character": 12,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_stakeOut"
+      "character": 1,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_sprintBurst"
     }
   ],
   "images": [
     {
-      "name": "Brutal Strength",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
+      "name": "Discordance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_discordance"
     },
     {
-      "name": "Lightborn",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_lightborn"
+      "name": "Clairvoyance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Hubble/iconPerks_Clairvoyance"
     },
     {
-      "name": "Residual Manifest",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_ResidualManifest"
+      "name": "Spirit Fury",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_spiritFury"
     },
     {
-      "name": "Stake Out",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Finland/iconPerks_stakeOut"
+      "name": "Sprint Burst",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_sprintBurst"
     }
   ]
 }
