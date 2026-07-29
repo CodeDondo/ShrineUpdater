@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-07-28T08:45:07.761Z",
+  "fetchedAt": "2026-07-29T08:49:47.481Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 602,
+    "id": 603,
     "perks": [
       {
-        "id": "Breakout",
+        "id": "Iron_Will",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K33P02",
+        "id": "K40P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Predator",
+        "id": "S41P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S31P01",
+        "id": "Unnerving_Presence",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1784646000,
-    "end": 1785250799
+    "start": 1785250800,
+    "end": 1785855599
   },
   "perksWithImages": [
     {
-      "id": "Breakout",
+      "id": "Iron_Will",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Breakout",
-      "description": "Within {Tunable.S20P03.RequiredDistance}m of a carried Survivor:<ul><li>You gain {Tunable.S20P03.Haste%}% {Keyword.Haste}.</li><li>The carried Survivor wiggles {Tunable.S20P03.ExtraWiggle%}% faster.</li></ul>",
+      "name": "Iron Will",
+      "description": "While injured and not {Keyword.Exhausted}, your Grunts of Pain are {Tunable.S04P01.InjuredNoiseReduction%}% quieter.",
       "role": "survivor",
-      "character": 19,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_breakout"
+      "character": 3,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
     },
     {
-      "id": "K33P02",
+      "id": "K40P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Rapid Brutality",
-      "description": "Whenever you damage a Survivor with a basic-attack, you gain {Tunable.K33P02.Haste%}% {Keyword.Haste} for {Tunable.K33P02.HasteDuration}s.<br><br>While chasing a Survivor, you cannot gain Bloodlust.",
+      "name": "Help Wanted",
+      "description": "Whenever you damage a Generator, it is compromised.<br><br>When that Generator is completed by Survivors, your basic-attack cooldowns are {Tunable.K40P01.AttackCooldownReduction%}% shorter for {Tunable.K40P01.Duration}s.<br><br>Only 1 Generator can be compromised at a time.",
       "role": "killer",
-      "character": 268435488,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_RapidBrutality"
+      "character": 268435495,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
     },
     {
-      "id": "Predator",
+      "id": "S41P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Predator",
-      "description": "When you stop chasing a Survivor, you see their Aura for {Tunable.K02P01.AuraRevealDuration}s. Cooldown: {Tunable.K02P01.Cooldown}s.",
-      "role": "killer",
-      "character": 268435457,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_predator"
-    },
-    {
-      "id": "S31P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Inner Focus",
-      "description": "Whenever the Killer damages another Survivor, you see the Killer's Aura for {Tunable.S31P01.AuraRevealDuration}s.<br><br>You see other Survivors' Scratch Marks.",
+      "name": "Strength in Shadows",
+      "description": "While in the Basement:<ul><li>You can heal yourself, but {Tunable.S41P02.SelfHealSpeed%}% slower.</li><li>Whenever you finish healing, you see the Killer's Aura for {Tunable.S41P02.AuraRevealDuration}s.</li></ul>",
       "role": "survivor",
-      "character": 30,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_InnerFocus"
+      "character": 40,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_StrengthInShadows"
+    },
+    {
+      "id": "Unnerving_Presence",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Unnerving Presence",
+      "description": "Survivors within your Terror Radius get {Tunable.K01P01.SkillcheckOddsIncrease%}% more basic Skill Checks.<br><br>The good zone of basic Skill Checks is {Tunable.K01P01.SuccessZoneSizePenalty%}% smaller.",
+      "role": "killer",
+      "character": 268435456,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_unnervingPresence"
     }
   ],
   "images": [
     {
-      "name": "Breakout",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_breakout"
+      "name": "Iron Will",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
     },
     {
-      "name": "Rapid Brutality",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_RapidBrutality"
+      "name": "Help Wanted",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
     },
     {
-      "name": "Predator",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_predator"
+      "name": "Strength in Shadows",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_StrengthInShadows"
     },
     {
-      "name": "Inner Focus",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_InnerFocus"
+      "name": "Unnerving Presence",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_unnervingPresence"
     }
   ]
 }
