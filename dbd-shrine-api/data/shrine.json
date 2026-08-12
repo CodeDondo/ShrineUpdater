@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-08-04T08:48:08.061Z",
+  "fetchedAt": "2026-08-12T07:41:11.391Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 603,
+    "id": 605,
     "perks": [
       {
-        "id": "Iron_Will",
+        "id": "FlipFlop",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K40P01",
+        "id": "K30P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S41P02",
+        "id": "MonitorAndAbuse",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Unnerving_Presence",
+        "id": "S47P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1785250800,
-    "end": 1785855599
+    "start": 1786460400,
+    "end": 1787065199
   },
   "perksWithImages": [
     {
-      "id": "Iron_Will",
+      "id": "FlipFlop",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Iron Will",
-      "description": "While injured and not {Keyword.Exhausted}, your Grunts of Pain are {Tunable.S04P01.InjuredNoiseReduction%}% quieter.",
+      "name": "Flip-Flop",
+      "description": "While downed, whenever the Killer picks you up, {Tunable.S17P01.RecoveryRatio%}% of your recovery progress is added to your wiggle progress, up to {Tunable.S17P01.MaxWiggle%}%.",
       "role": "survivor",
-      "character": 3,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
+      "character": 16,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
     },
     {
-      "id": "K40P01",
+      "id": "K30P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Help Wanted",
-      "description": "Whenever you damage a Generator, it is compromised.<br><br>When that Generator is completed by Survivors, your basic-attack cooldowns are {Tunable.K40P01.AttackCooldownReduction%}% shorter for {Tunable.K40P01.Duration}s.<br><br>Only 1 Generator can be compromised at a time.",
+      "name": "Hex: Face the Darkness",
+      "description": "Whenever you damage a Survivor, they are hexed and a Dull Totem ignites.<br><br>Every {Tunable.K30P02.ScreamInterval}s, other Survivors not within your Terror Radius scream, then you see their Auras for {Tunable.K30P02.AuraRevealDuration}s.<br><br>When the hexed Survivor is downed or becomes healthy, the Hex Totem is extinguished.",
       "role": "killer",
-      "character": 268435495,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
+      "character": 268435485,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_HexFaceTheDarkness"
     },
     {
-      "id": "S41P02",
+      "id": "MonitorAndAbuse",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Strength in Shadows",
-      "description": "While in the Basement:<ul><li>You can heal yourself, but {Tunable.S41P02.SelfHealSpeed%}% slower.</li><li>Whenever you finish healing, you see the Killer's Aura for {Tunable.S41P02.AuraRevealDuration}s.</li></ul>",
+      "name": "Monitor & Abuse",
+      "description": "While chasing a Survivor, your Terror Radius is {Tunable.K07P02.TerrorRadiusIncrease%}% bigger.<br><br>While not chasing a Survivor, your Terror Radius is {Tunable.K07P02.TerrorRadiusDecrease%}% smaller.",
+      "role": "killer",
+      "character": 268435462,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_monitorAndAbuse"
+    },
+    {
+      "id": "S47P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Come and Get Me!",
+      "description": "Whenever you unhook a Survivor, while crouched and idle, use {Input.ActivatableButton1} to have injured and downed Survivors within {Tunable.S47P02.EffectDistance}m:<ul><li>Make no Grunts of Pain for {Tunable.S47P02.EffectDuration}s.</li><li>Leave no Pools of Blood for {Tunable.S47P02.EffectDuration}s.</li><li>Leave no Scratch Marks for {Tunable.S47P02.EffectDuration}s.</li></ul><br><br>You scream, then the Killer sees your Aura for {Tunable.S47P02.AuraRevealDuration}s.",
       "role": "survivor",
-      "character": 40,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_StrengthInShadows"
-    },
-    {
-      "id": "Unnerving_Presence",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Unnerving Presence",
-      "description": "Survivors within your Terror Radius get {Tunable.K01P01.SkillcheckOddsIncrease%}% more basic Skill Checks.<br><br>The good zone of basic Skill Checks is {Tunable.K01P01.SuccessZoneSizePenalty%}% smaller.",
-      "role": "killer",
-      "character": 268435456,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_unnervingPresence"
+      "character": 46,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_ComeAndGetMe"
     }
   ],
   "images": [
     {
-      "name": "Iron Will",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_ironWill"
+      "name": "Flip-Flop",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
     },
     {
-      "name": "Help Wanted",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ketchup/T_UI_iconPerks_HelpWanted"
+      "name": "Hex: Face the Darkness",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_HexFaceTheDarkness"
     },
     {
-      "name": "Strength in Shadows",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_StrengthInShadows"
+      "name": "Monitor & Abuse",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_monitorAndAbuse"
     },
     {
-      "name": "Unnerving Presence",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_unnervingPresence"
+      "name": "Come and Get Me!",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_ComeAndGetMe"
     }
   ]
 }
