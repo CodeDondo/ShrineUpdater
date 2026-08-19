@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-08-18T06:53:44.435Z",
+  "fetchedAt": "2026-08-19T06:54:06.364Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 605,
+    "id": 606,
     "perks": [
       {
-        "id": "FlipFlop",
+        "id": "K32P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K30P02",
+        "id": "K35P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "MonitorAndAbuse",
+        "id": "S27P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S47P02",
+        "id": "S41P03",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1786460400,
-    "end": 1787065199
+    "start": 1787065200,
+    "end": 1787669999
   },
   "perksWithImages": [
     {
-      "id": "FlipFlop",
+      "id": "K32P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Flip-Flop",
-      "description": "While downed, whenever the Killer picks you up, {Tunable.S17P01.RecoveryRatio%}% of your recovery progress is added to your wiggle progress, up to {Tunable.S17P01.MaxWiggle%}%.",
-      "role": "survivor",
-      "character": 16,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
-    },
-    {
-      "id": "K30P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Hex: Face the Darkness",
-      "description": "Whenever you damage a Survivor, they are hexed and a Dull Totem ignites.<br><br>Every {Tunable.K30P02.ScreamInterval}s, other Survivors not within your Terror Radius scream, then you see their Auras for {Tunable.K30P02.AuraRevealDuration}s.<br><br>When the hexed Survivor is downed or becomes healthy, the Hex Totem is extinguished.",
+      "name": "Genetic Limits",
+      "description": "Whenever a Survivor takes damage, they gain {Keyword.Exhausted} for {Tunable.K32P01.ExhaustionDuration}s.",
       "role": "killer",
-      "character": 268435485,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_HexFaceTheDarkness"
+      "character": 268435487,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_GeneticLimits"
     },
     {
-      "id": "MonitorAndAbuse",
+      "id": "K35P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Monitor & Abuse",
-      "description": "While chasing a Survivor, your Terror Radius is {Tunable.K07P02.TerrorRadiusIncrease%}% bigger.<br><br>While not chasing a Survivor, your Terror Radius is {Tunable.K07P02.TerrorRadiusDecrease%}% smaller.",
+      "name": "Unbound",
+      "description": "Whenever a healthy Survivor becomes injured, for the next {Tunable.K35P01.EffectDuration}s, whenever you basic-vault a window, gain {Tunable.K35P01.Haste%}% {Keyword.Haste} for {Tunable.K35P01.HasteDuration}s.",
       "role": "killer",
-      "character": 268435462,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_monitorAndAbuse"
+      "character": 268435490,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unbound"
     },
     {
-      "id": "S47P02",
+      "id": "S27P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Come and Get Me!",
-      "description": "Whenever you unhook a Survivor, while crouched and idle, use {Input.ActivatableButton1} to have injured and downed Survivors within {Tunable.S47P02.EffectDistance}m:<ul><li>Make no Grunts of Pain for {Tunable.S47P02.EffectDuration}s.</li><li>Leave no Pools of Blood for {Tunable.S47P02.EffectDuration}s.</li><li>Leave no Scratch Marks for {Tunable.S47P02.EffectDuration}s.</li></ul><br><br>You scream, then the Killer sees your Aura for {Tunable.S47P02.AuraRevealDuration}s.",
+      "name": "Rookie Spirit",
+      "description": "After you hit {Tunable.S27P03.SkillchecksRequiredAmount} basic repair Skill Checks, while a Generator is regressing, you see its Aura.",
       "role": "survivor",
-      "character": 46,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_ComeAndGetMe"
+      "character": 26,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_RookieSpirit"
+    },
+    {
+      "id": "S41P03",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Wicked",
+      "description": "While in the Basement, you can unhook yourself.<br><br>Whenever you are unhooked, you see the Killer's Aura for {Tunable.S41P03.AuraRevealDuration}s.",
+      "role": "survivor",
+      "character": 40,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
     }
   ],
   "images": [
     {
-      "name": "Flip-Flop",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
+      "name": "Genetic Limits",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_GeneticLimits"
     },
     {
-      "name": "Hex: Face the Darkness",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_HexFaceTheDarkness"
+      "name": "Unbound",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unbound"
     },
     {
-      "name": "Monitor & Abuse",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_monitorAndAbuse"
+      "name": "Rookie Spirit",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_RookieSpirit"
     },
     {
-      "name": "Come and Get Me!",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_ComeAndGetMe"
+      "name": "Wicked",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
     }
   ]
 }
