@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-08-25T06:57:32.609Z",
+  "fetchedAt": "2026-08-26T06:58:32.327Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 606,
+    "id": 607,
     "perks": [
       {
-        "id": "K32P01",
+        "id": "BloodHound",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K35P01",
+        "id": "K22P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S27P03",
+        "id": "S48P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S41P03",
+        "id": "S49P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1787065200,
-    "end": 1787669999
+    "start": 1787670000,
+    "end": 1788274799
   },
   "perksWithImages": [
     {
-      "id": "K32P01",
+      "id": "BloodHound",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Genetic Limits",
-      "description": "Whenever a Survivor takes damage, they gain {Keyword.Exhausted} for {Tunable.K32P01.ExhaustionDuration}s.",
+      "name": "Bloodhound",
+      "description": "Pools of Blood are brighter and last {Tunable.K02P02.ExtraTrackDuration}s longer.",
       "role": "killer",
-      "character": 268435487,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_GeneticLimits"
+      "character": 268435457,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
     },
     {
-      "id": "K35P01",
+      "id": "K22P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Unbound",
-      "description": "Whenever a healthy Survivor becomes injured, for the next {Tunable.K35P01.EffectDuration}s, whenever you basic-vault a window, gain {Tunable.K35P01.Haste%}% {Keyword.Haste} for {Tunable.K35P01.HasteDuration}s.",
+      "name": "Coup de Grâce",
+      "description": "Whenever a Generator is completed, you earn {Tunable.K22P03.TokensGainedPerGenerator} Tokens, up to {Tunable.K22P03.MaxTokens}.<br><br>Whenever you lunge-attack, spend {Tunable.K22P03.TokensSpentPerLunge} Token to make it {Tunable.K22P03.LungeExtraDuration%}% longer.",
       "role": "killer",
-      "character": 268435490,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unbound"
+      "character": 268435477,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_coupDeGrace"
     },
     {
-      "id": "S27P03",
+      "id": "S48P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Rookie Spirit",
-      "description": "After you hit {Tunable.S27P03.SkillchecksRequiredAmount} basic repair Skill Checks, while a Generator is regressing, you see its Aura.",
+      "name": "Last Stand",
+      "description": "After hiding for {Tunable.S48P02.ActivationTime}s within the Killer's Terror Radius, when you fast-vault, once per trial, stun the Killer for {Tunable.S48P02.StunDuration}s if they are within {Tunable.S48P02.StunRange}m.",
       "role": "survivor",
-      "character": 26,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_RookieSpirit"
+      "character": 47,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_LastStand"
     },
     {
-      "id": "S41P03",
+      "id": "S49P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Wicked",
-      "description": "While in the Basement, you can unhook yourself.<br><br>Whenever you are unhooked, you see the Killer's Aura for {Tunable.S41P03.AuraRevealDuration}s.",
+      "name": "ONE-TWO-THREE-FOUR!",
+      "description": "While idle, use {Input.ActivatableButton2} to perform, empowering all Survivors within {Tunable.S49P02.PerformanceDistance}m for up to {Tunable.S49P02.PerformanceDuration}s. While you are performing, other Survivors will see your Aura. You get special Skill Checks during that time: while healing or repairing, basic Skill Checks are {Tunable.S49P02.SkillCheckIncrease%}% more likely to appear.<br><br>If you complete the performance, the effect ends after {Tunable.S49P02.EffectDuration}s. Cooldown: {Tunable.S49P02.Cooldown}s.",
       "role": "survivor",
-      "character": 40,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
+      "character": 48,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_OneTwoThreeFour"
     }
   ],
   "images": [
     {
-      "name": "Genetic Limits",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Umbra/IconPerks_GeneticLimits"
+      "name": "Bloodhound",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
     },
     {
-      "name": "Unbound",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unbound"
+      "name": "Coup de Grâce",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_coupDeGrace"
     },
     {
-      "name": "Rookie Spirit",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_RookieSpirit"
+      "name": "Last Stand",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_LastStand"
     },
     {
-      "name": "Wicked",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
+      "name": "ONE-TWO-THREE-FOUR!",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_OneTwoThreeFour"
     }
   ]
 }
