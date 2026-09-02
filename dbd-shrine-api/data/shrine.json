@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-09-01T11:28:33.281Z",
+  "fetchedAt": "2026-09-02T11:03:12.974Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 607,
+    "id": 608,
     "perks": [
       {
-        "id": "BloodHound",
+        "id": "Adrenaline",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K22P03",
+        "id": "K34P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S48P02",
+        "id": "NurseCalling",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S49P02",
+        "id": "S49P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1787670000,
-    "end": 1788274799
+    "start": 1788274800,
+    "end": 1788879599
   },
   "perksWithImages": [
     {
-      "id": "BloodHound",
+      "id": "Adrenaline",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Bloodhound",
-      "description": "Pools of Blood are brighter and last {Tunable.K02P02.ExtraTrackDuration}s longer.",
-      "role": "killer",
-      "character": 268435457,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
-    },
-    {
-      "id": "K22P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Coup de Grâce",
-      "description": "Whenever a Generator is completed, you earn {Tunable.K22P03.TokensGainedPerGenerator} Tokens, up to {Tunable.K22P03.MaxTokens}.<br><br>Whenever you lunge-attack, spend {Tunable.K22P03.TokensSpentPerLunge} Token to make it {Tunable.K22P03.LungeExtraDuration%}% longer.",
-      "role": "killer",
-      "character": 268435477,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_coupDeGrace"
-    },
-    {
-      "id": "S48P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Last Stand",
-      "description": "After hiding for {Tunable.S48P02.ActivationTime}s within the Killer's Terror Radius, when you fast-vault, once per trial, stun the Killer for {Tunable.S48P02.StunDuration}s if they are within {Tunable.S48P02.StunRange}m.",
+      "name": "Adrenaline",
+      "description": "When all Generators are completed, if you are downed or injured, heal instantly. Then, ignoring {Keyword.Exhausted}:<ul><li>You gain {Tunable.S02P03.Haste%}% {Keyword.Haste} for {Tunable.S02P03.HasteDuration}s.</li><li>You gain {Keyword.Exhausted} for {Tunable.S02P03.ExhaustionDuration}s.</li></ul>",
       "role": "survivor",
-      "character": 47,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_LastStand"
+      "character": 1,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_adrenaline"
     },
     {
-      "id": "S49P02",
+      "id": "K34P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "ONE-TWO-THREE-FOUR!",
-      "description": "While idle, use {Input.ActivatableButton2} to perform, empowering all Survivors within {Tunable.S49P02.PerformanceDistance}m for up to {Tunable.S49P02.PerformanceDuration}s. While you are performing, other Survivors will see your Aura. You get special Skill Checks during that time: while healing or repairing, basic Skill Checks are {Tunable.S49P02.SkillCheckIncrease%}% more likely to appear.<br><br>If you complete the performance, the effect ends after {Tunable.S49P02.EffectDuration}s. Cooldown: {Tunable.S49P02.Cooldown}s.",
+      "name": "Batteries Included",
+      "description": "Within {Tunable.K34P03.RequiredDistance}m of a completed Generator, you gain {Tunable.K34P03.Haste%}% {Keyword.Haste}. When you leave the range, this ends after {Tunable.K34P03.HasteLingerDuration}s.",
+      "role": "killer",
+      "character": 268435489,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_batteriesIncluded"
+    },
+    {
+      "id": "NurseCalling",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "A Nurse's Calling",
+      "description": "Within {Tunable.K04P03.AuraRevealDistance}m of Survivors who are healing or being healed, you see their Auras.",
+      "role": "killer",
+      "character": 268435459,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
+    },
+    {
+      "id": "S49P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Road Life",
+      "description": "While injured, not {Keyword.Broken} and repairing a Generator:<ul><li>Whenever you hit a basic great Skill Check, you earn {Tunable.S49P01.TokenPerSkillCheck} Token.</li><li>Whenever you miss a basic Skill Check, you lose {Tunable.S49P01.TokensLostOnSkillCheckFail} token.</li></ul><br><br>When you have {Tunable.S49P01.MaxTokens} Tokens, spend all Tokens to heal {Tunable.S49P01.HealingSpeedIncrease%}% faster until you stop healing.",
       "role": "survivor",
       "character": 48,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_OneTwoThreeFour"
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
     }
   ],
   "images": [
     {
-      "name": "Bloodhound",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_bloodhound"
+      "name": "Adrenaline",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_adrenaline"
     },
     {
-      "name": "Coup de Grâce",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_coupDeGrace"
+      "name": "Batteries Included",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_batteriesIncluded"
     },
     {
-      "name": "Last Stand",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_LastStand"
+      "name": "A Nurse's Calling",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
     },
     {
-      "name": "ONE-TWO-THREE-FOUR!",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_OneTwoThreeFour"
+      "name": "Road Life",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
     }
   ]
 }
