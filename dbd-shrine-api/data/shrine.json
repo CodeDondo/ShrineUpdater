@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-09-08T11:01:28.961Z",
+  "fetchedAt": "2026-09-09T11:06:38.982Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 608,
+    "id": 609,
     "perks": [
       {
-        "id": "Adrenaline",
+        "id": "Hex_HuntressLullaby",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K34P03",
+        "id": "K23P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "NurseCalling",
+        "id": "S30P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S49P01",
+        "id": "S34P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1788274800,
-    "end": 1788879599
+    "start": 1788879600,
+    "end": 1789484399
   },
   "perksWithImages": [
     {
-      "id": "Adrenaline",
+      "id": "Hex_HuntressLullaby",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Adrenaline",
-      "description": "When all Generators are completed, if you are downed or injured, heal instantly. Then, ignoring {Keyword.Exhausted}:<ul><li>You gain {Tunable.S02P03.Haste%}% {Keyword.Haste} for {Tunable.S02P03.HasteDuration}s.</li><li>You gain {Keyword.Exhausted} for {Tunable.S02P03.ExhaustionDuration}s.</li></ul>",
-      "role": "survivor",
-      "character": 1,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_adrenaline"
-    },
-    {
-      "id": "K34P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Batteries Included",
-      "description": "Within {Tunable.K34P03.RequiredDistance}m of a completed Generator, you gain {Tunable.K34P03.Haste%}% {Keyword.Haste}. When you leave the range, this ends after {Tunable.K34P03.HasteLingerDuration}s.",
+      "name": "Hex: Huntress Lullaby",
+      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever you hook a Survivor, earn {Tunable.K08P03.TokensPerHook} Token. For each Token, Basic Skill Check warnings appear later and good success zones are smaller.<br><br>While you have <b>5</b> Tokens, Basic Skill Check warnings don't appear.<br><br>Whenever a Survivor misses a basic Skill Check, they lose {Tunable.K08P03.RegressionBonus%}% more progress.",
       "role": "killer",
-      "character": 268435489,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_batteriesIncluded"
+      "character": 268435463,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_HuntressLullaby"
     },
     {
-      "id": "NurseCalling",
+      "id": "K23P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "A Nurse's Calling",
-      "description": "Within {Tunable.K04P03.AuraRevealDistance}m of Survivors who are healing or being healed, you see their Auras.",
+      "name": "Starstruck",
+      "description": "While carrying a Survivor, Survivors within your Terror Radius gain {Keyword.Exposed}. This ends {Tunable.K23P01.ExposedLingerDuration}s after:<ul><li>They leave your Terror Radius.</li><li>You drop or Hook the carried Survivor.</li></ul><br><br>Cooldown: {Tunable.K23P01.Cooldown}s.",
       "role": "killer",
-      "character": 268435459,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
+      "character": 268435478,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
     },
     {
-      "id": "S49P01",
+      "id": "S30P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Road Life",
-      "description": "While injured, not {Keyword.Broken} and repairing a Generator:<ul><li>Whenever you hit a basic great Skill Check, you earn {Tunable.S49P01.TokenPerSkillCheck} Token.</li><li>Whenever you miss a basic Skill Check, you lose {Tunable.S49P01.TokensLostOnSkillCheckFail} token.</li></ul><br><br>When you have {Tunable.S49P01.MaxTokens} Tokens, spend all Tokens to heal {Tunable.S49P01.HealingSpeedIncrease%}% faster until you stop healing.",
+      "name": "Parental Guidance",
+      "description": "Whenever you stun the Killer, for {Tunable.S30P01.StealthDuration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
       "role": "survivor",
-      "character": 48,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+      "character": 29,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
+    },
+    {
+      "id": "S34P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Potential Energy",
+      "description": "While repairing, use {Input.ActivatableButton2} to earn Tokens instead of progress, up to {Tunable.S34P01.MaxTokens} Tokens.<br><br>While you have at least {Tunable.S34P01.TokensToActivate} Token, {Input.ActivatableButton2} to spend all Tokens and gain {Tunable.S34P01.ProgressPerToken%}% progress for each Token spent.<br><br>Whenever you take damage, lose all Tokens.",
+      "role": "survivor",
+      "character": 33,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
     }
   ],
   "images": [
     {
-      "name": "Adrenaline",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_adrenaline"
+      "name": "Hex: Huntress Lullaby",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_HuntressLullaby"
     },
     {
-      "name": "Batteries Included",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_batteriesIncluded"
+      "name": "Starstruck",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
     },
     {
-      "name": "A Nurse's Calling",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
+      "name": "Parental Guidance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
     },
     {
-      "name": "Road Life",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+      "name": "Potential Energy",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
     }
   ]
 }
