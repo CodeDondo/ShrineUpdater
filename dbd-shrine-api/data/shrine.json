@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-09-15T11:31:04.325Z",
+  "fetchedAt": "2026-09-16T11:17:19.224Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 609,
+    "id": 610,
     "perks": [
       {
-        "id": "Hex_HuntressLullaby",
+        "id": "Aftercare",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K23P01",
+        "id": "K34P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S30P01",
+        "id": "K41P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S34P01",
+        "id": "S33P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1788879600,
-    "end": 1789484399
+    "start": 1789484400,
+    "end": 1790089199
   },
   "perksWithImages": [
     {
-      "id": "Hex_HuntressLullaby",
+      "id": "Aftercare",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hex: Huntress Lullaby",
-      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever you hook a Survivor, earn {Tunable.K08P03.TokensPerHook} Token. For each Token, Basic Skill Check warnings appear later and good success zones are smaller.<br><br>While you have <b>5</b> Tokens, Basic Skill Check warnings don't appear.<br><br>Whenever a Survivor misses a basic Skill Check, they lose {Tunable.K08P03.RegressionBonus%}% more progress.",
-      "role": "killer",
-      "character": 268435463,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_HuntressLullaby"
-    },
-    {
-      "id": "K23P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Starstruck",
-      "description": "While carrying a Survivor, Survivors within your Terror Radius gain {Keyword.Exposed}. This ends {Tunable.K23P01.ExposedLingerDuration}s after:<ul><li>They leave your Terror Radius.</li><li>You drop or Hook the carried Survivor.</li></ul><br><br>Cooldown: {Tunable.K23P01.Cooldown}s.",
-      "role": "killer",
-      "character": 268435478,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
-    },
-    {
-      "id": "S30P01",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Parental Guidance",
-      "description": "Whenever you stun the Killer, for {Tunable.S30P01.StealthDuration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
+      "name": "Aftercare",
+      "description": "You and up to {Tunable.S15P02.MaxSurvivors} Survivors see each other's Auras whenever:<ul><li>You unhook them, or they unhook you.</li><li>You finish healing them, or they finish healing you.</li></ul><br><br>This effect lasts until you are hooked.",
       "role": "survivor",
-      "character": 29,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
+      "character": 14,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_aftercare"
     },
     {
-      "id": "S34P01",
+      "id": "K34P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Potential Energy",
-      "description": "While repairing, use {Input.ActivatableButton2} to earn Tokens instead of progress, up to {Tunable.S34P01.MaxTokens} Tokens.<br><br>While you have at least {Tunable.S34P01.TokensToActivate} Token, {Input.ActivatableButton2} to spend all Tokens and gain {Tunable.S34P01.ProgressPerToken%}% progress for each Token spent.<br><br>Whenever you take damage, lose all Tokens.",
+      "name": "Friends ‘Til the End",
+      "description": "Whenever you Hook a Survivor that is not the Obsession:<ul><li>The Obsession gains {Keyword.Exposed} for {Tunable.K34P02.ExposedDuration}s.</li><li>You see the Obsession's Aura for {Tunable.K34P02.AuraRevealDuration}s.</li></ul><br><br>Whenever you Hook the Obsession, another Survivor:<ul><li>Screams, then you are alerted.</li><li>Becomes the Obsession.</li></ul>",
+      "role": "killer",
+      "character": 268435489,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
+    },
+    {
+      "id": "K41P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Wandering Eye",
+      "description": "Whenever you start chasing a Survivor, for the next {Tunable.K41P02.RevealDuration}s, you see the Auras of all other injured Survivors within {Tunable.K41P02.RevealDistance}m. Cooldown: {Tunable.K41P02.Cooldown}s.",
+      "role": "killer",
+      "character": 268435496,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_WanderingEye"
+    },
+    {
+      "id": "S33P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Better Than New",
+      "description": "Whenever you finish healing another Survivor, until they take damage:<ul><li>They bless and cleanse Totems {Tunable.S33P01.ActionSpeedBonus%}% faster.</li><li>They heal {Tunable.S33P01.ActionSpeedBonus%}% faster.</li><li>They unlock Chests {Tunable.S33P01.ActionSpeedBonus%}% faster.</li></ul>",
       "role": "survivor",
-      "character": 33,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
+      "character": 32,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_BetterThanNew"
     }
   ],
   "images": [
     {
-      "name": "Hex: Huntress Lullaby",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC5/iconPerks_HuntressLullaby"
+      "name": "Aftercare",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_aftercare"
     },
     {
-      "name": "Starstruck",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_Starstruck"
+      "name": "Friends ‘Til the End",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
     },
     {
-      "name": "Parental Guidance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kepler/iconPerks_parentalGuidance"
+      "name": "Wandering Eye",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_WanderingEye"
     },
     {
-      "name": "Potential Energy",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_PotentialEnergy"
+      "name": "Better Than New",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_BetterThanNew"
     }
   ]
 }
