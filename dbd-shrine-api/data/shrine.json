@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-09-22T11:21:42.471Z",
+  "fetchedAt": "2026-09-23T11:16:40.752Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 610,
+    "id": 611,
     "perks": [
       {
-        "id": "Aftercare",
+        "id": "Fixated",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K34P02",
+        "id": "K31P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K41P02",
+        "id": "K41P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S33P01",
+        "id": "S41P01",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1789484400,
-    "end": 1790089199
+    "start": 1790089200,
+    "end": 1790693999
   },
   "perksWithImages": [
     {
-      "id": "Aftercare",
+      "id": "Fixated",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Aftercare",
-      "description": "You and up to {Tunable.S15P02.MaxSurvivors} Survivors see each other's Auras whenever:<ul><li>You unhook them, or they unhook you.</li><li>You finish healing them, or they finish healing you.</li></ul><br><br>This effect lasts until you are hooked.",
+      "name": "Fixated",
+      "description": "While walking, you gain {Tunable.S19P02.Haste%}% {Keyword.Haste}.<br><br>You see your own Scratch Marks.",
       "role": "survivor",
-      "character": 14,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_aftercare"
+      "character": 17,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
     },
     {
-      "id": "K34P02",
+      "id": "K31P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Friends ‘Til the End",
-      "description": "Whenever you Hook a Survivor that is not the Obsession:<ul><li>The Obsession gains {Keyword.Exposed} for {Tunable.K34P02.ExposedDuration}s.</li><li>You see the Obsession's Aura for {Tunable.K34P02.AuraRevealDuration}s.</li></ul><br><br>Whenever you Hook the Obsession, another Survivor:<ul><li>Screams, then you are alerted.</li><li>Becomes the Obsession.</li></ul>",
+      "name": "Game Afoot",
+      "description": "While chasing the Obsession, whenever you basic-break Pallets or Breakable Walls, or damage Generators, you gain {Tunable.K31P01.Haste%}% {Keyword.Haste} for {Tunable.K31P01.HasteDuration}s.<br><br>Whenever you damage the Survivor with the most chase time with a basic-attack, they become the Obsession.",
       "role": "killer",
-      "character": 268435489,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
+      "character": 268435486,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_GameAfoot"
     },
     {
-      "id": "K41P02",
+      "id": "K41P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Wandering Eye",
-      "description": "Whenever you start chasing a Survivor, for the next {Tunable.K41P02.RevealDuration}s, you see the Auras of all other injured Survivors within {Tunable.K41P02.RevealDistance}m. Cooldown: {Tunable.K41P02.Cooldown}s.",
+      "name": "Ravenous",
+      "description": "The first time you hook each Survivor, you earn {Tunable.K41P01.TokensPerUniqueHook} Token.<br><br>When you have {Tunable.K41P01.MaxTokens} Tokens, all Survivors:<ul><li>Scream.</li><li>Gain {Keyword.Exposed} for {Tunable.K41P01.ExposedDuration}s.</li></ul>",
       "role": "killer",
       "character": 268435496,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_WanderingEye"
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
     },
     {
-      "id": "S33P01",
+      "id": "S41P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Better Than New",
-      "description": "Whenever you finish healing another Survivor, until they take damage:<ul><li>They bless and cleanse Totems {Tunable.S33P01.ActionSpeedBonus%}% faster.</li><li>They heal {Tunable.S33P01.ActionSpeedBonus%}% faster.</li><li>They unlock Chests {Tunable.S33P01.ActionSpeedBonus%}% faster.</li></ul>",
+      "name": "Invocation: Weaving Spiders",
+      "description": "While in the Basement next to the circle, use {Input.ActivatableButton1} to invoke. While invoking, other Survivors see your Aura and can join your Invocation.<br><br>When the Invocation is completed:<ul><li>All Generators gain {Tunable.S41P01.GeneratorChargeReduction} permanent charges.</li><li>You become injured.</li><li>You gain {Keyword.Broken}.</li></ul><br><br>Each Invocation can only be completed once per trial.",
       "role": "survivor",
-      "character": 32,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_BetterThanNew"
+      "character": 40,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_InvocationWeavingSpiders"
     }
   ],
   "images": [
     {
-      "name": "Aftercare",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_aftercare"
+      "name": "Fixated",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
     },
     {
-      "name": "Friends ‘Til the End",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_friendsTillTheEnd"
+      "name": "Game Afoot",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_GameAfoot"
     },
     {
-      "name": "Wandering Eye",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_WanderingEye"
+      "name": "Ravenous",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
     },
     {
-      "name": "Better Than New",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_BetterThanNew"
+      "name": "Invocation: Weaving Spiders",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_InvocationWeavingSpiders"
     }
   ]
 }
