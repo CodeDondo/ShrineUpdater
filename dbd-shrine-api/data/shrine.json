@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-09-29T12:34:23.415Z",
+  "fetchedAt": "2026-09-30T12:20:20.190Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 611,
+    "id": 612,
     "perks": [
       {
-        "id": "Fixated",
+        "id": "Breakout",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K31P01",
+        "id": "CruelConfinement",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K41P01",
+        "id": "K28P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S41P01",
+        "id": "S38P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1790089200,
-    "end": 1790693999
+    "start": 1790694000,
+    "end": 1791298799
   },
   "perksWithImages": [
     {
-      "id": "Fixated",
+      "id": "Breakout",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Fixated",
-      "description": "While walking, you gain {Tunable.S19P02.Haste%}% {Keyword.Haste}.<br><br>You see your own Scratch Marks.",
+      "name": "Breakout",
+      "description": "Within {Tunable.S20P03.RequiredDistance}m of a carried Survivor:<ul><li>You gain {Tunable.S20P03.Haste%}% {Keyword.Haste}.</li><li>The carried Survivor wiggles {Tunable.S20P03.ExtraWiggle%}% faster.</li></ul>",
       "role": "survivor",
-      "character": 17,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
+      "character": 19,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_breakout"
     },
     {
-      "id": "K31P01",
+      "id": "CruelConfinement",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Game Afoot",
-      "description": "While chasing the Obsession, whenever you basic-break Pallets or Breakable Walls, or damage Generators, you gain {Tunable.K31P01.Haste%}% {Keyword.Haste} for {Tunable.K31P01.HasteDuration}s.<br><br>Whenever you damage the Survivor with the most chase time with a basic-attack, they become the Obsession.",
+      "name": "Cruel Limits",
+      "description": "Whenever a Generator is completed:<ul><li>You see the Auras of all Windows for {Tunable.K17P02.BlockDuration}s.</li><li>All Windows are blocked for Survivors for {Tunable.K17P02.BlockDuration}s.</li></ul>",
       "role": "killer",
-      "character": 268435486,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_GameAfoot"
+      "character": 268435472,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
     },
     {
-      "id": "K41P01",
+      "id": "K28P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Ravenous",
-      "description": "The first time you hook each Survivor, you earn {Tunable.K41P01.TokensPerUniqueHook} Token.<br><br>When you have {Tunable.K41P01.MaxTokens} Tokens, all Survivors:<ul><li>Scream.</li><li>Gain {Keyword.Exposed} for {Tunable.K41P01.ExposedDuration}s.</li></ul>",
+      "name": "Dissolution",
+      "description": "{Tunable.K28P01.TimeBeforeTrigger}s after a Survivor takes damage, for {Tunable.K28P01.EffectDuration}s, the next time a Survivor fast-vaults a Pallet while within your Terror Radius, it is destroyed.",
       "role": "killer",
-      "character": 268435496,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
+      "character": 268435483,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
     },
     {
-      "id": "S41P01",
+      "id": "S38P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Invocation: Weaving Spiders",
-      "description": "While in the Basement next to the circle, use {Input.ActivatableButton1} to invoke. While invoking, other Survivors see your Aura and can join your Invocation.<br><br>When the Invocation is completed:<ul><li>All Generators gain {Tunable.S41P01.GeneratorChargeReduction} permanent charges.</li><li>You become injured.</li><li>You gain {Keyword.Broken}.</li></ul><br><br>Each Invocation can only be completed once per trial.",
+      "name": "Scene Partner",
+      "description": "While you are within the Killer's Terror Radius, whenever you look at them:<ul><li>Scream, then see the Killer's Aura for {Tunable.S38P02.AuraRevealDuration}s.</li><li>There is a {Tunable.S38P02.ChanceOfExtraScream%}% chance you will scream again. If you do, you see the Killer's Aura for {Tunable.S38P02.ExtraAuraRevealDuration}s more.</li></ul><br><br>Cooldown: {Tunable.S38P02.Cooldown}s.",
       "role": "survivor",
-      "character": 40,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_InvocationWeavingSpiders"
+      "character": 37,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Venus/iconPerks_ScenePartner"
     }
   ],
   "images": [
     {
-      "name": "Fixated",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_fixated"
+      "name": "Breakout",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_breakout"
     },
     {
-      "name": "Game Afoot",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Saturn/iconPerks_GameAfoot"
+      "name": "Cruel Limits",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
     },
     {
-      "name": "Ravenous",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_Ravenous"
+      "name": "Dissolution",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
     },
     {
-      "name": "Invocation: Weaving Spiders",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_InvocationWeavingSpiders"
+      "name": "Scene Partner",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Venus/iconPerks_ScenePartner"
     }
   ]
 }
