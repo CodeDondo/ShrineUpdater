@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-10-06T13:09:45.298Z",
+  "fetchedAt": "2026-10-07T13:05:20.916Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 612,
+    "id": 613,
     "perks": [
       {
-        "id": "Breakout",
+        "id": "Breakdown",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "CruelConfinement",
+        "id": "FranklinsLoss",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K28P01",
+        "id": "K29P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S38P02",
+        "id": "Urban_Evasion",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1790694000,
-    "end": 1791298799
+    "start": 1791298800,
+    "end": 1791903599
   },
   "perksWithImages": [
     {
-      "id": "Breakout",
+      "id": "Breakdown",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Breakout",
-      "description": "Within {Tunable.S20P03.RequiredDistance}m of a carried Survivor:<ul><li>You gain {Tunable.S20P03.Haste%}% {Keyword.Haste}.</li><li>The carried Survivor wiggles {Tunable.S20P03.ExtraWiggle%}% faster.</li></ul>",
+      "name": "Breakdown",
+      "description": "Whenever you are unhooked:<ul><li>The Hook breaks, then is repaired after {Tunable.S15P01.HookRespawnTime}s.</li><li>You see the Killer's Aura for {Tunable.S15P01.AuraRevealDuration}s.</li></ul>",
       "role": "survivor",
-      "character": 19,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_breakout"
+      "character": 14,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_breakdown"
     },
     {
-      "id": "CruelConfinement",
+      "id": "FranklinsLoss",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Cruel Limits",
-      "description": "Whenever a Generator is completed:<ul><li>You see the Auras of all Windows for {Tunable.K17P02.BlockDuration}s.</li><li>All Windows are blocked for Survivors for {Tunable.K17P02.BlockDuration}s.</li></ul>",
+      "name": "Franklin's Demise",
+      "description": "Whenever you damage a Survivor with a basic-attack, they drop their item.<br><br>Within {Tunable.K09P03.ItemsRevealDistance}m, you see the Auras of dropped items.",
       "role": "killer",
-      "character": 268435472,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
+      "character": 268435464,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_franklinsLoss"
     },
     {
-      "id": "K28P01",
+      "id": "K29P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Dissolution",
-      "description": "{Tunable.K28P01.TimeBeforeTrigger}s after a Survivor takes damage, for {Tunable.K28P01.EffectDuration}s, the next time a Survivor fast-vaults a Pallet while within your Terror Radius, it is destroyed.",
+      "name": "Superior Anatomy",
+      "description": "Whenever a Survivor fast-vaults within {Tunable.K29P01.SurvivorVaultDistance}m of you, the next time you basic-vault a window, it is {Tunable.K29P01.VaultSpeed%}% faster. Cooldown: {Tunable.K29P01.Cooldown}s.",
       "role": "killer",
-      "character": 268435483,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
+      "character": 268435484,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_SuperiorAnatomy"
     },
     {
-      "id": "S38P02",
+      "id": "Urban_Evasion",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Scene Partner",
-      "description": "While you are within the Killer's Terror Radius, whenever you look at them:<ul><li>Scream, then see the Killer's Aura for {Tunable.S38P02.AuraRevealDuration}s.</li><li>There is a {Tunable.S38P02.ChanceOfExtraScream%}% chance you will scream again. If you do, you see the Killer's Aura for {Tunable.S38P02.ExtraAuraRevealDuration}s more.</li></ul><br><br>Cooldown: {Tunable.S38P02.Cooldown}s.",
+      "name": "Urban Evasion",
+      "description": "While crouched, you gain {Tunable.S05P02.Haste%}% {Keyword.Haste}.",
       "role": "survivor",
-      "character": 37,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Venus/iconPerks_ScenePartner"
+      "character": 4,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
     }
   ],
   "images": [
     {
-      "name": "Breakout",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_breakout"
+      "name": "Breakdown",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_breakdown"
     },
     {
-      "name": "Cruel Limits",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Qatar/iconPerks_cruelConfinement"
+      "name": "Franklin's Demise",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_franklinsLoss"
     },
     {
-      "name": "Dissolution",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Meteor/iconPerks_Dissolution"
+      "name": "Superior Anatomy",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_SuperiorAnatomy"
     },
     {
-      "name": "Scene Partner",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Venus/iconPerks_ScenePartner"
+      "name": "Urban Evasion",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
     }
   ]
 }
