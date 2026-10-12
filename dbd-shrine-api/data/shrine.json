@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-11T12:32:23.405Z",
+  "fetchedAt": "2026-10-12T15:05:01.323Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
@@ -58,7 +58,7 @@
       "bloodpoints": 100000,
       "shards": 2000,
       "name": "Superior Anatomy",
-      "description": "Whenever a Survivor fast-vaults within {Tunable.K29P01.SurvivorVaultDistance}m of you, the next time you basic-vault a window, it is {Tunable.K29P01.VaultSpeed%}% faster. Cooldown: {Tunable.K29P01.Cooldown}s.",
+      "description": "Whenever a Survivor medium or fast-vaults within {Tunable.K29P01.SurvivorVaultDistance}m of you, the next time you basic-vault a Window, you basic-vault Windows {Tunable.K29P01.VaultSpeed%}% faster for {Tunable.K29P01.VaultSpeedDuration}s. Cooldown: {Tunable.K29P01.Cooldown}s.",
       "role": "killer",
       "character": 268435484,
       "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_SuperiorAnatomy"
