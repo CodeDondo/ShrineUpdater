@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-10-13T13:58:38.302Z",
+  "fetchedAt": "2026-10-14T11:35:15.941Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 613,
+    "id": 614,
     "perks": [
       {
-        "id": "Breakdown",
+        "id": "Brutal_Strength",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "FranklinsLoss",
+        "id": "Gearhead",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K29P01",
+        "id": "S34P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Urban_Evasion",
+        "id": "WindowsOfOpportunity",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1791298800,
-    "end": 1791903599
+    "start": 1791903600,
+    "end": 1792508399
   },
   "perksWithImages": [
     {
-      "id": "Breakdown",
+      "id": "Brutal_Strength",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Breakdown",
-      "description": "Whenever you are unhooked:<ul><li>The Hook breaks, then is repaired after {Tunable.S15P01.HookRespawnTime}s.</li><li>You see the Killer's Aura for {Tunable.S15P01.AuraRevealDuration}s.</li></ul>",
-      "role": "survivor",
-      "character": 14,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_breakdown"
-    },
-    {
-      "id": "FranklinsLoss",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Franklin's Demise",
-      "description": "Whenever you damage a Survivor with a basic-attack, they drop their item.<br><br>Within {Tunable.K09P03.ItemsRevealDistance}m, you see the Auras of dropped items.",
+      "name": "Brutal Strength",
+      "description": "You basic-break Pallets and Breakable Walls, and damage Generators {Tunable.K01P02.ActionSpeed%}% faster.",
       "role": "killer",
-      "character": 268435464,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_franklinsLoss"
+      "character": 268435456,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
     },
     {
-      "id": "K29P01",
+      "id": "Gearhead",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Superior Anatomy",
-      "description": "Whenever a Survivor medium or fast-vaults within {Tunable.K29P01.SurvivorVaultDistance}m of you, the next time you basic-vault a Window, you basic-vault Windows {Tunable.K29P01.VaultSpeed%}% faster for {Tunable.K29P01.VaultSpeedDuration}s. Cooldown: {Tunable.K29P01.Cooldown}s.",
+      "name": "Gearhead",
+      "description": "Whenever a Survivor takes damage, for the next {Tunable.K19P01.EffectDuration}s, whenever a Survivor repairing a Generator hits a good basic Skill Check, you see their Aura for {Tunable.K19P01.AuraRevealDuration}s.",
       "role": "killer",
-      "character": 268435484,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_SuperiorAnatomy"
+      "character": 268435474,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_gearHead"
     },
     {
-      "id": "Urban_Evasion",
+      "id": "S34P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Urban Evasion",
-      "description": "While crouched, you gain {Tunable.S05P02.Haste%}% {Keyword.Haste}.",
+      "name": "Quick Gambit",
+      "description": "While chased by the Killer:<ul><li>You see the Auras of other Survivors.</li><li>Other Survivors repair {Tunable.S34P03.RepairBoost%}% faster.</li></ul><br><br>Whenever you take damage, cooldown: {Tunable.S34P03.Cooldown}s.",
       "role": "survivor",
-      "character": 4,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
+      "character": 33,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_VittoriosGambit"
+    },
+    {
+      "id": "WindowsOfOpportunity",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Windows of Opportunity",
+      "description": "Within {Tunable.S13P02.VaultablesRevealDistance}m of you see the Auras of Windows.<br><br>You vault Windows {Tunable.S13P02.VaultSpeed}% faster.<br><br>Whenever you vault a Window, cooldown: {Tunable.S13P02.Cooldown}s.",
+      "role": "survivor",
+      "character": 10,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
     }
   ],
   "images": [
     {
-      "name": "Breakdown",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_breakdown"
+      "name": "Brutal Strength",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
     },
     {
-      "name": "Franklin's Demise",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Cannibal/iconPerks_franklinsLoss"
+      "name": "Gearhead",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_gearHead"
     },
     {
-      "name": "Superior Anatomy",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_SuperiorAnatomy"
+      "name": "Quick Gambit",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_VittoriosGambit"
     },
     {
-      "name": "Urban Evasion",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_urbanEvasion"
+      "name": "Windows of Opportunity",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
     }
   ]
 }
