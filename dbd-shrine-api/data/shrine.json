@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-10-20T11:18:08.168Z",
+  "fetchedAt": "2026-10-21T11:33:44.735Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 614,
+    "id": 615,
     "perks": [
       {
-        "id": "Brutal_Strength",
+        "id": "K24P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Gearhead",
+        "id": "K35P02",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S34P03",
+        "id": "S41P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "WindowsOfOpportunity",
+        "id": "S47P03",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1791903600,
-    "end": 1792508399
+    "start": 1792508400,
+    "end": 1793113199
   },
   "perksWithImages": [
     {
-      "id": "Brutal_Strength",
+      "id": "K24P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Brutal Strength",
-      "description": "You basic-break Pallets and Breakable Walls, and damage Generators {Tunable.K01P02.ActionSpeed%}% faster.",
+      "name": "Lethal Pursuer",
+      "description": "When the trial starts, you see the Auras of all Survivors for {Tunable.K24P01.AuraRevealDuration}s.<br><br>Whenever you see a Survivor's Aura for a duration, it is {Tunable.K24P01.BonusAuraRevealDuration}s longer.",
       "role": "killer",
-      "character": 268435456,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
+      "character": 268435479,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
     },
     {
-      "id": "Gearhead",
+      "id": "K35P02",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Gearhead",
-      "description": "Whenever a Survivor takes damage, for the next {Tunable.K19P01.EffectDuration}s, whenever a Survivor repairing a Generator hits a good basic Skill Check, you see their Aura for {Tunable.K19P01.AuraRevealDuration}s.",
+      "name": "Unforeseen",
+      "description": "Whenever you damage a Generator:<ul><li>Your Terror Radius is set to that Generator for {Tunable.K35P02.EffectDuration}s and its radius is {Tunable.K35P02.TerrorRadiusSize}m.</li><li>You gain {Keyword.Undetectable} for that time.</li></ul><br><br>Cooldown: {Tunable.K35P02.Cooldown}s.",
       "role": "killer",
-      "character": 268435474,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_gearHead"
+      "character": 268435490,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unforeseen"
     },
     {
-      "id": "S34P03",
+      "id": "S41P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Quick Gambit",
-      "description": "While chased by the Killer:<ul><li>You see the Auras of other Survivors.</li><li>Other Survivors repair {Tunable.S34P03.RepairBoost%}% faster.</li></ul><br><br>Whenever you take damage, cooldown: {Tunable.S34P03.Cooldown}s.",
+      "name": "Wicked",
+      "description": "While in the Basement, you can unhook yourself.<br><br>Whenever you are unhooked, you see the Killer's Aura for {Tunable.S41P03.AuraRevealDuration}s.",
       "role": "survivor",
-      "character": 33,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_VittoriosGambit"
+      "character": 40,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
     },
     {
-      "id": "WindowsOfOpportunity",
+      "id": "S47P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Windows of Opportunity",
-      "description": "Within {Tunable.S13P02.VaultablesRevealDistance}m of you see the Auras of Windows.<br><br>You vault Windows {Tunable.S13P02.VaultSpeed}% faster.<br><br>Whenever you vault a Window, cooldown: {Tunable.S13P02.Cooldown}s.",
+      "name": "Teamwork: Toughen Up",
+      "description": "While injured, whenever another Survivor within {Tunable.S47P03.RequiredDistance}m of you blinds or Pallet-stuns the Killer, for {Tunable.S47P03.Duration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
       "role": "survivor",
-      "character": 10,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
+      "character": 46,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
     }
   ],
   "images": [
     {
-      "name": "Brutal Strength",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_brutalStrength"
+      "name": "Lethal Pursuer",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
     },
     {
-      "name": "Gearhead",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ukraine/iconPerks_gearHead"
+      "name": "Unforeseen",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unforeseen"
     },
     {
-      "name": "Quick Gambit",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Quantum/iconPerks_VittoriosGambit"
+      "name": "Wicked",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
     },
     {
-      "name": "Windows of Opportunity",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kate/iconPerks_windowsOfOpportunity"
+      "name": "Teamwork: Toughen Up",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
     }
   ]
 }
