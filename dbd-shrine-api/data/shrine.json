@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-10-27T11:56:03.146Z",
+  "fetchedAt": "2026-10-28T12:33:45.677Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 615,
+    "id": 616,
     "perks": [
       {
-        "id": "K24P01",
+        "id": "BuiltToLast",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K35P02",
+        "id": "Discordance",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S41P03",
+        "id": "Hex_Ruin",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S47P03",
+        "id": "Streetwise",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1792508400,
-    "end": 1793113199
+    "start": 1793113200,
+    "end": 1793717999
   },
   "perksWithImages": [
     {
-      "id": "K24P01",
+      "id": "BuiltToLast",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Lethal Pursuer",
-      "description": "When the trial starts, you see the Auras of all Survivors for {Tunable.K24P01.AuraRevealDuration}s.<br><br>Whenever you see a Survivor's Aura for a duration, it is {Tunable.K24P01.BonusAuraRevealDuration}s longer.",
-      "role": "killer",
-      "character": 268435479,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
-    },
-    {
-      "id": "K35P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Unforeseen",
-      "description": "Whenever you damage a Generator:<ul><li>Your Terror Radius is set to that Generator for {Tunable.K35P02.EffectDuration}s and its radius is {Tunable.K35P02.TerrorRadiusSize}m.</li><li>You gain {Keyword.Undetectable} for that time.</li></ul><br><br>Cooldown: {Tunable.K35P02.Cooldown}s.",
-      "role": "killer",
-      "character": 268435490,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unforeseen"
-    },
-    {
-      "id": "S41P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Wicked",
-      "description": "While in the Basement, you can unhook yourself.<br><br>Whenever you are unhooked, you see the Killer's Aura for {Tunable.S41P03.AuraRevealDuration}s.",
+      "name": "Built to Last",
+      "description": "While holding a depleted item, after hiding in a Locker for {Tunable.S23P03.RequiredDuration}s, it is recharged to {Tunable.S23P03.InitialRefill%}%.<br><br>Each time you recharge an item this way, it recharges {Tunable.S23P03.RefillDiminishing%}% fewer Charges.",
       "role": "survivor",
-      "character": 40,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
+      "character": 22,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_builtToLast"
     },
     {
-      "id": "S47P03",
+      "id": "Discordance",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Teamwork: Toughen Up",
-      "description": "While injured, whenever another Survivor within {Tunable.S47P03.RequiredDistance}m of you blinds or Pallet-stuns the Killer, for {Tunable.S47P03.Duration}s:<ul><li>You make no Grunts of Pain.</li><li>You leave no Pools of Blood.</li><li>You leave no Scratch Marks.</li></ul>",
+      "name": "Discordance",
+      "description": "Within {Tunable.K14P01.EffectRange}m of you, whenever a Generator is being repaired by at least 2 Survivors, you are alerted.<br><br>While that Generator is being repaired by at least 2 Survivors, you see its Aura. When it is no longer being repaired by at least 2 Survivors, this ends after {Tunable.K14P01.AuraLingerDuration}s.",
+      "role": "killer",
+      "character": 268435469,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_discordance"
+    },
+    {
+      "id": "Hex_Ruin",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Hex: Ruin",
+      "description": "When the trial starts, a Dull Totem ignites.<br><br>While a Generator is not being repaired, it regresses at {Tunable.K05P02.RegressionSpeed%}% speed.",
+      "role": "killer",
+      "character": 268435460,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_ruin"
+    },
+    {
+      "id": "Streetwise",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Streetwise",
+      "description": "The first time you deplete an item's Charges, you see the Killer's Aura for {Tunable.S05P03.AuraRevealDuration}s.<br><br>Whenever you loot an item from a Chest, it has {Tunable.S05P03.BonusMaxChargePercentages%}% more Charges.",
       "role": "survivor",
-      "character": 46,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
+      "character": 4,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_streetwise"
     }
   ],
   "images": [
     {
-      "name": "Lethal Pursuer",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Eclipse/iconPerks_lethalPursuer"
+      "name": "Built to Last",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_builtToLast"
     },
     {
-      "name": "Unforeseen",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconPerks_Unforeseen"
+      "name": "Discordance",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_discordance"
     },
     {
-      "name": "Wicked",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_Wicked"
+      "name": "Hex: Ruin",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_ruin"
     },
     {
-      "name": "Teamwork: Toughen Up",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Lasagna/T_UI_iconPerks_TeamworkThrowDown"
+      "name": "Streetwise",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_streetwise"
     }
   ]
 }
