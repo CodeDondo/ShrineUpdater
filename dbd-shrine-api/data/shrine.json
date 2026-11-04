@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-11-03T13:57:28.336Z",
+  "fetchedAt": "2026-11-04T14:12:12.303Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 616,
+    "id": 617,
     "perks": [
       {
-        "id": "BuiltToLast",
+        "id": "FlipFlop",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Discordance",
+        "id": "K23P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Hex_Ruin",
+        "id": "NurseCalling",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Streetwise",
+        "id": "S33P03",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1793113200,
-    "end": 1793717999
+    "start": 1793718000,
+    "end": 1794322799
   },
   "perksWithImages": [
     {
-      "id": "BuiltToLast",
+      "id": "FlipFlop",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Built to Last",
-      "description": "While holding a depleted item, after hiding in a Locker for {Tunable.S23P03.RequiredDuration}s, it is recharged to {Tunable.S23P03.InitialRefill%}%.<br><br>Each time you recharge an item this way, it recharges {Tunable.S23P03.RefillDiminishing%}% fewer Charges.",
+      "name": "Flip-Flop",
+      "description": "While downed, whenever the Killer picks you up, {Tunable.S17P01.RecoveryRatio%}% of your recovery progress is added to your wiggle progress, up to {Tunable.S17P01.MaxWiggle%}%.",
       "role": "survivor",
-      "character": 22,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_builtToLast"
+      "character": 16,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
     },
     {
-      "id": "Discordance",
+      "id": "K23P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Discordance",
-      "description": "Within {Tunable.K14P01.EffectRange}m of you, whenever a Generator is being repaired by at least 2 Survivors, you are alerted.<br><br>While that Generator is being repaired by at least 2 Survivors, you see its Aura. When it is no longer being repaired by at least 2 Survivors, this ends after {Tunable.K14P01.AuraLingerDuration}s.",
+      "name": "No Way Out",
+      "description": "The first time you Hook each Survivor, you earn {Tunable.K23P03.TokensPerUniqueHook} Token.<br><br>When all Generators are completed, when a Survivor starts opening an Exit Gate:<ul><li>It is blocked {Tunable.K23P03.GateBlockBaseDuration}s, plus {Tunable.K23P03.GateBlockDurationPerToken}s for each Token.</li><li>You are alerted.</li></ul>",
       "role": "killer",
-      "character": 268435469,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_discordance"
+      "character": 268435478,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_NoWayOut"
     },
     {
-      "id": "Hex_Ruin",
+      "id": "NurseCalling",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hex: Ruin",
-      "description": "When the trial starts, a Dull Totem ignites.<br><br>While a Generator is not being repaired, it regresses at {Tunable.K05P02.RegressionSpeed%}% speed.",
+      "name": "A Nurse's Calling",
+      "description": "Within {Tunable.K04P03.AuraRevealDistance}m of Survivors who are healing or being healed, you see their Auras.",
       "role": "killer",
-      "character": 268435460,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_ruin"
+      "character": 268435459,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
     },
     {
-      "id": "Streetwise",
+      "id": "S33P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Streetwise",
-      "description": "The first time you deplete an item's Charges, you see the Killer's Aura for {Tunable.S05P03.AuraRevealDuration}s.<br><br>Whenever you loot an item from a Chest, it has {Tunable.S05P03.BonusMaxChargePercentages%}% more Charges.",
+      "name": "Hyperfocus",
+      "description": "Whenever you hit a great basic Skill Check, you earn {Tunable.S33P03.TokensPerGreat} Token, up to {Tunable.S33P03.MaxTokens}.<br><br>For each Token, basic Skill Checks:<ul><li>Appear {Tunable.S33P03.SkillCheckBonusChance%}% more often.</li><li>Spin {Tunable.S33P03.SkillCheckSpeedIncrease%}% faster.</li><li>Whenever you hit a great, give {Tunable.S33P03.SkillCheckBonusPerToken%}% more progress.</li></ul><br><br>Whenever you miss a basic Skill Check, hit a good Skill Check, or stop healing or repairing, lose all Tokens.",
       "role": "survivor",
-      "character": 4,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_streetwise"
+      "character": 32,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Hyperfocus"
     }
   ],
   "images": [
     {
-      "name": "Built to Last",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_builtToLast"
+      "name": "Flip-Flop",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
     },
     {
-      "name": "Discordance",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Kenya/iconPerks_discordance"
+      "name": "No Way Out",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_NoWayOut"
     },
     {
-      "name": "Hex: Ruin",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC3/iconPerks_ruin"
+      "name": "A Nurse's Calling",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
     },
     {
-      "name": "Streetwise",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_streetwise"
+      "name": "Hyperfocus",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Hyperfocus"
     }
   ]
 }
