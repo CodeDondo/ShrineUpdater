@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-11-10T14:41:08.230Z",
+  "fetchedAt": "2026-11-11T13:56:38.156Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 617,
+    "id": 618,
     "perks": [
       {
-        "id": "FlipFlop",
+        "id": "BloodWarden",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K23P03",
+        "id": "K33P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "NurseCalling",
+        "id": "S24P03",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S33P03",
+        "id": "S25P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1793718000,
-    "end": 1794322799
+    "start": 1794322800,
+    "end": 1794927599
   },
   "perksWithImages": [
     {
-      "id": "FlipFlop",
+      "id": "BloodWarden",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Flip-Flop",
-      "description": "While downed, whenever the Killer picks you up, {Tunable.S17P01.RecoveryRatio%}% of your recovery progress is added to your wiggle progress, up to {Tunable.S17P01.MaxWiggle%}%.",
-      "role": "survivor",
-      "character": 16,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
-    },
-    {
-      "id": "K23P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "No Way Out",
-      "description": "The first time you Hook each Survivor, you earn {Tunable.K23P03.TokensPerUniqueHook} Token.<br><br>When all Generators are completed, when a Survivor starts opening an Exit Gate:<ul><li>It is blocked {Tunable.K23P03.GateBlockBaseDuration}s, plus {Tunable.K23P03.GateBlockDurationPerToken}s for each Token.</li><li>You are alerted.</li></ul>",
+      "name": "Blood Warden",
+      "description": "When an Exit Gate is opened, once per trial, when you hook a Survivor, both Exits are blocked for {Tunable.K10P03.GateBlockDuration}s.<br><br>You see the Auras of Survivors within Exit Thresholds.",
       "role": "killer",
-      "character": 268435478,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_NoWayOut"
+      "character": 268435465,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
     },
     {
-      "id": "NurseCalling",
+      "id": "K33P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "A Nurse's Calling",
-      "description": "Within {Tunable.K04P03.AuraRevealDistance}m of Survivors who are healing or being healed, you see their Auras.",
+      "name": "Alien Instinct",
+      "description": "Whenever you hook a Survivor, the farthest injured Survivor:<ul><li>Gains {Keyword.Oblivious} for {Tunable.K33P03.ObliviousDuration}s.</li><li>You see their Aura for {Tunable.K33P03.AuraRevealDuration}s.</li></ul>",
       "role": "killer",
-      "character": 268435459,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
+      "character": 268435488,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_AlienInstinct"
     },
     {
-      "id": "S33P03",
+      "id": "S24P03",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hyperfocus",
-      "description": "Whenever you hit a great basic Skill Check, you earn {Tunable.S33P03.TokensPerGreat} Token, up to {Tunable.S33P03.MaxTokens}.<br><br>For each Token, basic Skill Checks:<ul><li>Appear {Tunable.S33P03.SkillCheckBonusChance%}% more often.</li><li>Spin {Tunable.S33P03.SkillCheckSpeedIncrease%}% faster.</li><li>Whenever you hit a great, give {Tunable.S33P03.SkillCheckBonusPerToken%}% more progress.</li></ul><br><br>Whenever you miss a basic Skill Check, hit a good Skill Check, or stop healing or repairing, lose all Tokens.",
+      "name": "Power Struggle",
+      "description": "While carried by the Killer, while you have at least {Tunable.S24P03.WiggleRequired%}% wiggle and next to an Upright Pallet, you can drop it to stun the Killer.<br><br>While downed, you see the Auras of Upright Pallets.",
       "role": "survivor",
-      "character": 32,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Hyperfocus"
+      "character": 23,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
+    },
+    {
+      "id": "S25P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Smash Hit",
+      "description": "Whenever you Pallet-stun the Killer:<ul><li>You gain {Tunable.S25P02.Haste%}% {Keyword.Haste} for {Tunable.S25P02.HasteDuration}s.</li><li>You gain {Keyword.Exhausted} for {Tunable.S25P02.ExhaustedDuration}s.</li></ul>",
+      "role": "survivor",
+      "character": 24,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_SmashHit"
     }
   ],
   "images": [
     {
-      "name": "Flip-Flop",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Ash/iconPerks_flipFlop"
+      "name": "Blood Warden",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
     },
     {
-      "name": "No Way Out",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_NoWayOut"
+      "name": "Alien Instinct",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_AlienInstinct"
     },
     {
-      "name": "A Nurse's Calling",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/iconPerks_aNursesCalling"
+      "name": "Power Struggle",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
     },
     {
-      "name": "Hyperfocus",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Orion/iconPerks_Hyperfocus"
+      "name": "Smash Hit",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_SmashHit"
     }
   ]
 }
