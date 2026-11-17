@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-11-16T15:27:49.332Z",
+  "fetchedAt": "2026-11-17T15:48:56.893Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 618,
+    "id": 619,
     "perks": [
       {
-        "id": "BloodWarden",
+        "id": "Hex_HauntedGround",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "K33P03",
+        "id": "S49P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S24P03",
+        "id": "Technician",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S25P02",
+        "id": "ZanshinTactics",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1794322800,
-    "end": 1794927599
+    "start": 1794927600,
+    "end": 1795532399
   },
   "perksWithImages": [
     {
-      "id": "BloodWarden",
+      "id": "Hex_HauntedGround",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Blood Warden",
-      "description": "When an Exit Gate is opened, once per trial, when you hook a Survivor, both Exits are blocked for {Tunable.K10P03.GateBlockDuration}s.<br><br>You see the Auras of Survivors within Exit Thresholds.",
+      "name": "Hex: Haunted Ground",
+      "description": "When the trial starts, 2 Dull Totems ignite.<br><br>When either of those Hex Totems is blessed or cleansed:<ul><li>All Survivors gain {Keyword.Exposed} for {Tunable.K13P02.ExposedDuration}s.</li><li>The other Totem is extinguished.</li></ul>",
       "role": "killer",
-      "character": 268435465,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
+      "character": 268435468,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hauntedGround"
     },
     {
-      "id": "K33P03",
+      "id": "S49P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Alien Instinct",
-      "description": "Whenever you hook a Survivor, the farthest injured Survivor:<ul><li>Gains {Keyword.Oblivious} for {Tunable.K33P03.ObliviousDuration}s.</li><li>You see their Aura for {Tunable.K33P03.AuraRevealDuration}s.</li></ul>",
+      "name": "Road Life",
+      "description": "While injured and repairing a Generator:<li>Whenever you hit a great basic Skill Check, you earn {Tunable.S49P01.TokenPerSkillCheck} Token.</li><li>Whenever you miss a basic Skill Check, you lose {Tunable.S49P01.TokensLostOnSkillCheckFail} token.</li><br><br>When you have {Tunable.S49P01.MaxTokens} Tokens, you can heal yourself. Spend all Tokens to heal yourself {Tunable.S49P01.HealingSpeedIncrease%}% faster. When you stop healing, this ends after {Tunable.S49P01.HealingLinger}s.",
+      "role": "survivor",
+      "character": 48,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+    },
+    {
+      "id": "Technician",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Technician",
+      "description": "While repairing a Generator:<ul><li>The range of Generator repair noises is {Tunable.S09P01.RepairNoiseDistanceReduction}m shorter.</li><li>Whenever you miss a basic Skill Check, the Generator does not explode, but loses {Tunable.S09P01.ExtraProgressLost%}% more progress.</li></ul>",
+      "role": "survivor",
+      "character": 8,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_technician"
+    },
+    {
+      "id": "ZanshinTactics",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Zanshin Tactics",
+      "description": "Within {Tunable.K18P01.VaultablesRevealDistance}m, you see the Auras of Pallets and windows.<br><br>Whenever a Survivor drops a Pallet, you see their Aura for {Tunable.K18P01.AuraRevealDuration}s.",
       "role": "killer",
-      "character": 268435488,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_AlienInstinct"
-    },
-    {
-      "id": "S24P03",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Power Struggle",
-      "description": "While carried by the Killer, while you have at least {Tunable.S24P03.WiggleRequired%}% wiggle and next to an Upright Pallet, you can drop it to stun the Killer.<br><br>While downed, you see the Auras of Upright Pallets.",
-      "role": "survivor",
-      "character": 23,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
-    },
-    {
-      "id": "S25P02",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Smash Hit",
-      "description": "Whenever you Pallet-stun the Killer:<ul><li>You gain {Tunable.S25P02.Haste%}% {Keyword.Haste} for {Tunable.S25P02.HasteDuration}s.</li><li>You gain {Keyword.Exhausted} for {Tunable.S25P02.ExhaustedDuration}s.</li></ul>",
-      "role": "survivor",
-      "character": 24,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_SmashHit"
+      "character": 268435473,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
     }
   ],
   "images": [
     {
-      "name": "Blood Warden",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/England/iconPerks_bloodWarden"
+      "name": "Hex: Haunted Ground",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hauntedGround"
     },
     {
-      "name": "Alien Instinct",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Wormhole/iconPerks_AlienInstinct"
+      "name": "Road Life",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
     },
     {
-      "name": "Power Struggle",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Aurora/iconPerks_powerStruggle"
+      "name": "Technician",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_technician"
     },
     {
-      "name": "Smash Hit",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Comet/iconPerks_SmashHit"
+      "name": "Zanshin Tactics",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
     }
   ]
 }
