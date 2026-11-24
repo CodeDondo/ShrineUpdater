@@ -1,95 +1,95 @@
 {
-  "fetchedAt": "2026-11-23T17:51:05.272Z",
+  "fetchedAt": "2026-11-24T17:24:21.300Z",
   "sourceTried": [
     "https://dbd.tricky.lol/api/shrine",
     "https://dbd-api.herokuapp.com/shrineofsecrets?pretty=false&branch=live"
   ],
   "sourceUsed": "https://dbd.tricky.lol/api/shrine",
   "data": {
-    "id": 619,
+    "id": 620,
     "perks": [
       {
-        "id": "Hex_HauntedGround",
+        "id": "HexBloodFavor",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "S49P01",
+        "id": "K34P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "Technician",
+        "id": "S41P01",
         "bloodpoints": 100000,
         "shards": 2000
       },
       {
-        "id": "ZanshinTactics",
+        "id": "S46P02",
         "bloodpoints": 100000,
         "shards": 2000
       }
     ],
-    "start": 1794927600,
-    "end": 1795532399
+    "start": 1795532400,
+    "end": 1796137199
   },
   "perksWithImages": [
     {
-      "id": "Hex_HauntedGround",
+      "id": "HexBloodFavor",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Hex: Haunted Ground",
-      "description": "When the trial starts, 2 Dull Totems ignite.<br><br>When either of those Hex Totems is blessed or cleansed:<ul><li>All Survivors gain {Keyword.Exposed} for {Tunable.K13P02.ExposedDuration}s.</li><li>The other Totem is extinguished.</li></ul>",
+      "name": "Hex: Blood Favor",
+      "description": "When the trial starts, a Dull Totem ignites.<br><br>Whenever a healthy Survivor becomes injured by your basic-attack, Upright Pallets within {Tunable.K21P03.EffectRadius}m of them are blocked for {Tunable.K21P03.BlockDuration}s.",
       "role": "killer",
-      "character": 268435468,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hauntedGround"
+      "character": 268435476,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_hexBloodFavor"
     },
     {
-      "id": "S49P01",
+      "id": "K34P01",
       "bloodpoints": 100000,
       "shards": 2000,
-      "name": "Road Life",
-      "description": "While injured and repairing a Generator:<li>Whenever you hit a great basic Skill Check, you earn {Tunable.S49P01.TokenPerSkillCheck} Token.</li><li>Whenever you miss a basic Skill Check, you lose {Tunable.S49P01.TokensLostOnSkillCheckFail} token.</li><br><br>When you have {Tunable.S49P01.MaxTokens} Tokens, you can heal yourself. Spend all Tokens to heal yourself {Tunable.S49P01.HealingSpeedIncrease%}% faster. When you stop healing, this ends after {Tunable.S49P01.HealingLinger}s.",
-      "role": "survivor",
-      "character": 48,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
-    },
-    {
-      "id": "Technician",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Technician",
-      "description": "While repairing a Generator:<ul><li>The range of Generator repair noises is {Tunable.S09P01.RepairNoiseDistanceReduction}m shorter.</li><li>Whenever you miss a basic Skill Check, the Generator does not explode, but loses {Tunable.S09P01.ExtraProgressLost%}% more progress.</li></ul>",
-      "role": "survivor",
-      "character": 8,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_technician"
-    },
-    {
-      "id": "ZanshinTactics",
-      "bloodpoints": 100000,
-      "shards": 2000,
-      "name": "Zanshin Tactics",
-      "description": "Within {Tunable.K18P01.VaultablesRevealDistance}m, you see the Auras of Pallets and windows.<br><br>Whenever a Survivor drops a Pallet, you see their Aura for {Tunable.K18P01.AuraRevealDuration}s.",
+      "name": "Hex: Two Can Play",
+      "description": "While this Hex is dull, each time you are blinded or stunned by a Survivor {Tunable.K34P01.StunnedOrBlindedTimesRequired} times, a Dull Totem ignites.<br><br>Whenever you are blinded or stunned by a Survivor you are not carrying, they are blinded for {Tunable.K34P01.BlindedDuration}s.",
       "role": "killer",
-      "character": 268435473,
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
+      "character": 268435489,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_twoCanPlay"
+    },
+    {
+      "id": "S41P01",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Invocation: Weaving Spiders",
+      "description": "While in the Basement next to the circle, use {Input.ActivatableButton1} to invoke. While invoking, other Survivors see your Aura and can join your Invocation.<br><br>When the Invocation is completed:<ul><li>All Generators gain {Tunable.S41P01.GeneratorChargeReduction} permanent charges.</li><li>You become injured.</li><li>You gain {Keyword.Broken}.</li></ul><br><br>Each Invocation can only be completed once per trial.",
+      "role": "survivor",
+      "character": 40,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_InvocationWeavingSpiders"
+    },
+    {
+      "id": "S46P02",
+      "bloodpoints": 100000,
+      "shards": 2000,
+      "name": "Duty of Care",
+      "description": "While healthy, whenever you take a protection hit, other Survivors within {Tunable.S46P02.MaxDistance}m gain {Tunable.S46P02.Haste%}% {Keyword.Haste} for {Tunable.S46P02.HasteDuration}s.",
+      "role": "survivor",
+      "character": 45,
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_DutyOfCare"
     }
   ],
   "images": [
     {
-      "name": "Hex: Haunted Ground",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Haiti/iconPerks_hauntedGround"
+      "name": "Hex: Blood Favor",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yemen/iconPerks_hexBloodFavor"
     },
     {
-      "name": "Road Life",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Maple/T_UI_iconPerks_RoadLife"
+      "name": "Hex: Two Can Play",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Yerkes/iconPerks_twoCanPlay"
     },
     {
-      "name": "Technician",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/DLC4/iconPerks_technician"
+      "name": "Invocation: Weaving Spiders",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Applepie/iconsPerks_InvocationWeavingSpiders"
     },
     {
-      "name": "Zanshin Tactics",
-      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Sweden/iconPerks_zanshinTactics"
+      "name": "Duty of Care",
+      "image": "https://dbd.tricky.lol/Game/UI/UMGAssets/Icons/Perks/Jerky/T_UI_iconsPerks_DutyOfCare"
     }
   ]
 }
